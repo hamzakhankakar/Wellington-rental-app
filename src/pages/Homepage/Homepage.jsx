@@ -10,6 +10,7 @@ import { defaultPageFadeInVariants } from "../../motionUtils";
 //  import SatelliteMap from "../../components/Maps/Aerial"
 // import SatelliteMap from "../../components/Maps/Aerial"
 
+
 const Homepage = () => {
     // const rows = useRetrieveData('movies');
     return (
