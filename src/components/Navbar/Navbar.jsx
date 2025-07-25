@@ -8,7 +8,6 @@ import { navbarFadeInVariants } from "../../motionUtils";
 import { LOGO_URL, MOBILE_LOGO_URL, PROFILE_PIC_URL } from "../../requests";
 import { FaCaretDown } from "react-icons/fa";
 import { Link, NavLink } from "react-router-dom";
-//import Searchbar from "../Searchbar/Searchbar";
 import { useDispatch, useSelector } from "react-redux";
 import { selectCurrentUser } from "../../redux/auth/auth.selectors";
 import { signOutStart } from "../../redux/auth/auth.actions";
@@ -110,7 +109,6 @@ const Navbar = () => {
 				)}
 				<div className="Navbar__secondarynav">
 					<div className="Navbar__navitem">
-						{/* <Searchbar /> */}
 					</div>
 					{currentUser && 
 					<div className="Navbar__navitem">
