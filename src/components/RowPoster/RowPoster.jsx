@@ -76,7 +76,7 @@
 	
 
 import "./rowPoster.scss";
-import { useState } from "react";
+// import { useState } from "react";
 import { useDispatch } from "react-redux";
 import { showModalDetail } from "../../redux/modal/modal.actions";
 import { Link } from "react-router-dom";
@@ -99,17 +99,15 @@ const RowPoster = (result) => {
   const handlePlayAction = (event) => {
     event.stopPropagation();
   };
-  const [isOverlayOpen, setIsOverlayOpen] = useState(false);
-
-  const handleTouchToggle = () => {
-    setIsOverlayOpen(prev => !prev);
-  };
+  
   return (
-    <div
-      className={`swiper-slide ${isOverlayOpen ? 'open' : ''}`}
-      onTouchStart={handleTouchToggle}
-    >
+    // <div
+    //   className={`swiper-slide ${isOverlayOpen ? 'open' : ''}`}
+    //   onTouchStart={handleTouchToggle}
+    // >
     <div className="Row__poster"
+    onClick={handleModalOpening}
+
     >
 
       {/* Property card */}
@@ -169,7 +167,7 @@ const RowPoster = (result) => {
       </div>
     </div>
 
-    </div>
+    // </div>
   );
 };
 
