@@ -8,7 +8,7 @@ import { navbarFadeInVariants } from "../../motionUtils";
 import { LOGO_URL, MOBILE_LOGO_URL, PROFILE_PIC_URL } from "../../requests";
 import { FaCaretDown } from "react-icons/fa";
 import { Link, NavLink } from "react-router-dom";
-// import Searchbar from "../Searchbar/Searchbar";
+//import Searchbar from "../Searchbar/Searchbar";
 import { useDispatch, useSelector } from "react-redux";
 import { selectCurrentUser } from "../../redux/auth/auth.selectors";
 import { signOutStart } from "../../redux/auth/auth.actions";
@@ -49,26 +49,14 @@ const Navbar = () => {
 								Home
 							</NavLink>
 						</li>
-						{/* <li className="Navbar__navlinks--link">
-							<NavLink to="/tvseries" activeClassName="activeNavLink">
-								TV Series
+											{currentUser ?<li></li>:
+						<li className="Navbar__navlinks--link">
+							<NavLink to="/login" activeClassName="activeNavLink">
+								Become an Agent
 							</NavLink>
 						</li>
-						<li className="Navbar__navlinks--link">
-							<NavLink to="/movies" activeClassName="activeNavLink">
-								Movies
-							</NavLink>
-						</li>
-						<li className="Navbar__navlinks--link">
-							<NavLink to="/popular" activeClassName="activeNavLink">
-								New & Popular
-							</NavLink>
-						</li>
-						<li className="Navbar__navlinks--link">
-							<NavLink to="/mylist" activeClassName="activeNavLink">
-								My list
-							</NavLink>
-						</li> */}
+}
+					
 					</ul>
 				) : (
 					<div
@@ -88,6 +76,11 @@ const Navbar = () => {
 									<li className="Navbar__navlinks--link">
 										<NavLink to="/browse" activeClassName="activeNavLink">
 											Home
+										</NavLink>
+									</li>
+									<li className="Navbar__navlinks--link">
+										<NavLink to="/login" activeClassName="activeNavLink">
+											Become a Agent
 										</NavLink>
 									</li>
 									{/* <li className="Navbar__navlinks--link">
@@ -119,6 +112,7 @@ const Navbar = () => {
 					<div className="Navbar__navitem">
 						{/* <Searchbar /> */}
 					</div>
+					{currentUser && 
 					<div className="Navbar__navitem">
 						<div
 							className={`Navbar__navprofile ${profileNav && "active"}`}
@@ -149,6 +143,7 @@ const Navbar = () => {
 							</div>
 						</div>
 					</div>
+					}
 				</div>
 			</motion.nav>
 		</>

@@ -1,0 +1,21 @@
+@import '../../scss/mixin';
+@import '../../scss/variables';
+
+.blog-wrapper{
+  max-width: 100vw;
+  margin: auto;
+}
+
+.image-gallery {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.main-image {
+  width: 100%; /* Full width of the container */
+  height: 500px; /* Set your desired height */
+  margin-bottom: 10px;
+  position: relative;
+}

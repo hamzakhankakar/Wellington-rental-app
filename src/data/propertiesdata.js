@@ -9,7 +9,12 @@ export const mypropertyData = [
     lat: "",
     lon: "",
     type: "property",
+    trending: 1,
+    price: 359000,
+    area: 1272,
+    rooms: 8,
   },
+
   {
     id: "2",
     title: "Another property in wellington",
@@ -20,6 +25,10 @@ export const mypropertyData = [
     lat: "",
     lon: "",
     type: "property",
+    trending: 2,
+    price: 459000,
+    area: 8472,
+    rooms: 5,
   },
   {
     id: "3",
@@ -31,7 +40,23 @@ export const mypropertyData = [
     lat: "",
     lon: "",
     type: "property",
+    trending: 3,
+    price: 559000,
+    area: 1472,
+    rooms: 6,
+
   },
+  {
+    id: "13",
+    title: "Wellington Property Nightmares",
+    description: "Wellington’s housing market is a pressure cooker, with soaring prices and fierce competition turning homeownership dreams into nightmares. The capital’s median house price hovers around $1.2 million, pricing out first-time buyers and forcing many into a cutthroat rental market. Limited supply, coupled with high demand from professionals and public servants, has created a perfect storm.",
+    images: ["/images/i3.1.jpg", "/images/i3.2.jpg"],
+
+    type: "blog",
+
+
+  },
+
   {
     id: "4",
     title: "4th property in wellington",
@@ -42,6 +67,10 @@ export const mypropertyData = [
     lat: "",
     lon: "",
     type: "property",
+    trending: 4,
+    price: 659000,
+    area: 8472,
+    rooms: 4,
   },
   {
     id: "5",
@@ -53,6 +82,10 @@ export const mypropertyData = [
     lat: "",
     lon: "",
     type: "property",
+    trending: 5,
+    price: 259000,
+    area: 5472,
+    rooms: 3,
   },
   {
     id: "6",
@@ -64,6 +97,10 @@ export const mypropertyData = [
     lat: "",
     lon: "",
     type: "property",
+    trending: 6,
+    price: 379000,
+    area: 35472,
+    rooms: 5,
   },
   {
     id: "7",
@@ -75,6 +112,11 @@ export const mypropertyData = [
     lat: "",
     lon: "",
     type: "property",
+    trending: 7,
+    price: 357900,
+    area: 35472,
+    rooms: 3,
+
   },
   {
     id: "8",
@@ -86,6 +128,10 @@ export const mypropertyData = [
     lat: "",
     lon: "",
     type: "property",
+    trending: 8,
+    price: 825000,
+    area: 25472,
+    rooms: 8,
   },
   {
     id: "9",
@@ -97,6 +143,10 @@ export const mypropertyData = [
     lat: "",
     lon: "",
     type: "property",
+    trending: 9,
+    price: 364200,
+    area: 15872,
+    rooms: 6,
   },
   {
     id: "10",
@@ -108,6 +158,10 @@ export const mypropertyData = [
     lat: "",
     lon: "",
     type: "property",
+    trending: 10,
+    price: 359000,
+    area: 15472,
+    rooms: 5,
   },
 
 ]

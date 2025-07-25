@@ -1,119 +1,176 @@
 // import "./rowPoster.scss";
 // import { useDispatch } from "react-redux";
-// import {  FaPlay, FaChevronDown } from "react-icons/fa";
-//  import { showModalDetail } from "../../redux/modal/modal.actions";
+// import { showModalDetail } from "../../redux/modal/modal.actions";
 // import { Link } from "react-router-dom";
+//  import {  FaPlay, FaChevronDown } from "react-icons/fa";
+//  import { MdReadMore } from "react-icons/md";
 
-// const RowPoster = ( result ) => {
-// 	const { item, item: { title, original_name, original_title, name, genre_ids }, isFavourite ,index } = result;
+
+// const RowPoster = result => {
+// 	const {  item: { title, original_name, original_title, name,  
+//   }
+//    } = result;
 // 	let fallbackTitle = title || original_title || name || original_name;
 // 	const dispatch = useDispatch();
-
 // 	const handleModalOpening = () => {
-	
-// 		dispatch(showModalDetail({ ...item, fallbackTitle, genresConverted, isFavourite }));
+// 		dispatch(showModalDetail({ ...result.item, fallbackTitle,}));
 // 	}
 // 	const handlePlayAction = event => {
 // 		event.stopPropagation();
 
 // 	};
+
 // 	return (
-// 		<div
-// 			className={`Row__poster`}
-// 		//onClick={handleModalOpening}
-// 		>
 
-// 			<img src={`${result.item?.images[0]}`}  alt={result.item?.title} />	 
+//     <div  className="Row__poster"  >
+//         <div className="item">
+//     <img  src={`${result.item?.images[0]}`}
+//         alt={fallbackTitle} />
+//     <div>
+      
+//       {result.item?.trending}
+//     </div>
+//  </div>
+     
 
-// 			<div className="Row__poster-info">
-// 				<div className="Row__poster-info--iconswrp">
-// 					<Link
-// 						className="Row__poster-info--icon icon--play"
-// 						onClick={handlePlayAction}
-// 						to={'/play'}
-// 					>
-// 						<FaPlay />
-// 					</Link>
-// 					<button className='Row__poster-info--icon icon--toggleModal'>
-// 						<FaChevronDown onClick={handleModalOpening}/>
-// 					</button>
-// 				</div>
-// 				<div className="Row__poster-info--title">
-// 					<h3>{result.item?.title}</h3>
-// 				</div>
-				
-// 			</div>
+       
+// 		<div className="Row__poster-info" >
+// 		{result?.item.type === "property" && (
+//   <div className="Row__poster-info--iconswrp">
+//     <Link
+//       className="Row__poster-info--icon icon--play"
+//       onClick={handlePlayAction}
+//       to={`/play`}
+//     >
+//       <FaPlay />
+//     </Link>
+
+//     <button className="Row__poster-info--icon icon--toggleModal" onClick={handleModalOpening}>
+//       <FaChevronDown  />
+//     </button>
+
+//     <Link to={`/property/${result.item?.id}`} style={{ display: 'block' }}>
+//       {/* <button
+//                     className="Banner__button "
+//                   > */}
+
+
+                    
+//                     <span className="Row__poster-info--icon icon--toggleModal"> 
+                      
+//                     <MdReadMore size={"1em"} />
+//                     </span>
+                  
+//                     </Link>
+//   </div>
+// )}
+
 // 		</div>
+    
+//   </div>
+	
 // 	);
 // };
 
 // export default RowPoster;
-
+	
 
 import "./rowPoster.scss";
+import { useState } from "react";
 import { useDispatch } from "react-redux";
 import { showModalDetail } from "../../redux/modal/modal.actions";
 import { Link } from "react-router-dom";
- import {  FaPlay, FaChevronDown } from "react-icons/fa";
+import { FaPlay, FaChevronDown } from "react-icons/fa";
+import { MdReadMore } from "react-icons/md";
 
-const RowPoster = result => {
-	const {  item: { title, original_name, original_title, name,  poster_path, backdrop_path }, isLarge } = result;
-	let fallbackTitle = title || original_title || name || original_name;
-	const dispatch = useDispatch();
-	const handleModalOpening = () => {
-		dispatch(showModalDetail({ ...result.item, fallbackTitle,}));
-	}
-	const handlePlayAction = event => {
-		event.stopPropagation();
+const RowPoster = (result) => {
+ 
+  
+  const {
+    item: { title, original_name, original_title, name },
+  } = result;
+  let fallbackTitle = title || original_title || name || original_name;
+  const dispatch = useDispatch();
 
-	};
+  const handleModalOpening = () => {
+    dispatch(showModalDetail({ ...result.item, fallbackTitle }));
+  };
 
-	return (
-		<div
-			className={`Row__poster ${isLarge && "Row__poster--big"}`}
-			onClick={handleModalOpening}
-		>
-			{isLarge ? (
-				poster_path ? (
-					<img src={`${result.item?.images[0]}`} alt={fallbackTitle}  />
-				) : ""
-			) : backdrop_path ? (
-				<img src={`${result.item?.images[0]}`} alt={fallbackTitle} />
-			) : (
-				<>
-					<img src={`${result.item?.images[0]}`} alt={fallbackTitle} />
-					<div className="Row__poster__fallback">
-						<span>{fallbackTitle}</span>
-					</div>
-				</>
-			)}
-			<div className="Row__poster-info">
-			{result?.item.type === "property" && (
-  <div className="Row__poster-info--iconswrp">
-    <Link
-      className="Row__poster-info--icon icon--play"
-      onClick={handlePlayAction}
-      to="/play"
+  const handlePlayAction = (event) => {
+    event.stopPropagation();
+  };
+  const [isOverlayOpen, setIsOverlayOpen] = useState(false);
+
+  const handleTouchToggle = () => {
+    setIsOverlayOpen(prev => !prev);
+  };
+  return (
+    <div
+      className={`swiper-slide ${isOverlayOpen ? 'open' : ''}`}
+      onTouchStart={handleTouchToggle}
     >
-      <FaPlay />
-    </Link>
+    <div className="Row__poster"
+    >
 
-    <button className="Row__poster-info--icon icon--toggleModal">
-      <FaChevronDown onClick={handleModalOpening} />
-    </button>
-  </div>
-)}
-				<div className="Row__poster-info--title">
-					<h3>{fallbackTitle}</h3>
-				</div>
-				<div className="Row__poster-info--genres">
-					{/* {genresConverted && genresConverted.map(genre => (
-						<span key={`Genre--id_${genre}`} className="genre-title">{genre}</span>
-					))} */}
-				</div>
-			</div>
-		</div>
-	);
+      {/* Property card */}
+      <div className="image-wrapper">        
+        <img src={`${result.item?.images[0]}`} alt={fallbackTitle} />
+        <div>{result.item?.trending}</div>
+      </div>
+
+      <div className={`Row__poster-info 
+        
+        `}>        
+           {(result?.item.type === "property" || result?.item.type === "blog") && (
+          <>
+              <div className="Row__poster-info--iconswrp">
+                 { result?.item.type === "property" && <Link
+                  className="Row__poster-info--icon icon--play"
+                  onClick={handlePlayAction}
+                  to={`/play`}
+                >
+                  <FaPlay />
+                </Link>}
+
+              {  result?.item.type === "property" &&  <button
+                  className="Row__poster-info--icon icon--toggleModal"
+                  onClick={handleModalOpening}
+                >
+                  <FaChevronDown />
+                </button>}
+
+                {result.item?.type === "property" ?
+                <Link
+                to={`/property/${result.item?.id}`}
+                style={{ display: "block" }}
+              >
+            
+
+                <span className="Row__poster-info--icon icon--toggleModal">
+                  <MdReadMore size={"1em"} />
+                </span>
+              </Link>:
+              <Link
+              to={`/blog`}
+              style={{ display: "block" }}
+            >
+          
+
+              <span className="Row__poster-info--icon icon--toggleModal">
+                <MdReadMore size={"1em"} />
+              </span>
+            </Link>}
+              </div>
+              <div className="Row__poster-info--title">
+              <h3>{fallbackTitle}</h3>
+            </div>
+         </>
+        )}
+      </div>
+    </div>
+
+    </div>
+  );
 };
 
 export default RowPoster;

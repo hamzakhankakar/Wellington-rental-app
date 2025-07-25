@@ -4,26 +4,22 @@ import { Route, Switch, Redirect, useLocation } from "react-router-dom";
 import { AnimatePresence } from "framer-motion";
 import Navbar from "./components/Navbar/Navbar"
 import Homepage from "./pages/Homepage/Homepage"
-// import Movies from "./pages/Movies/Movies"
-// import TVSeries from './pages/TVSeries/TVSeries';
-// import Popular from "./pages/Popular/Popular";
-// import MyList from './pages/MyList/MyList';
 import Auth from "./pages/Auth/Auth";
-import Search from "./pages/Search/Search";
-import Category from "./pages/Category/Category";
 import DetailModal from "./components/DetailModal/DetailModal";
 import SplashAnimation from "./components/SplashAnimation/SplashAnimation";
 import PlayAnimation from "./components/PlayAnimation/PlayAnimation";
 import StreetViewExample from "./components/Maps/StreetView";
 import SatelliteMap from "./components/Maps/Aerial";
+import Agent from "./pages/Agent";
 import { selectCurrentUser } from './redux/auth/auth.selectors';
-import { selectSearchResults } from "./redux/search/search.selectors";
+// import { selectSearchResults } from "./redux/search/search.selectors";
 import { checkUserSession } from "./redux/auth/auth.actions";
+import LandingPage from "./pages/LandingPage";
+import Blog from "./pages/Blog";
 
 const App = () => {
-
     const currentUser = useSelector(selectCurrentUser);
-    const searchResults = useSelector(selectSearchResults);
+    // const searchResults = useSelector(selectSearchResults);
     const dispatch = useDispatch();
     const location = useLocation();
 
@@ -33,19 +29,17 @@ const App = () => {
 
     return (
         <div className="App">
-            {currentUser && (
-                <>
-                    <Navbar />
-                    <DetailModal />
-                </>
-            )}
+            <>
+                <Navbar />
+                <DetailModal />
+            </>
             <AnimatePresence exitBeforeEnter>
                 <Switch location={location} key={location.pathname}>
                     <Route
                         exact
                         path="/"
                     >
-                        <Redirect to="/login" />
+                        <Redirect to="/browse" />
                     </Route>
                     <Route
                         path="/splash"
@@ -60,75 +54,49 @@ const App = () => {
                         component={SatelliteMap}
                     />
                     <Route
+
                         path="/map/street-view"
                         component={StreetViewExample}
                     />
+                    {/* Protect the street-view route */}
+                    {/* <PrivateRoute
+                        path="/map/street-view"
+                        component={StreetViewExample}
+                        currentUser={currentUser}
+                        loading={loading}
+
+                    /> */}
+
                     <Route
-                        path="/search"
-                        render={() => currentUser
-                            ? (searchResults && <Search results={searchResults} />)
-                            : <Redirect to="/login" />}
-                    />
-                    <Route
-                        exact
                         path="/browse"
-                        render={() => currentUser
-                            ? <Homepage />
-                            : <Redirect to="/login" />}
+                        component={Homepage}
+
                     />
                     <Route
-                        exact
-                        path="/browse/:categoryName"
-                        render={(props) => currentUser
-                            ? <Category {...props} />
-                            : <Redirect to="/login" />}
+                        path="/property/:id"
+                        component={LandingPage}
+
                     />
-                    {/* <Route
-                        exact
-                        path="/tvseries"
-                        render={() => currentUser ? <TVSeries /> : <Redirect to="/login" />}
-                    /> */}
-                    {/* <Route
-                        exact
-                        path="/tvseries/:categoryName"
-                        render={(props) => currentUser
-                            ? <Category {...props} />
-                            : <Redirect to="/login" />}
-                    /> */}
-                    {/* <Route
-                        exact
-                        path="/movies"
-                        render={() => currentUser ? <Movies /> : <Redirect to="/login" />}
-                    /> */}
-                    {/* <Route
-                        exact
-                        path="/movies/:categoryName"
-                        render={(props) => currentUser
-                            ? <Category {...props} />
-                            : <Redirect to="/login" />}
-                    /> */}
-                    {/* <Route
-                        exact
-                        path="/popular"
-                        render={() => currentUser ? <Popular /> : <Redirect to="/login" />}
-                    /> */}
-                    {/* <Route
-                        exact
-                        path="/popular/:categoryName"
-                        render={(props) => currentUser
-                            ? <Category {...props} />
-                            : <Redirect to="/login" />}
-                    /> */}
-                    {/* <Route
-                        exact
-                        path="/mylist"
-                        render={() => currentUser ? <MyList /> : <Redirect to="/login" />}
-                    /> */}
+                    <Route
+                        path="/blog"
+                        component={Blog}
+
+                    />
+
                     <Route
                         exact
                         path="/login"
                         render={() => currentUser ? <Redirect to="/splash" /> : <Auth />}
                     />
+                    <Route
+                        exact
+                        path="/agent"
+                        render={() => currentUser
+                            ? <Agent />
+                            : <Redirect to="/login" />}
+                    />
+
+
                     <Route path="*">
                         <Redirect to="/" />
                     </Route>

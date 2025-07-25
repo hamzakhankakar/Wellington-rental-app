@@ -30,30 +30,69 @@ const Row = ({ data , index}) => {
 	//Custom Swiper config
 	const navigationPrevRef = useRef(null);
 	const navigationNextRef = useRef(null);
-    const customSwiperParams = {
-        observer: true,
-        observeParents: true,
-		navigation: {
-			prevEl: navigationPrevRef.current,
-			nextEl: navigationNextRef.current,
-		},
-		breakpoints:{
-			1378: { slidesPerView: 6, slidesPerGroup: 6 },
-			998: { slidesPerView: 4, slidesPerGroup: 4 },
-			625: { slidesPerView: 3, slidesPerGroup: 3 },
-			330: { slidesPerView: 2, slidesPerGroup: 2 },
-			0: { slidesPerView: 1.5, slidesPerGroup: 1.5 }
-		},
-		loopAdditionalSlides: width >= 1378 ? 5 : width >= 998 ? 3 : width >= 625 ? 2 : 2,
-		pagination: true,
-		loop: false,
-		grabCursor: false,
-		draggable: false,
-		preventClicksPropagation: true,
-		preventClicks: true,
-		slideToClickedSlide: false,
-		allowTouchMove: true
-    };
+// 	const customSwiperParams = {
+// 		observer: true,
+// 		observeParents: true,
+// navigation: {
+// 	prevEl: navigationPrevRef.current,
+// 	nextEl: navigationNextRef.current,
+// },
+// breakpoints:{
+// 	1378:  {
+// 		slidesPerView: Math.floor(window.innerWidth / 350),
+// 		slidesPerGroup: 1,
+// 	},
+// 	998: {
+// 		slidesPerView: Math.floor(window.innerWidth / 350),
+// 		slidesPerGroup: 1,
+// 	},
+// 	625:{
+// 		slidesPerView: Math.floor(window.innerWidth / 350),
+// 		slidesPerGroup: 1,
+// 	}, 330: {
+// 		slidesPerView: Math.floor(window.innerWidth / 350),
+// 		slidesPerGroup: 1,
+// 	},
+// 	0: {
+// 		slidesPerView: Math.floor(window.innerWidth / 350),
+// 		slidesPerGroup: 1,
+// 	}
+// },
+// loopAdditionalSlides: width >= 1378 ? 5 : width >= 998 ? 4 : width >= 625 ? 2 : 2,
+// pagination: true,
+// loop: false,
+// grabCursor: false,
+// draggable: false,
+// preventClicksPropagation: true,
+// preventClicks: true,
+// slideToClickedSlide: false,
+// allowTouchMove: true
+// };
+const customSwiperParams = {
+	observer: true,
+	observeParents: true,
+navigation: {
+prevEl: navigationPrevRef.current,
+nextEl: navigationNextRef.current,
+},
+breakpoints:{
+1378: { slidesPerView: 6, slidesPerGroup: 6 },
+998: { slidesPerView: 4, slidesPerGroup: 4 },
+625: { slidesPerView: 3, slidesPerGroup: 3 },
+330: { slidesPerView: 2, slidesPerGroup: 2 },
+0: { slidesPerView: 1.5, slidesPerGroup: 1.5 }
+},
+loopAdditionalSlides: width >= 1378 ? 5 : width >= 998 ? 3 : width >= 625 ? 2 : 2,
+pagination: true,
+loop: false,
+grabCursor: false,
+draggable: false,
+preventClicksPropagation: true,
+preventClicks: true,
+slideToClickedSlide: false,
+allowTouchMove: true
+};
+
 
 	const rightMouseOver = (e) => {
 		if (e.currentTarget.classList.contains('right')) {e.currentTarget.parentElement.classList.add('is-right')}
@@ -111,6 +150,7 @@ const Row = ({ data , index}) => {
 					</div>
 					<Swiper
 						{...customSwiperParams}
+						
 						onBeforeInit={(swiper) => {
 							swiper.params.navigation.prevEl = navigationPrevRef.current;
 							swiper.params.navigation.nextEl = navigationNextRef.current;
@@ -125,11 +165,13 @@ const Row = ({ data , index}) => {
 										onMouseOver={rightMouseOver}
 										onMouseOut={rightMouseOut}
 									>
+										
 										<RowPoster
 											item={result}
 											key={result.id}
 											index = {index}
 										/>
+
 									</SwiperSlide>
 								))}
 						{data.type === "agent" && !loading &&

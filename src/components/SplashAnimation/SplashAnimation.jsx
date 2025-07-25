@@ -23,7 +23,7 @@ const SplashAnimation = () => {
 			soundNotification();
 		}, 200)
 		setTimeout(() => {
-			history.push('/browse')
+			history.push('/agent')
 		}, 5700)
 	}, [history])
 

@@ -26,9 +26,9 @@ const PlayAnimation = () => {
 
   return (
     <div className='PlayAnimation__wrp'>
-      <div>
+      {/* <div>
         X
-      </div>
+      </div> */}
       <div className="video-container">
         <iframe
           src={embedUrl}
