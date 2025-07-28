@@ -243,14 +243,11 @@
 
 .image-wrapper{
 	position: relative;
-	// overflow: hidden;
-	// margin-right: 0.5rem;
-	// cursor: pointer;
+
 	width: 350px !important; /* Set your desired width */
   height: 250px; /* Set your desired height */
   display: flex;
   align-items: flex-end;
-	// margin-left: 50px;
   transform-style: preserve-3d;
   transform: rotateY(-0.05deg);
 	
