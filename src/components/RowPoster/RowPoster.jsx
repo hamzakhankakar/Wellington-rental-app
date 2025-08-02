@@ -1,6 +1,6 @@
 // import {useState} from "react"
 import "./rowPoster.scss";
-import { useDispatch } from "react-redux";
+// import { useDispatch } from "react-redux";
 // import { showModalDetail } from "../../redux/modal/modal.actions";
 // import { Link } from "react-router-dom";
 // import {  FaPlay, FaChevronDown } from "react-icons/fa";
