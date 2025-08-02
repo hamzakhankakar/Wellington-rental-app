@@ -1,7 +1,7 @@
-import {useState} from "react"
+// import {useState} from "react"
 import "./rowPoster.scss";
 import { useDispatch } from "react-redux";
-import { showModalDetail } from "../../redux/modal/modal.actions";
+// import { showModalDetail } from "../../redux/modal/modal.actions";
 // import { Link } from "react-router-dom";
 // import {  FaPlay, FaChevronDown } from "react-icons/fa";
 // import { MdReadMore } from "react-icons/md";
@@ -13,7 +13,7 @@ const RowPoster = (result) => {
     item: { title, original_name, original_title, name },
   } = result;
   const fallbackTitle = title || original_title || name || original_name;
-  const dispatch = useDispatch();
+  // const dispatch = useDispatch();
 
   // const [isInfoOpen, setIsInfoOpen] = useState(false);
   
