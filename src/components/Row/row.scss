@@ -262,4 +262,37 @@
             }
         }
     }
+
+    .trending-rating-wrapper{
+        // background-color: aqua;
+      position: relative;
+    //   width: 275px; /* Set your desired width */
+      height: 325px; /* Set your desired height */
+      display: flex;
+      align-items: flex-end;
+      transform-style: preserve-3d;
+      transform: rotateY(-0.05deg);
+    padding: 0 0 0 60px;
+        
+    }
+    
+    .trending-rating-wrapper .trending-rating {
+      font-weight: bold;
+      font-size: 150px;
+      line-height: 1;
+      margin-bottom: -14px;
+      color: black;
+      -webkit-text-stroke: 6px white;
+      text-stroke: 6px white; /* Note: this property is non-standard, use with caution */
+      text-shadow: 0 0 30px black;
+      position: absolute;
+      left: -10px;
+      top: 100px;
+      z-index: -1 ; /* default for all divs inside .image-wrapper */
+    }
+    
 }
+
+
+
+

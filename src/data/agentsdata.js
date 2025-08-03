@@ -67,62 +67,74 @@ export const myagentsData = [
     title: "Alex ",
     images: ["/agents/1.4.jpg"],
     type: "agent",
+    trending: 1,
   },
   {
     id: 2,
     title: "Mark ",
     // images: ["/agents/2.1.jpg"],
     images: ["/agents/3.5.jpg"],
-    type: "agent"
+    type: "agent",
+    trending: 2,
   },
   {
     id: 3,
     title: "Peter ",
     images: ["/agents/3.4.jpg"],
-    type: "agent"
+    type: "agent",
+    trending: 3,
   },
   {
     id: 4,
     title: "Bob ",
     // images: ["/agents/1.avif"],
     images: ["/agents/5.5.jpg"],
-    type: "agent"
+    type: "agent",
+    trending: 4,
   },
   {
     id: 5,
     title: "Bob ",
     images: ["/agents/1.avif"],
-    type: "agent"
+    type: "agent",
+    trending: 5,
   },
   {
     id: 6,
     title: "Dexter",
     images: ["/agents/13.jpg"],
-    type: "agent"
+    type: "agent",
+    trending: 6,
   },
   {
     id: 7,
     title: "John",
     images: ["/agents/3.png"],
-    type: "agent"
+    type: "agent",
+    trending: 7,
   },
   {
     id: 8,
     title: "Alex",
     images: ["/agents/2.webp"],
-    type: "agent"
+    type: "agent",
+    trending: 8,
   },
   {
     id: 9,
     title: "Mark",
     images: ["/agents/3.webp"],
-    type: "agent"
+    type: "agent",
+    trending: 9,
+
   },
   {
     id: 10,
     title: "Alex",
     images: ["/agents/2.webp"],
-    type: "agent"
+    type: "agent",
+    trending: 10,
+
   }
 
 

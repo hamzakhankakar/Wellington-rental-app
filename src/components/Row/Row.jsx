@@ -23,8 +23,9 @@ const Row = ({ data , index}) => {
 	const[loading] = useState(false)
 	const[error] = useState(false)
 	const { width } = useViewport();
+	console.log("data is",mypropertyData)
 	// const rowData = useSelector(data);
-	// const { loading, error, data: results } = rowData;
+	// const { loading, error, data: results } = rowData;  
 	// const { pathname } = useLocation();
 
 	//Custom Swiper config
@@ -165,12 +166,17 @@ allowTouchMove: true
 										onMouseOver={rightMouseOver}
 										onMouseOut={rightMouseOut}
 									>
-										
-										<RowPoster
-											item={result}
-											key={result.id}
-											index = {index}
-										/>
+										<div className="trending-rating-wrapper" >
+											<RowPoster
+												item={result}
+												key={result.id}
+												index = {index}
+											/>
+											<div className="trending-rating">
+												{result.trending}
+											</div>
+										</div>
+									
 
 									</SwiperSlide>
 								))}
@@ -183,11 +189,16 @@ allowTouchMove: true
 										onMouseOver={rightMouseOver}
 										onMouseOut={rightMouseOut}
 									>
-										<RowPoster
-											item={result}
-											key={result.id}
-											index = {i}
-										/>
+										<div className="trending-rating-wrapper" >
+											<RowPoster
+												item={result}
+												key={result.id}
+												index = {index}
+											/>
+											<div className="trending-rating">
+												{result.trending}
+											</div>
+										</div>
 									</SwiperSlide>
 								))}
 					</Swiper>
