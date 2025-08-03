@@ -16,6 +16,8 @@ import { selectCurrentUser } from './redux/auth/auth.selectors';
 import { checkUserSession } from "./redux/auth/auth.actions";
 import LandingPage from "./pages/LandingPage";
 import Blog from "./pages/Blog";
+import Properties from "./pages/Properties/Properties";
+import Agents from "./pages/Agents/Agents"
 
 const App = () => {
     const currentUser = useSelector(selectCurrentUser);
@@ -70,7 +72,14 @@ const App = () => {
                     <Route
                         path="/browse"
                         component={Homepage}
-
+                    />
+                    <Route
+                        path="/properties"
+                        component={Properties}
+                    />
+                    <Route
+                        path="/agents"
+                        component={Agents}
                     />
                     <Route
                         path="/property/:id"

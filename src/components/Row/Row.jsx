@@ -7,9 +7,10 @@ import { useRef } from "react";
 // import { useLocation } from "react-router-dom";
 import useViewport from "../../hooks/useViewport";
 import { MdChevronLeft, MdChevronRight } from 'react-icons/md';
-// import { FiChevronRight } from "react-icons/fi";
+import { FiChevronRight } from "react-icons/fi";
 import { mypropertyData } from "../../data/propertiesdata";
 import{myagentsData} from "../../data/agentsdata"
+import { Link } from "react-router-dom";
 
 // Swiper
 import SwiperCore, { Navigation, Pagination } from 'swiper';
@@ -80,7 +81,7 @@ breakpoints:{
 1378: { slidesPerView: 6, slidesPerGroup: 6 },
 998: { slidesPerView: 4, slidesPerGroup: 4 },
 625: { slidesPerView: 3, slidesPerGroup: 3 },
-330: { slidesPerView: 2, slidesPerGroup: 2 },
+330: { slidesPerView: 1.3, slidesPerGroup: 1.3 },
 0: { slidesPerView: 1.5, slidesPerGroup: 1.5 }
 },
 loopAdditionalSlides: width >= 1378 ? 5 : width >= 998 ? 3 : width >= 625 ? 2 : 2,
@@ -133,15 +134,26 @@ allowTouchMove: true
 					</div>
 				) : (
 					<h3 className="Row__title">
-						{/* <Link to={`${pathname}/${genre}`}> */}
 							{/* <span>{title}</span> */}
 							<span>{ data.title }</span>
-							{/* <span className='Row__showmore'>Show all <FiChevronRight/></span> */}
-						{/* </Link> */}
+							{data.type === "allproperties" ?
+						<Link to="/properties">
+
+							<span className='Row__showmore'>Show all <FiChevronRight/></span>
+						</Link>
+							:data.type === "allagent" ?
+							<Link to="/agents">
+
+							<span className='Row__showmore'>Show all <FiChevronRight/></span>
+							</Link>
+							: ""
+							}
 					</h3>
 				)
 			}
+		
 			{!loading && !error && (
+				<>
 				<div className="Row__poster--wrp">
 					<div className="Row__slider--mask left" ref={navigationPrevRef}>
 						<MdChevronLeft className="Row__slider--mask-icon left" size="3em" style={{ color:'white' }} />
@@ -204,8 +216,10 @@ allowTouchMove: true
 										</div>
 									</SwiperSlide>
 								))}
-					</Swiper>
+					</Swiper>		
 				</div>
+			
+				</>
 			)}
 		</div>
 	);

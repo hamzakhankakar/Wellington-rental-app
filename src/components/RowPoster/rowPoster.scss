@@ -175,7 +175,6 @@
 
 .swiper-slide {
 	.Row__poster {
-		// width: 375px !important;;
 
 		&::after {
 			content: "";
@@ -217,30 +216,79 @@
 // }
 
 
- .Row__poster-title {
-	position: absolute;
-      top: 8px;
-      left: 8px;
-      // right: 8px;
-      color: white;
-			background-color:rgba(0, 0, 0, 0.5); // semi-transparent background for readability
-
-      // padding: 4px;
-      text-align: center;
-      // font-size: 14px;
-      border-radius: 1px;
-}
-
+ 
 
 .image-wrapper {
-    
-      width: 275px; /* Set your desired width */
-      height: 325px; /* Set your desired height */
+	border:1px solid orange;
+	// box-shadow: 0 4px 8px rgba(255, 165, 0, 0.7); // orange shadow
+	box-shadow: 0 4px 8px rgba(255, 166, 0, 0.485); // orange shadow
+  height: 325px; /* Set your desired height */
  
 	}
+.image-wrapper img{
+      width: 100%; /* Set your desired width */
+      height: 70%; /* Set your desired height */
 
-.swiper-slide {
-	width: 275px !important; /* or any desired width */
-}
+	}
+
+	.Row__poster-title {
+		position: absolute;
+				top: 8px;
+				left: 8px;
+				// right: 8px;
+				color: white;
+				background-color:rgba(0, 0, 0, 0.5); // semi-transparent background for readability
+	
+				// padding: 4px;
+				text-align: center;
+				// font-size: 14px;
+				border-radius: 1px;
+	}
+	.Row__poster-address{
+		background-color: white;
+		color: black;
+		width: 90%;
+		margin-left: auto; /* pushes the element to the right */
+		margin-bottom: 5px;
+		padding: 0 5px;
+
+	}	
+	.Row__poster-property-info {
+		background-color: white;
+		color: black;
+	// 	display: flex;
+	// 	flex-wrap: wrap; /* allows wrapping to new line */
+	// 	justify-content: space-between; /* spread items to edges */
+  // align-items: center;
+		margin-bottom: 5px;
+		padding: 0 5px;
+
+
+	}
+
+	.Row__poster-property-ammenities, .Row__poster-property-land-area{
+			display: flex;
+		// flex-wrap: wrap; /* allows wrapping to new line */
+		justify-content: space-between; /* spread items to edges */
+  align-items: center;
+	}
+
+	
+	
+	
+
+
+	.Row__poster-agent-contact{
+		background-color: white;
+		color: black;
+		width: 90%;
+		margin-right: auto;
+		padding: 0 5px;
+		// margin-bottom: 5px;
+	}	
+
+// .swiper-slide {
+// 	width: 275px !important; /* or any desired width */
+// }
 
 

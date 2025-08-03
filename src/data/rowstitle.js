@@ -5,7 +5,17 @@ export const rowstitle = [{
 },
 {
   id: 2,
-  title: "Top Agends",
+  title: "Top Agents",
   type: "agent"
+},
+{
+  id: 3,
+  title: "Properties",
+  type: "allproperties"
+},
+{
+  id: 4,
+  title: "Agents",
+  type: "allagent"
 },
 ]

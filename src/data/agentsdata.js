@@ -68,6 +68,7 @@ export const myagentsData = [
     images: ["/agents/1.4.jpg"],
     type: "agent",
     trending: 1,
+    agentNumber: "123 456 789",
   },
   {
     id: 2,
@@ -76,6 +77,7 @@ export const myagentsData = [
     images: ["/agents/3.5.jpg"],
     type: "agent",
     trending: 2,
+    agentNumber: "123 456 789",
   },
   {
     id: 3,
@@ -83,6 +85,7 @@ export const myagentsData = [
     images: ["/agents/3.4.jpg"],
     type: "agent",
     trending: 3,
+    agentNumber: "123 456 789",
   },
   {
     id: 4,
@@ -91,6 +94,7 @@ export const myagentsData = [
     images: ["/agents/5.5.jpg"],
     type: "agent",
     trending: 4,
+    agentNumber: "123 456 789",
   },
   {
     id: 5,
@@ -98,6 +102,7 @@ export const myagentsData = [
     images: ["/agents/1.avif"],
     type: "agent",
     trending: 5,
+    agentNumber: "123 456 789",
   },
   {
     id: 6,
@@ -105,6 +110,7 @@ export const myagentsData = [
     images: ["/agents/13.jpg"],
     type: "agent",
     trending: 6,
+    agentNumber: "123 456 789",
   },
   {
     id: 7,
@@ -112,6 +118,7 @@ export const myagentsData = [
     images: ["/agents/3.png"],
     type: "agent",
     trending: 7,
+    agentNumber: "123 456 789",
   },
   {
     id: 8,
@@ -119,6 +126,7 @@ export const myagentsData = [
     images: ["/agents/2.webp"],
     type: "agent",
     trending: 8,
+    agentNumber: "123 456 789",
   },
   {
     id: 9,
@@ -126,6 +134,7 @@ export const myagentsData = [
     images: ["/agents/3.webp"],
     type: "agent",
     trending: 9,
+    agentNumber: "123 456 789",
 
   },
   {
@@ -134,7 +143,7 @@ export const myagentsData = [
     images: ["/agents/2.webp"],
     type: "agent",
     trending: 10,
-
+    agentNumber: "123 456 789",
   }
 
 
