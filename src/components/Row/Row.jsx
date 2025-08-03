@@ -157,7 +157,7 @@ allowTouchMove: true
 							swiper.params.navigation.nextEl = navigationNextRef.current;
 						}}
 					>
-						{data.type === "property" && !loading &&
+						{/* {data.type === "property" && !loading &&
 								mypropertyData &&
 								mypropertyData.map((result, i) => (
 									<SwiperSlide
@@ -179,7 +179,9 @@ allowTouchMove: true
 									
 
 									</SwiperSlide>
-								))}
+								))} */}
+
+
 						{data.type === "agent" && !loading &&
 								myagentsData &&
 								myagentsData.map((result, i) => (
@@ -189,16 +191,16 @@ allowTouchMove: true
 										onMouseOver={rightMouseOver}
 										onMouseOut={rightMouseOut}
 									>
-										<div className="trending-rating-wrapper" >
+										{/* <div className="trending-rating-wrapper" > */}
 											<RowPoster
 												item={result}
 												key={result.id}
 												index = {index}
 											/>
-											<div className="trending-rating">
+											{/* <div className="trending-rating">
 												{result.trending}
-											</div>
-										</div>
+											</div> */}
+										{/* </div> */}
 									</SwiperSlide>
 								))}
 					</Swiper>
