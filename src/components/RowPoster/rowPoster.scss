@@ -234,7 +234,7 @@
 
 .image-wrapper {
     
-      width: 100%; /* Set your desired width */
+      width: 270%; /* Set your desired width */
       height: 325px; /* Set your desired height */
  
 	}
@@ -242,30 +242,5 @@
 // .swiper-slide {
 // 	width: 275px !important; /* or any desired width */
 // }
-
-
-/* Container for the poster */
-.poster-container {
-  position: relative;
-  width: 100%; /* or set a max-width if needed */
-  padding-top: 150%; /* 3/2 = 1.5, so 150% of width for height to keep 2:3 ratio */
-  overflow: hidden;
-}
-
-/* Content inside the container, such as the image or poster */
-.poster-content {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-}
-
-/* Example styling for the image to fill the container */
-.poster-content img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover; /* ensures the image covers the container without distortion */
-}
 
 

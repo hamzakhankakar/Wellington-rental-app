@@ -30,29 +30,18 @@ const RowPoster = (result) => {
   // };
 
   return (
-    // <div className="Row__poster">
-    //   <div className="image-wrapper">
-    //     <img src={`${result.item?.images[0]}`} alt={fallbackTitle}  />
-    //     <div className="Row__poster-title ">
-    //       {result.item?.title}
-    //     </div>
-    //   </div>  
-    // </div>
-    <div className="poster-container">
-      <div className="poster-content">
+    <div className="Row__poster">
+      <div className="image-wrapper">
         <img src={`${result.item?.images[0]}`} alt={fallbackTitle}  />
-      </div>
-
+        <div className="Row__poster-title ">
+          {result.item?.title}
+        </div>
+      </div>  
     </div>
-//     <div className="Row__poster">
-//       <div className="poster-container">
-//   <div className="poster-content">
-//   <img src={`${result.item?.images[0]}`} alt={fallbackTitle}  />
-// </div>
-//       </div>
+ 
 
-  
-//     </div>
+    
+
   );
 };
 export default RowPoster;

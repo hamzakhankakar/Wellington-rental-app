@@ -266,7 +266,7 @@
     .trending-rating-wrapper{
         // background-color: aqua;
       position: relative;
-    //   width: 275px; /* Set your desired width */
+      width: 275px; /* Set your desired width */
       height: 325px; /* Set your desired height */
       display: flex;
       align-items: flex-end;
@@ -288,7 +288,7 @@
       position: absolute;
       left: -10px;
       top: 100px;
-      z-index: -1 ; /* default for all divs inside .image-wrapper */
+    //   z-index: -1 ; /* default for all divs inside .image-wrapper */
     }
     
 }

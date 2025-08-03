@@ -157,9 +157,35 @@ allowTouchMove: true
 							swiper.params.navigation.nextEl = navigationNextRef.current;
 						}}
 					>
-						{/* {data.type === "property" && !loading &&
+						{data.type === "property" && !loading &&
 								mypropertyData &&
 								mypropertyData.map((result, i) => (
+									<SwiperSlide
+										key={result.id}
+										className={insertPositionClassName(i)}
+										onMouseOver={rightMouseOver}
+										onMouseOut={rightMouseOut}
+									>
+									
+									<div className="trending-rating-wrapper" >
+											<RowPoster
+												item={result}
+												key={result.id}
+												index = {index}
+											/>
+											<div className="trending-rating">
+												{result.trending}
+											</div>
+										</div>
+									
+
+									</SwiperSlide>
+								))}
+
+
+						{data.type === "agent" && !loading &&
+								myagentsData &&
+								myagentsData.map((result, i) => (
 									<SwiperSlide
 										key={result.id}
 										className={insertPositionClassName(i)}
@@ -176,31 +202,6 @@ allowTouchMove: true
 												{result.trending}
 											</div>
 										</div>
-									
-
-									</SwiperSlide>
-								))} */}
-
-
-						{data.type === "agent" && !loading &&
-								myagentsData &&
-								myagentsData.map((result, i) => (
-									<SwiperSlide
-										key={result.id}
-										className={insertPositionClassName(i)}
-										onMouseOver={rightMouseOver}
-										onMouseOut={rightMouseOut}
-									>
-										{/* <div className="trending-rating-wrapper" > */}
-											<RowPoster
-												item={result}
-												key={result.id}
-												index = {index}
-											/>
-											{/* <div className="trending-rating">
-												{result.trending}
-											</div> */}
-										{/* </div> */}
 									</SwiperSlide>
 								))}
 					</Swiper>
