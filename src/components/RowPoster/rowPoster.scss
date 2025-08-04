@@ -265,11 +265,17 @@
 	
 				// padding: 4px;
 				text-align: center;
+        white-space: nowrap;           /* Prevents line wrapping */
+        overflow: hidden;              /* Hides overflowing text */
+        text-overflow: ellipsis;       /* Adds ellipsis ("...") if text overflows */
 				// font-size: 14px;
 				border-radius: 1px;
 	}
 	.Row__poster-address{
     height: 25%; // 10% of info-section height
+    white-space: nowrap;           /* Prevents line wrapping */
+    overflow: hidden;              /* Hides overflowing text */
+    text-overflow: ellipsis;       /* Adds ellipsis ("...") if text overflows */
 		background-color: white;
 		color: black;
 		width: 90%;

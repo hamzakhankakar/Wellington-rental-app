@@ -40,14 +40,14 @@ const RowPoster = (result) => {
           // }}
         />
         <div className="Row__poster-title ">
-          {result.item?.title}
+          {/* {result.item?.title} */}
         </div>
       </div>  
         
       {result.item?.type ==="property" && (
         <div className ="property-detail">
         <div className="Row__poster-address">
-          {result.item.address}
+          {/* {result.item.address} */}
         </div>
         <div className="Row__poster-property-info">
           <div className="Row__poster-property-ammenities">
