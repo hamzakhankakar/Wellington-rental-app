@@ -78,7 +78,34 @@ const RowPoster = (result) => {
     <img src={`${result.item?.images[0]}`} alt={fallbackTitle} />
   </div>
   <div className="info-section">
-    
+    {result.item?.type ==="property" && (
+      <>
+        <div className="address-div">
+         <p>{result.item.address}</p> 
+        </div>
+        <div className="property-details">
+          <div className="amenities-div">
+          <div className="Row__poster-property-ammenities">
+           <div className="bedroom-div">
+             <span>Rooms : </span>
+             {result.item.rooms}
+           </div>
+           <div className="bathroom-div">
+             <span>Bath : </span>
+             <span>{result.item.bath}</span>
+           </div>
+           </div>
+          <div className="Row__poster-property-land-area">
+          <div className="land-div">
+             <span>Land : </span>
+               {result.item.area} m <sup>2</sup> 
+           </div>
+          </div>
+          </div>
+          <div className="contact-div">Contact: {result.item.agentNumber}</div>
+        </div>
+      </>
+    )}
     {/* other content */}
   </div>
 </div>

@@ -320,7 +320,7 @@
 }
 
 .address-div {
-  height: 10%; // 10% of info-section height
+  height: 25%; // 10% of info-section height
   background-color: white;
   color: black;
   display: flex;
@@ -329,15 +329,16 @@
   margin-bottom: 4px;
 }
 
-.property-details {
-  display: flex;
-  flex-direction: column;
-  height: 20% + 10%; // total of 30%
-}
+// .property-details {
+//   display: flex;
+//   flex-direction: column;
+//   height: 20% + 10%; // total of 30%
+// }
 
 .amenities-div {
-  flex: 0 0 20%; // 20% of info-section height
+  flex: 0 0 50%; // 20% of info-section height
   background-color: #f0f0f0;
+	color: black;
   display: flex;
   align-items: center;
   padding: 0 5px;
@@ -345,7 +346,7 @@
 }
 
 .contact-div {
-  flex: 0 0 10%; // 10% of info-section height
+  flex: 0 0 25%; // 10% of info-section height
   background-color: white;
   color: black;
   display: flex;
