@@ -8,7 +8,7 @@
 
 	overflow: hidden;
   // additional code
-  height: 375px; // or 100vh for full viewport height
+  height: 325px; // or 100vh for full viewport height
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -246,8 +246,8 @@
       flex: 0 0 30%; // remaining 30%
   display: flex;
   flex-direction: column;
-  padding: 4px;
-	background-color: aqua;
+  // padding: 3px;
+	// background-color: aqua;
   }
 // .image-wrapper img{
 //       width: 100%; /* Set your desired width */
@@ -274,7 +274,8 @@
 		color: black;
 		width: 90%;
 		margin-left: auto; 
-		margin-bottom: 5px;
+		// margin-bottom: 3px;
+    border: 2px solid black;
 		padding: 0 5px;
 
 	}	
@@ -286,7 +287,9 @@
 	// 	flex-wrap: wrap; /* allows wrapping to new line */
 	// 	justify-content: space-between; /* spread items to edges */
   // align-items: center;
-		margin-bottom: 5px;
+		// margin-bottom: 3px;
+    border: 2px solid black;
+
 		padding: 0 5px;
 
 
@@ -311,6 +314,8 @@
 		width: 90%;
 		margin-right: auto;
 		padding: 0 5px;
+    border: 2px solid black;
+
 		// margin-bottom: 5px;
 	}	
 
