@@ -16,7 +16,7 @@ export const mypropertyData = [
     rooms: 8,
     bath: 2,
     land: 1500,
-    agentNumber: "123 456 789",
+    phone: "123 456 789",
   },
 
   {
@@ -36,7 +36,7 @@ export const mypropertyData = [
     rooms: 5,
     bath: 2,
     land: 4500,
-    agentNumber: "123 456 789",
+    phone: "123 456 789",
   },
   {
     id: "3",
@@ -55,7 +55,7 @@ export const mypropertyData = [
     rooms: 6,
     bath: 2,
     land: 8500,
-    agentNumber: "123 456 789",
+    phone: "123 456 789",
 
 
   },
@@ -87,7 +87,7 @@ export const mypropertyData = [
     rooms: 4,
     bath: 2,
     land: 1500,
-    agentNumber: "123 456 789",
+    phone: "123 456 789",
   },
   {
     id: "5",
@@ -106,7 +106,7 @@ export const mypropertyData = [
     rooms: 3,
     bath: 2,
     land: 1500,
-    agentNumber: "123 456 789",
+    phone: "123 456 789",
   },
   {
     id: "6",
@@ -125,7 +125,7 @@ export const mypropertyData = [
     rooms: 5,
     bath: 2,
     land: 1500,
-    agentNumber: "123 456 789",
+    phone: "123 456 789",
   },
   {
     id: "7",
@@ -144,7 +144,7 @@ export const mypropertyData = [
     rooms: 3,
     bath: 2,
     land: 1500,
-    agentNumber: "123 456 789",
+    phone: "123 456 789",
   },
   {
     id: "8",
@@ -163,7 +163,7 @@ export const mypropertyData = [
     rooms: 8,
     bath: 2,
     land: 1500,
-    agentNumber: "123 456 789",
+    phone: "123 456 789",
   },
   {
     id: "9",
@@ -182,7 +182,7 @@ export const mypropertyData = [
     rooms: 6,
     bath: 2,
     land: 1500,
-    agentNumber: "123 456 789",
+    phone: "123 456 789",
   },
   {
     id: "10",
@@ -201,7 +201,7 @@ export const mypropertyData = [
     rooms: 5,
     bath: 2,
     land: 1500,
-    agentNumber: "123 456 789",
+    phone: "123 456 789",
   },
 
 ]

@@ -14,6 +14,7 @@ const RowPoster = (result) => {
   } = result;
   const fallbackTitle = title || original_title || name || original_name;
   // const dispatch = useDispatch();
+  console.log(fallbackTitle)
 
   
   // const handleToggleInfo = () => {
@@ -66,11 +67,12 @@ const RowPoster = (result) => {
               {result.item.area} m <sup>2</sup> 
           </div>
          </div>
+         
         </div>
         <div className="Row__poster-agent-contact">
           <span>Contact : </span>
 
-          {result.item.agentNumber}  
+          {result.item.phone}  
         </div>
         </div>
        )}

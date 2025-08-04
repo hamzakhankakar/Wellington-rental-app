@@ -82,7 +82,7 @@ breakpoints:{
 998: { slidesPerView: 4, slidesPerGroup: 4 },
 625: { slidesPerView: 3, slidesPerGroup: 3 },
 330: { slidesPerView: 1.3, slidesPerGroup: 1.3 },
-0: { slidesPerView: 1.5, slidesPerGroup: 1.5 }
+0: { slidesPerView: 1, slidesPerGroup: 1 }
 },
 loopAdditionalSlides: width >= 1378 ? 5 : width >= 998 ? 3 : width >= 625 ? 2 : 2,
 pagination: true,

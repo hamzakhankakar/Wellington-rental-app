@@ -258,18 +258,15 @@
 	.Row__poster-title {
 		position: absolute;
 				top: 8px;
-				left: 8px;
-				// right: 8px;
 				color: white;
 				background-color:rgba(0, 0, 0, 0.5); // semi-transparent background for readability
-	
-				// padding: 4px;
+        padding: 0 5px;
 				text-align: center;
         white-space: nowrap;           /* Prevents line wrapping */
         overflow: hidden;              /* Hides overflowing text */
         text-overflow: ellipsis;       /* Adds ellipsis ("...") if text overflows */
-				// font-size: 14px;
 				border-radius: 1px;
+        width: 100%;
 	}
 	.Row__poster-address{
     height: 25%; // 10% of info-section height
@@ -278,11 +275,11 @@
     text-overflow: ellipsis;       /* Adds ellipsis ("...") if text overflows */
 		background-color: white;
 		color: black;
-		width: 90%;
-		margin-left: auto; 
+		width: 100%;
+		// margin-left: auto; 
 		// margin-bottom: 3px;
     border: 2px solid black;
-		padding: 0 5px;
+		// padding: 0 5px;
 
 	}	
 	.Row__poster-property-info {
@@ -305,7 +302,7 @@
 			display: flex;
 		// flex-wrap: wrap; /* allows wrapping to new line */
 		justify-content: space-between; /* spread items to edges */
-  align-items: center;
+  // align-items: center;
 	}
 
 	
@@ -317,8 +314,8 @@
     height: 25%;
 		background-color: white;
 		color: black;
-		width: 90%;
-		margin-right: auto;
+		// width: 90%;
+		// margin-right: auto;
 		padding: 0 5px;
     border: 2px solid black;
 
