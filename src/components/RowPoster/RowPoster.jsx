@@ -31,14 +31,10 @@ const RowPoster = (result) => {
   // };
 
   return (
-  //  <div className="Row__poster-wrapper">
      <div className="Row__poster" >
-      
+     
       <div className="image-wrapper">
         <img src={`${result.item?.images[0]}`} alt={fallbackTitle} 
-          // style={{
-          //   height: result.item?.type === 'blog' ? '100%' :  result.item?.type === 'agent'? '90%' :'70%'
-          // }}
         />
         <div className="Row__poster-title ">
           {result.item?.title}
@@ -48,7 +44,7 @@ const RowPoster = (result) => {
       {result.item?.type ==="property" && (
         <div className ="property-detail">
         <div className="Row__poster-address">
-          {result.item.address}
+         {result.item.address}
         </div>
         <div className="Row__poster-property-info">
           <div className="Row__poster-property-ammenities">
@@ -70,57 +66,13 @@ const RowPoster = (result) => {
          
         </div>
         <div className="Row__poster-agent-contact">
-          <span>Contact : </span>
+          <span>Phone : </span>
 
           {result.item.phone}  
         </div>
         </div>
        )}
- 
     </div>
-  //  </div>
-
-//   <div className="Row__poster">
-//   <div className="image-section">
-//     <img src={`${result.item?.images[0]}`} alt={fallbackTitle} />
-//     <div className="Row__poster-title">{result.item?.title}</div>
-//   </div>
-//   <div className="info-section">
-//     {result.item?.type ==="property" && (
-//       <>
-//         <div className="address-div">
-//          <p>{result.item.address}</p> 
-//         </div>
-//         <div className="property-details">
-//           <div className="amenities-div">
-//           <div className="Row__poster-property-ammenities">
-//            <div className="bedroom-div">
-//              <span>Rooms : </span>
-//              {result.item.rooms}
-//            </div>
-//            <div className="bathroom-div">
-//              <span>Bath : </span>
-//              <span>{result.item.bath}</span>
-//            </div>
-//            </div>
-//           <div className="Row__poster-property-land-area">
-//           <div className="land-div">
-//              <span>Land : </span>
-//                {result.item.area} m <sup>2</sup> 
-//            </div>
-//           </div>
-//           </div>
-//           <div className="contact-div">Contact: {result.item.agentNumber}</div>
-//         </div>
-//       </>
-//     )}
-//     {/* other content */}
-//   </div>
-// </div>
- 
-
-    
-
   );
 };
 export default RowPoster;

@@ -9,7 +9,7 @@ export const mypropertyData = [
     lat: "",
     lon: "",
     type: "property",
-    address: "123 456 road wellington",
+    address: "123 456 road 0122155 wellington",
     trending: 1,
     price: 359000,
     area: 1272,

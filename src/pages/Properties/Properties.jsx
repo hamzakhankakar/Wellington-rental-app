@@ -1,10 +1,21 @@
 import "./Properties.scss"
+import RowPoster from "../../components/RowPoster/RowPoster"
+import { mypropertyData } from "../../data/propertiesdata";
 
 
 const Properties = ()=>{
   return(
-    <div>
-      <h1>Properties page</h1>
+    <div className="poster-grid">
+      {
+        mypropertyData && mypropertyData.map((result, i) => (  
+          // <div className="poster-grid"  key={i} >
+            <RowPoster
+              item={result}
+              key={result.id}
+              index = { i}
+            />              
+          // </div>
+      ))}    
     </div>
   )
 }
