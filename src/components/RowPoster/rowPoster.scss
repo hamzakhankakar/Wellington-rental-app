@@ -210,8 +210,24 @@
 	}
 }
 
-.image-wrapper {
+.image-wrapper-property {
   flex: 0 0 70%; // 70% height
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+	}
+.image-wrapper-blog {
+  flex: 0 0 100%; // 70% height
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+	}
+.image-wrapper-agent {
+  flex: 0 0 85%; // 70% height
   img {
     width: 100%;
     height: 100%;
@@ -224,6 +240,8 @@
   display: flex;
   flex-direction: column;
   }
+
+
 
 	.Row__poster-title {
 		position: absolute;
@@ -245,12 +263,12 @@
     text-overflow: ellipsis;  /* Adds ellipsis ("...") if text overflows */
 		background-color: white;
 		color: black;
-		// width: 100%;
     border: 2px solid black;
 	}	
 	.Row__poster-property-info {
     height: 50%;
-		color: white;
+		background-color: white;
+		color: black;
     border: 2px solid black;
 		padding: 0 5px;
 	}
@@ -262,11 +280,8 @@
 
 	.Row__poster-agent-contact{
     height: 25%;
-		// background-color: white;
-		// color: black;
-		color: white;
-		// width: 90%;
-		// margin-right: auto;
+		background-color: white;
+		color: black;		
 		padding: 0 5px;
     border: 2px solid black;
 

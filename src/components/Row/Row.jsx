@@ -135,16 +135,17 @@ allowTouchMove: true
 				) : (
 					<h3 className="Row__title">
 							{/* <span>{title}</span> */}
-							<span>{ data.title }</span>
-							{data.type === "allproperties" ?
+							<span>{ data.title } </span>
+							{/* {data.type === "allproperties" ? */}
+							{data.type === "property" ?
 						<Link to="/properties">
 
 							<span className='Row__showmore'>Show all <FiChevronRight/></span>
 						</Link>
-							:data.type === "allagent" ?
+							:data.type === "agent" ?
 							<Link to="/agents">
 
-							<span className='Row__showmore'>Show all <FiChevronRight/></span>
+							<span className='Row__showmore' >Show all <FiChevronRight/></span>
 							</Link>
 							: ""
 							}
@@ -216,9 +217,25 @@ allowTouchMove: true
 										</div>
 									</SwiperSlide>
 								))}
+
+
 					</Swiper>		
+					{/* {data.type === "allproperties" && !loading &&
+								data &&
+								data.map((result , i) => (
+									
+											// <RowPoster
+											// 	item={result}
+											// 	key={result.id}
+											// 	index = {index}
+											// />
+
+											// {i}
+										
+								))} */}
 				</div>
-			
+			<div>
+			</div>
 				</>
 			)}
 		</div>

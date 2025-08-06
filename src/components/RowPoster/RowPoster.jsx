@@ -2,7 +2,7 @@
 import "./rowPoster.scss";
 // import { useDispatch } from "react-redux";
 // import { showModalDetail } from "../../redux/modal/modal.actions";
-// import { Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 // import {  FaPlay, FaChevronDown } from "react-icons/fa";
 // import { MdReadMore } from "react-icons/md";
 
@@ -10,7 +10,7 @@ import "./rowPoster.scss";
 
 const RowPoster = (result) => {
   const {
-    item: { title, original_name, original_title, name },
+    item: { title, original_name, original_title, name ,id},
   } = result;
   const fallbackTitle = title || original_title || name || original_name;
   // const dispatch = useDispatch();
@@ -31,9 +31,19 @@ const RowPoster = (result) => {
   // };
 
   return (
+
+    <Link to={`/property/${id}`} style={{ textDecoration: 'none' }}> {/* Wrap with Link */}
      <div className="Row__poster" >
      
-      <div className="image-wrapper">
+      <div 
+        className= {`${
+          result.item?.type === "property"
+            ? "image-wrapper-property"
+            : result.item?.type === "agent"
+            ? "image-wrapper-agent"
+            : "image-wrapper-blog"
+        }`}
+        >
         <img src={`${result.item?.images[0]}`} alt={fallbackTitle} 
         />
         <div className="Row__poster-title ">
@@ -72,7 +82,33 @@ const RowPoster = (result) => {
         </div>
         </div>
        )}
+      {result.item?.type ==="agent" && (
+        <div className ="property-detail">
+        {/* <div className="Row__poster-address">
+         {result.item.address}
+        </div> */}
+        <div className="Row__poster-property-info">
+          <div className="">
+          <span>Name : </span>
+
+{result.item.title}
+          </div>
+         <div className="">
+          <span>Phone : </span>
+
+          {result.item.phone} 
+         </div>
+         
+        </div>
+        {/* <div className="Row__poster-agent-contact">
+          <span>Phone : </span>
+
+          {result.item.phone}  
+        </div> */}
+        </div>
+       )}
     </div>
+  </Link>
   );
 };
 export default RowPoster;

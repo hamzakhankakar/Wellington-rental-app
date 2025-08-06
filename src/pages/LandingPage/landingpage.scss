@@ -128,9 +128,19 @@
 @import '../../scss/variables';
 
 .product-detail-container {
+  
   padding: 20px;
   max-width: 100vw;
   margin: auto;
+
+  @media (min-width: 998px) and (max-width: 1377px) {
+    
+    margin: 70px 60px;
+  }
+  @media (min-width: 1378px) and (max-width: 1680px) {
+    margin: 70px 60px;
+
+  }
 }
 
 /* Main layout: image gallery + product info stacked on small screens, side-by-side on large screens */
@@ -225,4 +235,17 @@
 
 .add-to-cart:hover {
   background-color: #d81b60;
+}
+
+
+.landingpage__center{
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.landingpage__center img{
+  margin-right: 5px;
 }

@@ -16,6 +16,7 @@
         line-height: 1.25vw;
         text-align: left;
         display: inline-block;
+        // color: red;
 
         @include mq('md'){
             font-size: 18px;
@@ -50,6 +51,7 @@
         // max-width: 0;
         transform: translateZ(0);
         transition: max-width 450ms, opacity 450ms, transform 750ms;
+        z-index: 2;
 
         @include mq('md'){
             font-size: 14px;
