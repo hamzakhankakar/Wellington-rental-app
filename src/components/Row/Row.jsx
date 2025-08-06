@@ -142,12 +142,13 @@ allowTouchMove: true
 
 							<span className='Row__showmore'>Show all <FiChevronRight/></span>
 						</Link>
-							:data.type === "agent" ?
-							<Link to="/agents">
-
-							<span className='Row__showmore' >Show all <FiChevronRight/></span>
-							</Link>
 							: ""
+							// data.type === "agent" ?
+							// <Link to="/agents">
+
+							// <span className='Row__showmore' >Show all <FiChevronRight/></span>
+							// </Link>
+							// : ""
 							}
 					</h3>
 				)
