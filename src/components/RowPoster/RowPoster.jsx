@@ -5,6 +5,15 @@ import "./rowPoster.scss";
 import { Link } from "react-router-dom";
 // import {  FaPlay, FaChevronDown } from "react-icons/fa";
 // import { MdReadMore } from "react-icons/md";
+import { CiMobile3 } from "react-icons/ci";
+import { MdOutlineBedroomParent } from "react-icons/md";
+import { LiaBathSolid } from "react-icons/lia";
+// import { GiHomeGarage } from "react-icons/gi";<GiHomeGarage />
+// import { TbMathXFloorDivideY } from "react-icons/tb";
+
+
+
+
 
 
 
@@ -53,11 +62,13 @@ const RowPoster = (result) => {
         
         <div className="Row__poster-property-info">
           <div className="">
+          {/* <span>Name : </span> */}
 
 {result.item.title}
           </div>
-         <div className="" style={{border: "1px solid black"}}>
-          <span>Phone : </span>
+         <div className="" >
+          <span><CiMobile3 />
+          : </span>
 
           {result.item.phone === "" ? result.item.mobile : result.item.phone}
           </div>
@@ -105,27 +116,30 @@ const RowPoster = (result) => {
              <div className="Row__poster-property-info">
                <div className="Row__poster-property-ammenities">
                <div className="bedroom-div">
-                 <span>Rooms : </span>
+                 <span><MdOutlineBedroomParent />
+                 : </span>
                  {result.item.rooms}
                </div>
                <div className="bathroom-div">
-                 <span>Bath : </span>
+                 <span><LiaBathSolid />
+                 : </span>
                  <span>{result.item.bath}</span>
                </div>
                </div>
               <div className="Row__poster-property-land-area">
               <div className="land-div">
-                 <span>Land : </span>
-                   {result.item.area} m <sup>2</sup> 
+                 {/* <span>Land
+                 : </span>
+                   {result.item.area} m <sup>2</sup>  */}
                </div>
               </div>
               
              </div>
-             {/* <div className="Row__poster-agent-contact">
-               <span>Phone : </span>
+             <div className="Row__poster-agent-contact">
+               <span><CiMobile3 />: </span>
      
-               {result.item.phone}  
-             </div> */}
+               {result.item.phone === ""? result.item.mobile :result.item.phone}  
+             </div>
              </div>
              </Link>
              
