@@ -53,7 +53,6 @@ const RowPoster = (result) => {
         
         <div className="Row__poster-property-info">
           <div className="">
-          <span>Name : </span>
 
 {result.item.title}
           </div>
