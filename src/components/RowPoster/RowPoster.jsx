@@ -32,7 +32,7 @@ const RowPoster = (result) => {
 
   return (
 
-    <Link to={`${result.item?.type === "property"}? /property/${id} :'`} style={{ textDecoration: 'none' }}> 
+    <Link to={`/property/${id}`}> 
      <div className="Row__poster" >
      
       <div 
@@ -93,7 +93,7 @@ const RowPoster = (result) => {
 
 {result.item.title}
           </div>
-         <div className="">
+         <div className="" style={{border: "1px solid black"}}>
           <span>Phone : </span>
 
           {result.item.phone === "" ? result.item.mobile : result.item.phone}
