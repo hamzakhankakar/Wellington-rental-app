@@ -32,7 +32,7 @@ const RowPoster = (result) => {
 
   return (
 
-    <Link to={`/property/${id}`} style={{ textDecoration: 'none' }}> {/* Wrap with Link */}
+    <Link to={`${result.item?.type === "property"}? /property/${id} :'`} style={{ textDecoration: 'none' }}> 
      <div className="Row__poster" >
      
       <div 
@@ -75,11 +75,11 @@ const RowPoster = (result) => {
          </div>
          
         </div>
-        <div className="Row__poster-agent-contact">
+        {/* <div className="Row__poster-agent-contact">
           <span>Phone : </span>
 
           {result.item.phone}  
-        </div>
+        </div> */}
         </div>
        )}
       {result.item?.type ==="agent" && (
@@ -96,8 +96,8 @@ const RowPoster = (result) => {
          <div className="">
           <span>Phone : </span>
 
-          {result.item.phone} 
-         </div>
+          {result.item.phone === "" ? result.item.mobile : result.item.phone}
+          </div>
          
         </div>
         {/* <div className="Row__poster-agent-contact">
@@ -109,6 +109,7 @@ const RowPoster = (result) => {
        )}
     </div>
   </Link>
+
   );
 };
 export default RowPoster;

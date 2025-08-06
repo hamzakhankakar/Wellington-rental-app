@@ -257,19 +257,19 @@
     width: 100%;
 	}
 	.Row__poster-address{
-    height: 25%; // 10% of info-section height
-    white-space: nowrap;      /* Prevents line wrapping */
-    overflow: hidden;         /* Hides overflowing text */
-    text-overflow: ellipsis;  /* Adds ellipsis ("...") if text overflows */
+    height: 50%; // 10% of info-section height
+    // white-space: nowrap;      /* Prevents line wrapping */
+    // overflow: hidden;         /* Hides overflowing text */
+    // text-overflow: ellipsis;  /* Adds ellipsis ("...") if text overflows */
 		background-color: white;
 		color: black;
-    border: 2px solid black;
+    // border: 2px solid black;
 	}	
 	.Row__poster-property-info {
     height: 50%;
 		background-color: white;
 		color: black;
-    border: 2px solid black;
+    // border: 2px solid black;
 		padding: 0 5px;
 	}
 
