@@ -1,67 +1,6 @@
-// export const myagentsData = [
-//   {
-//     id: 11,
-//     title: "Alex ",
-//     image: "1.png",
-//     type: "agent"
-//   },
-//   {
-//     id: 12,
-//     title: "Mark ",
-//     image: "2.png",
-//     type: "agent"
-//   },
-//   {
-//     id: 13,
-//     title: "Peter ",
-//     image: "3.png",
-//     type: "agent"
-//   },
-//   {
-//     id: 14,
-//     title: "Bob ",
-//     image: "4.webp",
-//     type: "agent"
-//   },
-//   {
-//     id: 15,
-//     title: "Bob ",
-//     image: "5.png",
-//     type: "agent"
-//   },
-//   {
-//     id: 16,
-//     title: "Dexter",
-//     image: "6.webp",
-//     type: "agent"
-//   },
-//   {
-//     id: 17,
-//     title: "John",
-//     image: "6.png",
-//     type: "agent"
-//   },
-//   {
-//     id: 18,
-//     title: "Alex",
-//     image: "8.webp",
-//     type: "agent"
-//   },
-//   {
-//     id: 19,
-//     title: "Mark",
-//     image: "p.webp",
-//     type: "agent"
-//   },
-//   {
-//     id: 20,
-//     title: "Alex",
-//     image: "10.png",
-//     type: "agent"
-//   }
-// ]
 
-export const myagentsData = [
+
+export const allagentsData = [
   {
     id: "1",
     title: "Tommy Laybourn",
@@ -162,26 +101,36 @@ export const myagentsData = [
     type: "agent",
     trending: 10,
   },
-  // {
-  //   id: 11,
-  //   title: "Charles Lindsay",
-  //   mobile: "027 4473874",
-  //   phone: "",
-  //   agentImage: "https://redcoats.professionals.co.nz/hubfs/1400x1000_Agent%20Page_Website6.jpg",
-  //   images: ["https://redcoats.professionals.co.nz/hubfs/1400x1000_Agent%20Page_Website6.jpg"],
-  //   type: "agent",
-  //   trending: 7,
-  // },
-  // {
-  //   id: 12,
-  //   title: "Paul Dickason",
-  //   mobile: "027 442 4506",
-  //   phone: "04 979 9115",
-  //   agentImage: "https://redcoats.professionals.co.nz/hubfs/1400x1000_Agent%20Page_Website5-1.jpg",
-  //   images: ["https://redcoats.professionals.co.nz/hubfs/1400x1000_Agent%20Page_Website5-1.jpg"],
-  //   type: "agent",
-  //   trending: 7,
-  // },
+  {
+    id: 11,
+    title: "Charles Lindsay",
+    mobile: "027 4473874",
+    phone: "",
+    agentImage: "https://redcoats.professionals.co.nz/hubfs/1400x1000_Agent%20Page_Website6.jpg",
+    images: ["https://redcoats.professionals.co.nz/hubfs/1400x1000_Agent%20Page_Website6.jpg"],
+    type: "agent",
+    trending: 7,
+  },
+  {
+    id: 12,
+    title: "Paul Dickason",
+    mobile: "027 442 4506",
+    phone: "04 979 9115",
+    agentImage: "https://redcoats.professionals.co.nz/hubfs/1400x1000_Agent%20Page_Website5-1.jpg",
+    images: ["https://redcoats.professionals.co.nz/hubfs/1400x1000_Agent%20Page_Website5-1.jpg"],
+    type: "agent",
+    trending: 7,
+  },
+  {
+    id: 13,
+    title: "Richelle Williams",
+    agentImage: "https://www.professionals.co.nz/hubfs/Richelle%20Website%20head%20shot-1.jpeg",
+    mobile: "021 367 659",
+    phone: "",
+    images: ["https://www.professionals.co.nz/hubfs/Richelle%20Website%20head%20shot-1.jpeg"],
+    type: "agent",
+    trending: 7,
+  },
 
 
 

@@ -1,5 +1,91 @@
-export const mypropertyData = [
+export const myallPropertyData = [
 
+  {
+    id: "11",
+    title: "BRAND NEW HOMES - KELSONS FINEST",
+    description: "This a propert availible in Welington",
+    images: ["https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26536/3003067638_1600-0.jpeg?width=562&height=375&name=3003067638_1600-0.jpeg", "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26536/3003067656_1600-0.jpeg?width=280&height=168&name=3003067656_1600-0.jpeg", "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26536/3003067661_1600-0.jpeg?width=280&height=168&name=3003067661_1600-0.jpeg", "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26536/3003067639_1600-0.jpeg?width=280&height=168&name=3003067639_1600-0.jpeg"],
+    video: "https://youtube.com/embed/vjXIk3NpgZU",
+    ammenities: [{ Rooms: 4 },
+    { Bath: 2 },
+    { Garage: 1 },
+    { Area: 132 },
+    { Aand: 284 },],
+    lat: -41.17446939455793,
+    lon: 174.9331677199546,
+    type: "property",
+    address: "5 Mohua Way, Kelson, Lower Hutt",
+    trending: 1,
+    price: "$940,000",
+    rooms: 4,
+    bath: 2,
+    garage: 1,
+    area: 132,
+    land: 284,
+    agentName: "Tommy Laybourn",
+    agentImage: "https://redcoats.professionals.co.nz/hubfs/1400x1000_Agent%20Page_33.jpg",
+    mobile: "027 379 7385",
+    phone: "",
+  },
+  {
+    id: "12",
+    title: "CENTRAL & NEW WITH MASTER ON THE GROUND LEVEL!",
+    description: "This a another property availible in Welington",
+    images: ["https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26531/3003071309_1600-0.jpeg?width=562&height=375&name=3003071309_1600-0.jpeg", "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26531/3003071310_1600-0.jpeg?width=280&height=168&name=3003071310_1600-0.jpeg", "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26531/3003071311_1600-0.jpeg?width=280&height=168&name=3003071311_1600-0.jpeg", "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26531/3003071314_1600-0.jpeg?width=280&height=168&name=3003071314_1600-0.jpeg"],
+    video: "https://youtube.com/embed/EwYyZK40kow",
+    ammenities: [{ Rooms: 3 },
+    { Bath: 2 },
+    { Garage: "" },
+    { Area: 96 },
+    { Land: 159 },],
+    lat: -41.22452962286008,
+    lon: 174.90791428835655,
+    type: "property",
+    address: "1/15 Awamutu Grove, Waiwhetu, Lower Hutt",
+    trending: 2,
+    price: "Negotiation",
+    rooms: 3,
+    bath: 2,
+    garage: "",
+    area: 96,
+    land: 159,
+    agentName: "Luke Johnson",
+    mobile: "027 6644 710",
+    phone: "",
+    agentImage: "https://redcoats.professionals.co.nz/hubfs/1400x1000_Agent%20Page_17-1.jpg",
+  },
+  {
+    id: "13",
+    title: "PERFECT 1ST HOME - AFFORDABLE & FULL OF POTENTIAL!",
+    description: "This is yet property availible in Welington",
+    images: ["https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26570/3003079391_1600-0.jpeg?width=562&height=375&name=3003079391_1600-0.jpeg", "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26570/3003079381_1600-0.jpeg?width=280&height=168&name=3003079381_1600-0.jpeg", "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26570/3003079393_1600-0.jpeg?width=280&height=168&name=3003079393_1600-0.jpeg", "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26570/3003079399_1600-0.jpeg?width=280&height=168&name=3003079399_1600-0.jpeg"],
+    video: "https://youtube.com/embed/AChFHFIs7Pg",
+    ammenities: ["Hospital"],
+    lat: -41.11453942899889,
+    lon: 174.8803226269861,
+    type: "property",
+    address: "212a Staithes Drive South, Whitby, Porirua",
+    trending: 3,
+    price: "$515,000",
+    rooms: 2,
+    bath: 1,
+    garage: "",
+    area: 70,
+    land: "",
+    phone: "123 456 789",
+
+
+  },
+  {
+    id: "13",
+    title: "Wellington Property Nightmares",
+    description: "Wellington’s housing market is a pressure cooker, with soaring prices and fierce competition turning homeownership dreams into nightmares. The capital’s median house price hovers around $1.2 million, pricing out first-time buyers and forcing many into a cutthroat rental market. Limited supply, coupled with high demand from professionals and public servants, has created a perfect storm.",
+    images: ["/images/i3.1.jpg", "/images/i3.2.jpg"],
+
+    type: "blog",
+
+
+  },
   {
     id: "1",
     title: "FIRST HOME VALUE ON VISTA",
@@ -16,7 +102,7 @@ export const mypropertyData = [
     lon: 174.92847091534264,
     type: "property",
     // address: " 22 Vista Grove, Kelson, Lower Hutt",
-    address: " 22 Vista Grove, Lower Hutt",
+    address: " 22 Vista Grove, Lower Hutt, Wellington",
     trending: 1,
     price: "Deadline Sale",
     area: 150,
@@ -72,7 +158,7 @@ export const mypropertyData = [
     lat: -41.158976819488565,
     lon: 174.98472962698608,
     type: "property",
-    address: "6 Castle Crescentm Lower Hut",
+    address: "6 Castle Crescentm Lower Hut, Wellington",
     trending: 3,
     price: 559000,
     rooms: 3,
@@ -84,16 +170,6 @@ export const mypropertyData = [
     mobile: "021 459 622",
     phone: "",
     agentImage: "https://redcoats.professionals.co.nz/hubfs/1400x1000_Agent%20Page_25-1.jpg",
-
-  },
-  {
-    id: "13",
-    title: "Wellington Property Nightmares",
-    description: "Wellington’s housing market is a pressure cooker, with soaring prices and fierce competition turning homeownership dreams into nightmares. The capital’s median house price hovers around $1.2 million, pricing out first-time buyers and forcing many into a cutthroat rental market. Limited supply, coupled with high demand from professionals and public servants, has created a perfect storm.",
-    images: ["/images/i3.1.jpg", "/images/i3.2.jpg"],
-
-    type: "blog",
-
 
   },
 
@@ -284,5 +360,7 @@ export const mypropertyData = [
     agentImage: "https://redcoats.professionals.co.nz/hubfs/1400x1000_Agent%20Page_17-1.jpg"
 
   },
+
+
 
 ]

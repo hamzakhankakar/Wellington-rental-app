@@ -7,10 +7,13 @@ import { useRef } from "react";
 // import { useLocation } from "react-router-dom";
 import useViewport from "../../hooks/useViewport";
 import { MdChevronLeft, MdChevronRight } from 'react-icons/md';
-import { FiChevronRight } from "react-icons/fi";
+// import { FiChevronRight } from "react-icons/fi";
 import { mypropertyData } from "../../data/propertiesdata";
+import { myallPropertyData } from "../../data/allPropertiesdata";
 import{myagentsData} from "../../data/agentsdata"
-import { Link } from "react-router-dom";
+import{allagentsData} from "../../data/allagentsdata"
+import{myrentalData} from "../../data/rentaldata"
+// import { Link } from "react-router-dom";
 
 // Swiper
 import SwiperCore, { Navigation, Pagination } from 'swiper';
@@ -137,7 +140,7 @@ allowTouchMove: true
 							{/* <span>{title}</span> */}
 							<span>{ data.title } </span>
 							{/* {data.type === "allproperties" ? */}
-							{data.type === "property" ?
+							{/* {data.type === "property" ?
 						<Link to="/properties">
 
 							<span className='Row__showmore'>Show all <FiChevronRight/></span>
@@ -149,7 +152,7 @@ allowTouchMove: true
 							// <span className='Row__showmore' >Show all <FiChevronRight/></span>
 							// </Link>
 							// : ""
-							}
+							} */}
 					</h3>
 				)
 			}
@@ -220,20 +223,110 @@ allowTouchMove: true
 								))}
 
 
-					</Swiper>		
-					{/* {data.type === "allproperties" && !loading &&
-								data &&
-								data.map((result , i) => (
-									
-											// <RowPoster
-											// 	item={result}
-											// 	key={result.id}
-											// 	index = {index}
-											// />
 
-											// {i}
+{data.type === "property" && !loading &&
+								mypropertyData &&
+								mypropertyData.map((result, i) => (
+									<SwiperSlide
+										key={result.id}
+										className={insertPositionClassName(i)}
+										onMouseOver={rightMouseOver}
+										onMouseOut={rightMouseOut}
+									>
+									
+									<div className="trending-rating-wrapper" >
+											<RowPoster
+												item={result}
+												key={result.id}
+												index = {index}
+											/>
+											<div className="trending-rating">
+												{result.trending}
+											</div>
+										</div>
+									
+
+									</SwiperSlide>
+								))}
+
+
+						{data.type === "allproperties" && !loading &&
+								myallPropertyData &&
+								myallPropertyData.map((result, i) => (
+									<SwiperSlide
+										key={result.id}
+										className={insertPositionClassName(i)}
+										onMouseOver={rightMouseOver}
+										onMouseOut={rightMouseOut}
+									>
+								<div className="trending-rating-wrapper" >
+								<RowPoster
+												item={result}
+												key={result.id}
+												index = {index}
+											/>
+
+								</div>
+
 										
-								))} */}
+											
+									</SwiperSlide>
+								))}
+
+
+						{data.type === "allagent" && !loading &&
+								allagentsData &&
+								allagentsData.map((result, i) => (
+									<SwiperSlide
+										key={result.id}
+										className={insertPositionClassName(i)}
+										onMouseOver={rightMouseOver}
+										onMouseOut={rightMouseOut}
+									>
+									<div className="trending-rating-wrapper" >
+									<RowPoster
+												item={result}
+												key={result.id}
+												index = {index}
+											/>
+										
+									</div>
+
+										
+											
+									</SwiperSlide>
+								))}
+
+
+						{data.type === "rentals" && !loading &&
+								myrentalData &&
+								myrentalData.map((result, i) => (
+									<SwiperSlide
+										key={result.id}
+										className={insertPositionClassName(i)}
+										onMouseOver={rightMouseOver}
+										onMouseOut={rightMouseOut}
+									>
+									<div className="trending-rating-wrapper" >
+									<RowPoster
+												item={result}
+												key={result.id}
+												index = {index}
+											/>
+										
+									</div>
+
+										
+											
+									</SwiperSlide>
+								))}
+
+
+						
+
+
+					</Swiper>		
+				
 				</div>
 			<div>
 			</div>
