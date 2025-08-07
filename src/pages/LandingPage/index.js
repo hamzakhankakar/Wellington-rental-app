@@ -1,7 +1,7 @@
 import { useParams } from 'react-router-dom';
 import { useState } from "react";
 import "./landingpage.scss";
-import { mypropertyData } from "../../data/propertiesdata";
+import { myallPropertyData } from "../../data/allPropertiesdata";
 import { FaStreetView } from "react-icons/fa";
 import { FaSatellite } from "react-icons/fa";
 import { Link } from "react-router-dom";
@@ -13,7 +13,8 @@ const LandingPage = () => {
 
   const { id } = useParams();
 
-  const property = mypropertyData.find(obj => obj.id == id);
+  const property = myallPropertyData.find(obj => obj.id == id);
+  console.log("property is", property)
   const product = {
 
     images: [
