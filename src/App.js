@@ -15,6 +15,7 @@ import { selectCurrentUser } from './redux/auth/auth.selectors';
 // import { selectSearchResults } from "./redux/search/search.selectors";
 import { checkUserSession } from "./redux/auth/auth.actions";
 import LandingPage from "./pages/LandingPage";
+import RentalPage from "./pages/Rental/Rental"
 import Blog from "./pages/Blog";
 import Properties from "./pages/Properties/Properties";
 import Agents from "./pages/Agents/Agents"
@@ -84,6 +85,11 @@ const App = () => {
                     <Route
                         path="/property/:id"
                         component={LandingPage}
+
+                    />
+                    <Route
+                        path="/rental/:id"
+                        component={RentalPage}
 
                     />
                     <Route
