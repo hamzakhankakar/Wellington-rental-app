@@ -14,7 +14,15 @@ const LandingPage = () => {
   const { id } = useParams();
 
   const property = myallPropertyData.find(obj => obj.id == id);
-  const product = { images: property.images[0], };
+  const product = {
+
+    images: [
+      property.images[0],
+      // "https://fadzrinmadu.github.io/hosted-assets/product-detail-page-design-with-image-slider-html-css-and-javascript/shoe_2.jpg",
+      // "https://fadzrinmadu.github.io/hosted-assets/product-detail-page-design-with-image-slider-html-css-and-javascript/shoe_3.jpg",
+      // "https://fadzrinmadu.github.io/hosted-assets/product-detail-page-design-with-image-slider-html-css-and-javascript/shoe_4.jpg",
+    ],
+  };
 
   // Video with a thumbnail
   // const videoUrl = "https://www.w3schools.com/html/mov_bbb.mp4";

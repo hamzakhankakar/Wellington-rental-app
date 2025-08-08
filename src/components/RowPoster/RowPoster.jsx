@@ -86,7 +86,7 @@ const RowPoster = (result) => {
           <div className="Row__poster" >
            <div 
              className= {`${
-                        result.item?.type === "property"
+                        result.item?.type === "property" || result.item?.type === "rental"
                           ? "image-wrapper-property"
                           :  "image-wrapper-blog"
                       }`}
@@ -96,7 +96,13 @@ const RowPoster = (result) => {
             <img src={`${result.item?.images[0]}`} alt={fallbackTitle} 
              />
           </Link>
-              : 
+          :
+          result.item.type === "rental" ? 
+            <Link to={`/rental/${id}`}> 
+              <img src={`${result.item?.images[0]}`} alt={fallbackTitle} 
+               />
+            </Link>
+          : 
               <img src={`${result.item?.images[0]}`} alt={fallbackTitle} 
              />
               }
@@ -106,7 +112,7 @@ const RowPoster = (result) => {
                {result.item?.title}
              </div>
            </div> 
-           {result.item.type === "property" && 
+           {result.item.type === "property" ?
             <Link to={`/property/${id}`}> 
 
              <div className ="property-detail">
@@ -142,7 +148,41 @@ const RowPoster = (result) => {
              </div>
              </div>
              </Link>
-             
+             :<Link to={`/rental/${id}`}> 
+
+             <div className ="property-detail">
+             <div className="Row__poster-address">
+              {result.item.address}
+             </div>
+             <div className="Row__poster-property-info">
+               <div className="Row__poster-property-ammenities">
+               <div className="bedroom-div">
+                 <span><MdOutlineBedroomParent />
+                 : </span>
+                 {result.item.rooms}
+               </div>
+               <div className="bathroom-div">
+                 <span><LiaBathSolid />
+                 : </span>
+                 <span>{result.item.bath}</span>
+               </div>
+               </div>
+              <div className="Row__poster-property-land-area">
+              <div className="land-div">
+                 {/* <span>Land
+                 : </span>
+                   {result.item.area} m <sup>2</sup>  */}
+               </div>
+              </div>
+              
+             </div>
+             <div className="Row__poster-agent-contact">
+               <span><CiMobile3 />: </span>
+     
+               {result.item.phone === ""? result.item.mobile :result.item.phone}  
+             </div>
+             </div>
+             </Link>
              }
          </div>
       )
