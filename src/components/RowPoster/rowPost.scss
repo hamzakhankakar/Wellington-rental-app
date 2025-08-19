@@ -1,3 +1,9 @@
+/* Poster container styles */
+.Row__poster {
+  position: relative;
+  overflow: hidden;
+  border-radius: 5px;
+  transition: all 0.3s ease-in-out;
 
 
 /* Basic styles for swiper-slide and poster container */
@@ -7,14 +13,7 @@
   margin: 10px;
   cursor: pointer;
 }
-
-/* Poster container styles */
-.Row__poster {
-  position: relative;
-  overflow: hidden;
-  border-radius: 5px;
-  transition: all 0.3s ease-in-out;
-}
+  
 
 /* Overlay effect (gradient overlay) */
 .Row__poster::after {
@@ -163,4 +162,6 @@ img {
   margin: 0 0 0 60px;
   border-radius: 4px;
   box-shadow: 0px 0px 32px black;
+}
+
 }

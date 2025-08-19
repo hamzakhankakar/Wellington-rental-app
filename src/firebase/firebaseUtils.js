@@ -18,6 +18,7 @@ const firebaseConfig = {
 export const createUserProfileDocument = async (userAuth, additionalData) => {
     if (!userAuth) return;
 
+    // const userRef = firestore.doc(`users/${userAuth.uid}`);
     const userRef = firestore.doc(`users/${userAuth.uid}`);
     const snapShot = await userRef.get();
 
@@ -30,6 +31,16 @@ export const createUserProfileDocument = async (userAuth, additionalData) => {
                 email,
                 photoURL,
                 createdAt,
+                contact:{
+                    email:email,
+                    phone:"",
+                    mobile:""  
+                },
+                agentbadges:"",
+                type:"agent",
+                agentName:"",
+      agentArea: "",
+      agentDescription: "",
                 ...additionalData,
             })
         } catch (error) {
@@ -53,7 +64,7 @@ export const getCurrentUser = () => {
 firebase.initializeApp(firebaseConfig)
 
 export const auth = firebase.auth()
-export const firestore = firebase.firestore()
+export const firestore = await firebase.firestore()
 
 // Sign in With Google Setup with popup
 export const googleProvider = new firebase.auth.GoogleAuthProvider()

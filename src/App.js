@@ -10,15 +10,18 @@ import SplashAnimation from "./components/SplashAnimation/SplashAnimation";
 import PlayAnimation from "./components/PlayAnimation/PlayAnimation";
 import StreetViewExample from "./components/Maps/StreetView";
 import SatelliteMap from "./components/Maps/Aerial";
-import Agent from "./pages/Agent";
+import AddProperty from "./pages/AgentProfile/AddProperty/addProperty";
+import Profile from "./pages/AgentProfile/Profile";
 import { selectCurrentUser } from './redux/auth/auth.selectors';
 // import { selectSearchResults } from "./redux/search/search.selectors";
 import { checkUserSession } from "./redux/auth/auth.actions";
 import LandingPage from "./pages/LandingPage";
 import RentalPage from "./pages/Rental/Rental"
 import Blog from "./pages/Blog";
+// import AgentProperties from "./pages/AgentProfile/AgentProperties";
 import Properties from "./pages/Properties/Properties";
-import Agents from "./pages/Agents/Agents"
+import Agents from "./pages/Agents"
+import PrivateRoute from "./components/PrivateRoute/PrivateRoute"
 
 const App = () => {
     const currentUser = useSelector(selectCurrentUser);
@@ -61,14 +64,7 @@ const App = () => {
                         path="/map/street-view"
                         component={StreetViewExample}
                     />
-                    {/* Protect the street-view route */}
-                    {/* <PrivateRoute
-                        path="/map/street-view"
-                        component={StreetViewExample}
-                        currentUser={currentUser}
-                        loading={loading}
-
-                    /> */}
+                   
 
                     <Route
                         path="/browse"
@@ -78,14 +74,17 @@ const App = () => {
                         path="/properties"
                         component={Properties}
                     />
-                    <Route
+                    {/* <Route
                         path="/agents"
+                        component={Agents}
+                    /> */}
+                    <Route
+                        path="/agent/:id"
                         component={Agents}
                     />
                     <Route
                         path="/property/:id"
                         component={LandingPage}
-
                     />
                     <Route
                         path="/rental/:id"
@@ -103,12 +102,34 @@ const App = () => {
                         path="/login"
                         render={() => currentUser ? <Redirect to="/splash" /> : <Auth />}
                     />
+                    {/* <Route
+                        exact
+                        path="/agent"
+                        render={() => currentUser
+                            ? <AgentProperties />
+                            : <Redirect to="/login" />}
+                    /> */}
                     <Route
                         exact
                         path="/agent"
                         render={() => currentUser
-                            ? <Agent />
+                            ? <Properties />
                             : <Redirect to="/login" />}
+                    />
+                 
+                     <PrivateRoute
+                        path="/profile"
+                        component={Profile}
+                        currentUser={currentUser}
+                        loading={false}
+
+                    />
+                     <PrivateRoute
+                        path="/addProperty"
+                        component={AddProperty}
+                        currentUser={currentUser}
+                        loading={false}
+
                     />
 
 

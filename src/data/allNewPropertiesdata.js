@@ -1,4 +1,6 @@
 export const myallPropertyData = [
+
+
   {
     "trending": 1,
     "id": "ab5fe012-42a0-408a-86d5-4e6d625ad6c5",
@@ -67,604 +69,6 @@ export const myallPropertyData = [
   },
   {
     "trending": 2,
-    "id": "e069780c-fdd0-475c-af10-d94ec1cfb211",
-    "lat": -41.203194177869214,
-    "lon": 174.8948016269861,
-    "address": "100a Normandale Road, Normandale, Lower Hutt",
-    "title": "SERENE SETTING! RENOVATED!",
-    "price": "$585,000",
-    "description": "Perfectly positioned to capture great sun and peaceful native bush views, this newly refreshed two bedroom home is the ideal first step on the property ladder, down-sizer or a smart investment. Enjoy the comfort and style of a brand-new kitchen with modern appliances, fresh carpet underfoot, and a sleek, updated bathroom. The open-plan living flows out to a sunny balcony via a double-glazed ranchslider, perfect for morning coffee or evening cheese and wines. Set back from the road for privacy, with a fully fenced backyard and generous under-house storage, this home is as practical as it is charming. Gas hot water, off-street parking, and a fantastic location close to public transport complete the package. <br>\n<br>\n- Two double bedrooms <br>\n- Brand new kitchen and bathroom <br>\n- Sunny deck with bush views <br>\n- Private, with off-street parking <br>\n- Zoned for sought-after schools",
-    "type": "property",
-    "images": [
-      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26743/3003117398_1600-0.jpeg?width=1200&name=3003117398_1600-0.jpeg",
-      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26743/3003117402_1600-0.jpeg?width=1200&name=3003117402_1600-0.jpeg",
-      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26743/3003117405_1600-0.jpeg?width=1200&name=3003117405_1600-0.jpeg",
-      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26743/3003117407_1600-0.jpeg?width=1200&name=3003117407_1600-0.jpeg",
-      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26743/3003117410_1600-0.jpeg?width=1200&name=3003117410_1600-0.jpeg",
-      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26743/3003117400_1600-0.jpeg?width=1200&name=3003117400_1600-0.jpeg",
-      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26743/3003117401_1600-0.jpeg?width=1200&name=3003117401_1600-0.jpeg",
-      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26743/3003117404_1600-0.jpeg?width=1200&name=3003117404_1600-0.jpeg",
-      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26743/3003117412_1600-0.jpeg?width=1200&name=3003117412_1600-0.jpeg",
-      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26743/3003117393_1600-0.jpeg?width=1200&name=3003117393_1600-0.jpeg",
-      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26743/3003117394_1600-0.jpeg?width=1200&name=3003117394_1600-0.jpeg",
-      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26743/3003117395_1600-0.jpeg?width=1200&name=3003117395_1600-0.jpeg",
-      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26743/3003117396_1600-0.jpeg?width=1200&name=3003117396_1600-0.jpeg",
-      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26743/3003117416_1600-0.jpeg?width=1200&name=3003117416_1600-0.jpeg",
-      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26743/3003117417_1600-0.jpeg?width=1200&name=3003117417_1600-0.jpeg",
-      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26743/3003117388_1600-0.jpeg?width=1200&name=3003117388_1600-0.jpeg",
-      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26743/3003117414_1600-0.jpeg?width=1200&name=3003117414_1600-0.jpeg",
-      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26743/3003117392_1600-0.jpeg?width=1200&name=3003117392_1600-0.jpeg",
-      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26743/3003117389_1600-0.jpeg?width=1200&name=3003117389_1600-0.jpeg",
-      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26743/3003117391_1600-0.jpeg?width=1200&name=3003117391_1600-0.jpeg",
-      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26743/3003117006_1600-0.jpeg?width=1200&name=3003117006_1600-0.jpeg"
-    ],
-    "video": "https://www.youtube.com/embed/xR-pcH4eFmc",
-    "agent": {
-      "agentName": "Kaitlyn Montgomery",
-      "agentDescription": "About Kaitlyn Montgomery\n\nLicensed Real Estate Salesperson\n\nTeam Alice & Aaron\n\nKaitlyn has supported real estate behind the scenes since 2022, honing her skills and gaining invaluable insights into the industry. Now, fuelled by her passion for real estate, connecting with others and helping them achieve their goals, she has naturally transitioned into sales.\n\nHer background in the operations and administrative side of real estate means she brings an organised approach to what can be a stressful time. Her goal is to bring her client’s peace of mind and keep them clearly informed throughout the process.\n\nHaving lived in the Hutt Valley for most of her life, she possesses an authentic appreciation for its communities and lifestyle. Even managing to persuade her Kapiti-born-and-bred husband to join her.\n\nKaitlyn joins Team Alice and Aaron, known for their BIG Results, which isn’t just a tag line but a reality.  With the dedicated team known for their strong negotiating and genuine care she fits right in.\n\n ",
-      "agentArea": "Lower Hutt & Kapiti",
-      "agentImage": "https://redcoats.professionals.co.nz/hubfs/1400x1000_Agent%20Page_16.jpg",
-      "agentbadges": "https://redcoats.professionals.co.nz/hubfs/LH%20Awards-2.png",
-      "contact": {
-        "Phone": "022 630 9711",
-        "Email": "kaitlyn@redcoats.co.nz"
-      },
-      "id": "fa6d9ddf-0807-4061-b6ac-64aeee3fce59",
-      "type": "agent"
-    },
-    "features": {
-      "Bed": "2",
-      "Bath": "1",
-      "Floor": "60m2"
-    }
-  },
-  {
-    "trending": 3,
-    "id": "99c1ae63-205d-4871-8e60-26f3d6abc889",
-    "lat": "",
-    "lon": "",
-    "address": "6 Castle Crescent, Stokes Valley, Lower Hutt",
-    "title": "FRESH, MODERN &amp; MOVE IN READY",
-    "price": "Negotiation",
-    "description": "Welcome to 6 Castle Street located in the sunny Stokes Valley. This home was constructed in 2016 and offers an unbeatable opportunity for first home buyers or just those looking for a low maintenance home to fit their busy lifestyle. <br>\n<br>\nStep inside to find a large open plan living &amp; dining area that provides breathtaking views out over Manor Park Golf Sanctuary. The modern kitchen has been thoughtfully designed with families in mind providing ample space to prepare delicious family meals. The first level has the added benefit of a separate toilet off the internal access garage to add to the practicality of the home. <br>\n<br>\nAs you head downstairs you are greeted with 3 very well sized bedrooms, all with built in wardrobes providing plenty of storage. The master bedroom also comes well equipped with those stunning views as well as an ensuite and walk in robe.<br>\n<br>\nThe home is kept warm all year round being fully doubled glazed as well as having a gas central heating system fitted on top of being well positioned for all day sun. <br>\n<br>\nMake your next move a smart one - get in touch today for a viewing or come along to one of our open homes. <br>\n<br>\n- 3 Bedrooms<br>\n- 2 Bathrooms + an extra toilet<br>\n- Open plan<br>\n- Great views<br>\n- Internal access garage",
-    "type": "property",
-    "images": [
-      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26813/3003145891_1600-0.jpeg?width=1200&name=3003145891_1600-0.jpeg",
-      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26813/3003145901_1600-0.jpeg?width=1200&name=3003145901_1600-0.jpeg",
-      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26813/3003145892_1600-0.jpeg?width=1200&name=3003145892_1600-0.jpeg",
-      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26813/3003145897_1600-0.jpeg?width=1200&name=3003145897_1600-0.jpeg",
-      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26813/3003145898_1600-0.jpeg?width=1200&name=3003145898_1600-0.jpeg",
-      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26813/3003145903_1600-0.jpeg?width=1200&name=3003145903_1600-0.jpeg",
-      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26813/3003145899_1600-0.jpeg?width=1200&name=3003145899_1600-0.jpeg",
-      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26813/3003145908_1600-0.jpeg?width=1200&name=3003145908_1600-0.jpeg",
-      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26813/3003145913_1600-0.jpeg?width=1200&name=3003145913_1600-0.jpeg",
-      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26813/3003145905_1600-0.jpeg?width=1200&name=3003145905_1600-0.jpeg",
-      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26813/3003145921_1600-0.jpeg?width=1200&name=3003145921_1600-0.jpeg",
-      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26813/3003145916_1600-0.jpeg?width=1200&name=3003145916_1600-0.jpeg",
-      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26813/3003145920_1600-0.jpeg?width=1200&name=3003145920_1600-0.jpeg",
-      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26813/3003145919_1600-0.jpeg?width=1200&name=3003145919_1600-0.jpeg",
-      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26813/3003145885_1600-0.jpeg?width=1200&name=3003145885_1600-0.jpeg",
-      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26813/3003145889_1600-0.jpeg?width=1200&name=3003145889_1600-0.jpeg"
-    ],
-    "video": "https://www.youtube.com/embed/tyuKXqjKkCY",
-    "agent": {
-      "agentName": "Shane Brockelbank",
-      "agentDescription": "About Shane Brockelbank\n\nLicensed Real Estate Salesperson\n\nTeam Brockelbank\n\nPassionate about real estate, Shane is one of the best in the business and an expert in his field. Consistently winning awards both nationally and internationally, his proven success speaks for itself. He attributes this success to his people and negotiation skills which he combines with effective marketing.\n\n“To be a good real estate salesperson you need the ability to adapt and build a rapport with everybody in the market place including both sellers and buyers. It doesn’t matter what kind of home you are selling, it is all about relationships at the end of the day”.\n\nBeing a good listener with high integrity, it’s Shane's pressure-free marketing approach and his emphasis on relationship management which sees him consistently deliver outstanding results for his clients.",
-      "agentArea": "Lower Hutt",
-      "agentImage": "https://redcoats.professionals.co.nz/hubfs/1400x1000_Agent%20Page_25-1.jpg",
-      "agentbadges": "https://redcoats.professionals.co.nz/hubfs/LH%20Awards-May-18-2025-09-40-32-2733-PM.png",
-      "contact": {
-        "Phone": "021 459 622",
-        "Email": "shane@redcoats.co.nz"
-      },
-      "id": "09fa0191-8ddd-498e-85ec-eb9852a9ad54",
-      "type": "agent"
-    },
-    "features": {
-      "Bed": "3",
-      "Bath": "3",
-      "Garages": "1",
-      "Floor": "202m2",
-      "Land": "731 m2"
-    }
-  },
-  {
-    "trending": 4,
-    "id": "7133600c-463b-449c-bdee-dcbb85a98314",
-    "lat": "",
-    "lon": "",
-    "address": "16 Sladden Street, Naenae, Lower Hutt",
-    "title": "SUPER SHARP ON SLADDEN",
-    "price": "$489,000",
-    "description": "Yes there are choices out there for two bedroom townhouses but these ones beat the rest by a country mile!<br>\n<br>\nLet's list the ways:<br>\n- Unit 4 is also available at $489,000<br>\n- Two double bedrooms with fully kitted wall to wall wardrobes <br>\n- Gorgeous tiled family bathroom with walk-in rain shower<br>\n- Spacious kitchen with bench and cupboard space<br>\n- Open plan dining and lounge flowing out to a fenced courtyard<br>\n- Office nook (a must have these days!)<br>\n- Plenty of storage space<br>\n- A hop, skip and jump, to shops, Naenae Pool, Barton Reserve, the train station and bus stops<br>\n<br>\n- And let's not forget the sharp price - that gets a tick!<br>\n<br>\nPriced to sell and they are being snapped up, so get in touch today to view.",
-    "type": "property",
-    "images": [
-      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26887/3003147134_1600-0.jpeg?width=1200&name=3003147134_1600-0.jpeg",
-      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26887/3003147138_1600-0.jpeg?width=1200&name=3003147138_1600-0.jpeg",
-      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26887/3003147139_1600-0.jpeg?width=1200&name=3003147139_1600-0.jpeg",
-      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26887/3003147141_1600-0.jpeg?width=1200&name=3003147141_1600-0.jpeg",
-      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26887/3003147153_1600-0.jpeg?width=1200&name=3003147153_1600-0.jpeg",
-      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26887/3003147143_1600-0.jpeg?width=1200&name=3003147143_1600-0.jpeg",
-      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26887/3003147144_1600-0.jpeg?width=1200&name=3003147144_1600-0.jpeg",
-      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26887/3003147146_1600-0.jpeg?width=1200&name=3003147146_1600-0.jpeg",
-      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26887/3003147155_1600-0.jpeg?width=1200&name=3003147155_1600-0.jpeg",
-      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26887/3003147156_1600-0.jpeg?width=1200&name=3003147156_1600-0.jpeg",
-      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26887/3003147159_1600-0.jpeg?width=1200&name=3003147159_1600-0.jpeg",
-      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26887/3003147161_1600-0.jpeg?width=1200&name=3003147161_1600-0.jpeg",
-      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26887/3003147149_1600-0.jpeg?width=1200&name=3003147149_1600-0.jpeg",
-      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26887/3003147151_1600-0.jpeg?width=1200&name=3003147151_1600-0.jpeg",
-      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26887/3003147135_1600-0.jpeg?width=1200&name=3003147135_1600-0.jpeg"
-    ],
-    "video": "https://www.youtube.com/embed/E0X3-5LFmCE",
-    "agent": {
-      "agentName": "Shane Brockelbank",
-      "agentDescription": "About Shane Brockelbank\n\nLicensed Real Estate Salesperson\n\nTeam Brockelbank\n\nPassionate about real estate, Shane is one of the best in the business and an expert in his field. Consistently winning awards both nationally and internationally, his proven success speaks for itself. He attributes this success to his people and negotiation skills which he combines with effective marketing.\n\n“To be a good real estate salesperson you need the ability to adapt and build a rapport with everybody in the market place including both sellers and buyers. It doesn’t matter what kind of home you are selling, it is all about relationships at the end of the day”.\n\nBeing a good listener with high integrity, it’s Shane's pressure-free marketing approach and his emphasis on relationship management which sees him consistently deliver outstanding results for his clients.",
-      "agentArea": "Lower Hutt",
-      "agentImage": "https://redcoats.professionals.co.nz/hubfs/1400x1000_Agent%20Page_25-1.jpg",
-      "agentbadges": "https://redcoats.professionals.co.nz/hubfs/LH%20Awards-May-18-2025-09-40-32-2733-PM.png",
-      "contact": {
-        "Phone": "021 459 622",
-        "Email": "shane@redcoats.co.nz"
-      },
-      "id": "8287e182-bd97-463f-93ef-01819181dfc0",
-      "type": "agent"
-    },
-    "features": {
-      "Bed": "2",
-      "Bath": "1",
-      "Floor": "64m2",
-      "Land": "80 m2"
-    }
-  },
-  {
-    "trending": 5,
-    "id": "6b8d0a51-2a6b-4fa3-9c73-a8b02d6826d2",
-    "lat": "",
-    "lon": "",
-    "address": "56 Brentwood Street, Trentham, Upper Hutt",
-    "title": "ITS BETTER ON BRENTWOOD",
-    "price": "$695,000",
-    "description": "Perfectly positioned in a quiet, family-friendly neighborhood, this beautifully presented and fully renovated home offers a seamless blend of space, comfort, and convenience. Whether you're a first-home buyer, young family or looking to downsize this property ticks all the boxes.<br>\nKey Features:<br>\n- Freshly painted inside and out<br>\n- 3 spacious bedrooms with built-in wardrobes<br>\n- Fully double glazed<br>\n- Modern family bathroom with separate toilet<br>\n- Open-plan living and dining filled with natural light<br>\n- Contemporary kitchen with quality appliances and great storage<br>\n- Dedicated laundry area<br>\n- Off street car pad<br>\n- Fully fenced and landscaped – safe for children and pets<br>\n- Low-maintenance gardens <br>\n- Heat pump for year-round comfort<br>\n<br>\nStep inside to discover a warm and welcoming interior with generous rooms and a smart layout designed for relaxed family living. <br>\nLocated just minutes from Upper Hutt CBD, public transport, local schools, parks, and shops, 56 Brentwood Street combines suburban peace with central accessibility. Whether you're commuting or working locally, everything you need is right here. Don’t miss the opportunity to make this your new home. Properties like this don’t stay on the market for long and this one is priced to sell!",
-    "type": "property",
-    "images": [
-      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26839/3003147660_1600-0.jpeg?width=1200&name=3003147660_1600-0.jpeg",
-      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26839/3003147679_1600-0.jpeg?width=1200&name=3003147679_1600-0.jpeg",
-      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26839/3003147673_1600-0.jpeg?width=1200&name=3003147673_1600-0.jpeg",
-      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26839/3003147678_1600-0.jpeg?width=1200&name=3003147678_1600-0.jpeg",
-      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26839/3003147680_1600-0.jpeg?width=1200&name=3003147680_1600-0.jpeg",
-      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26839/3003147677_1600-0.jpeg?width=1200&name=3003147677_1600-0.jpeg",
-      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26839/3003147675_1600-0.jpeg?width=1200&name=3003147675_1600-0.jpeg",
-      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26839/3003147672_1600-0.jpeg?width=1200&name=3003147672_1600-0.jpeg",
-      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26839/3003147674_1600-0.jpeg?width=1200&name=3003147674_1600-0.jpeg",
-      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26839/3003147667_1600-0.jpeg?width=1200&name=3003147667_1600-0.jpeg",
-      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26839/3003147665_1600-0.jpeg?width=1200&name=3003147665_1600-0.jpeg",
-      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26839/3003147666_1600-0.jpeg?width=1200&name=3003147666_1600-0.jpeg",
-      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26839/3003147668_1600-0.jpeg?width=1200&name=3003147668_1600-0.jpeg",
-      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26839/3003147670_1600-0.jpeg?width=1200&name=3003147670_1600-0.jpeg",
-      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26839/3003147669_1600-0.jpeg?width=1200&name=3003147669_1600-0.jpeg",
-      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26839/3003147661_1600-0.jpeg?width=1200&name=3003147661_1600-0.jpeg",
-      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26839/3003147662_1600-0.jpeg?width=1200&name=3003147662_1600-0.jpeg",
-      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26839/3003147659_1600-0.jpeg?width=1200&name=3003147659_1600-0.jpeg"
-    ],
-    "video": "https://www.youtube.com/embed/T3fFIn4aB3o",
-    "agent": {
-      "agentName": "Shane Brockelbank",
-      "agentDescription": "About Shane Brockelbank\n\nLicensed Real Estate Salesperson\n\nTeam Brockelbank\n\nPassionate about real estate, Shane is one of the best in the business and an expert in his field. Consistently winning awards both nationally and internationally, his proven success speaks for itself. He attributes this success to his people and negotiation skills which he combines with effective marketing.\n\n“To be a good real estate salesperson you need the ability to adapt and build a rapport with everybody in the market place including both sellers and buyers. It doesn’t matter what kind of home you are selling, it is all about relationships at the end of the day”.\n\nBeing a good listener with high integrity, it’s Shane's pressure-free marketing approach and his emphasis on relationship management which sees him consistently deliver outstanding results for his clients.",
-      "agentArea": "Lower Hutt",
-      "agentImage": "https://redcoats.professionals.co.nz/hubfs/1400x1000_Agent%20Page_25-1.jpg",
-      "agentbadges": "https://redcoats.professionals.co.nz/hubfs/LH%20Awards-May-18-2025-09-40-32-2733-PM.png",
-      "contact": {
-        "Phone": "021 459 622",
-        "Email": "shane@redcoats.co.nz"
-      },
-      "id": "fcd31da7-ba92-4732-9095-b139ce24aef6",
-      "type": "agent"
-    },
-    "features": {
-      "Bed": "3",
-      "Bath": "1",
-      "Floor": "105m2",
-      "Land": "267 m2"
-    }
-  },
-  {
-    "trending": 6,
-    "id": "9da9eca1-2095-465d-a044-8e8cfcf56c77",
-    "lat": "",
-    "lon": "",
-    "address": "22 Vista Grove, Kelson, Lower Hutt",
-    "title": "FIRST HOME VALUE ON VISTA",
-    "price": "Deadline Sale",
-    "description": "Kia Ora, welcome to 22 Vista Grove in beautiful Kelson.<br>\n<br>\nThis is the dream Kiwi first home.<br>\n<br>\nGreat size, layout, location, ready to move into, but with plenty of room to add value as you go.<br>\n<br>\nThe current owners have loved the home over the years, but it’s now time for someone else to take on an<br>\nopportunity not to be missed in this market!<br>\n<br>\nThe property highlights include:<br>\n<br>\n- 3 double bedrooms with storage.<br>\n- Open living and dining space with wood burner<br>\n- Great outlook over the Hutt Valley<br>\n- Family bathroom bath &amp; shower + separate toilet<br>\n- Large separate laundry<br>\n- Sleepout/Rumpus out back (perfect for teenagers or office)<br>\n- Large Double garage + off-street parking<br>\n- Private location, quiet cul-de-sac, perfect for kids<br>\n- Awesome primary school, park, and Kelson 4 square all close by<br>\n- Only around the corner from SH2 for an easy commute to Lower Hutt or the city<br>\n- This one is perfect for your first home, the family, or even an investment.<br>\n- Come and take a look before it’s gone.<br>\n<br>\nThere’s no need to wait for an open home, contact Tommy Laybourn - 027 379 7385 today to book a<br>\nprivate viewing!<br>\n<br>\nDeadline Sale closing our office, 28 Cornwall Street, Lower Hutt @ 11.00am Thursday 14 August 2025 (will not be sold prior)",
-    "type": "property",
-    "images": [
-      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26896/3003147408_1600-0.jpeg?width=1200&name=3003147408_1600-0.jpeg",
-      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26896/3003147424_1600-0.jpeg?width=1200&name=3003147424_1600-0.jpeg",
-      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26896/3003147433_1600-0.jpeg?width=1200&name=3003147433_1600-0.jpeg",
-      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26896/3003147410_1600-0.jpeg?width=1200&name=3003147410_1600-0.jpeg",
-      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26896/3003147411_1600-0.jpeg?width=1200&name=3003147411_1600-0.jpeg",
-      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26896/3003147413_1600-0.jpeg?width=1200&name=3003147413_1600-0.jpeg",
-      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26896/3003147414_1600-0.jpeg?width=1200&name=3003147414_1600-0.jpeg",
-      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26896/3003147415_1600-0.jpeg?width=1200&name=3003147415_1600-0.jpeg",
-      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26896/3003147416_1600-0.jpeg?width=1200&name=3003147416_1600-0.jpeg",
-      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26896/3003147417_1600-0.jpeg?width=1200&name=3003147417_1600-0.jpeg",
-      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26896/3003147418_1600-0.jpeg?width=1200&name=3003147418_1600-0.jpeg",
-      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26896/3003147419_1600-0.jpeg?width=1200&name=3003147419_1600-0.jpeg",
-      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26896/3003147421_1600-0.jpeg?width=1200&name=3003147421_1600-0.jpeg",
-      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26896/3003147422_1600-0.jpeg?width=1200&name=3003147422_1600-0.jpeg",
-      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26896/3003147423_1600-0.jpeg?width=1200&name=3003147423_1600-0.jpeg",
-      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26896/3003147426_1600-0.jpeg?width=1200&name=3003147426_1600-0.jpeg",
-      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26896/3003147427_1600-0.jpeg?width=1200&name=3003147427_1600-0.jpeg",
-      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26896/3003147428_1600-0.jpeg?width=1200&name=3003147428_1600-0.jpeg",
-      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26896/3003147429_1600-0.jpeg?width=1200&name=3003147429_1600-0.jpeg",
-      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26896/3003147430_1600-0.jpeg?width=1200&name=3003147430_1600-0.jpeg",
-      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26896/3003147431_1600-0.jpeg?width=1200&name=3003147431_1600-0.jpeg",
-      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26896/3003147432_1600-0.jpeg?width=1200&name=3003147432_1600-0.jpeg",
-      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26896/3003147409_1600-0.jpeg?width=1200&name=3003147409_1600-0.jpeg",
-      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26896/3003147407_1600-0.jpeg?width=1200&name=3003147407_1600-0.jpeg",
-      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26896/3003147405_1600-0.jpeg?width=1200&name=3003147405_1600-0.jpeg",
-      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26896/3003147406_1600-0.jpeg?width=1200&name=3003147406_1600-0.jpeg",
-      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26896/3003147403_1600-0.jpeg?width=1200&name=3003147403_1600-0.jpeg",
-      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26896/3003147404_1600-0.jpeg?width=1200&name=3003147404_1600-0.jpeg",
-      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26896/3003147453_1600-0.jpeg?width=1200&name=3003147453_1600-0.jpeg"
-    ],
-    "video": "https://www.youtube.com/embed/3dCyEW7lh0c?feature=share",
-    "agent": {
-      "agentName": "Tommy Laybourn",
-      "agentDescription": "About Tommy Laybourn\n\nLicensed Real Estate Salesperson\n\nReliable, hard-working and authentic are just some of the ways Tommy has been described in his career. Entering Real Estate with a sales and management background, Tommy possesses the skills necessary for high-performing sales results in the Real estate Market. However, what truly distinguishes him is his genuine passion for people and the community.\n\nA true \"people person,\" Tommy prioritises forging strong, meaningful connections with his clients. He listens attentively to their needs, ensuring that every aspect of their real estate journey is tailored to their specific goals. Based locally in the Hutt Valley with his family, Tommy is deeply committed to his community and approaches his work with a diligent, results-oriented mindset.\n\nIn his spare time, you’ll find him teaching a class at the gym, or spending quality time with family and friends. Having navigated the challenges of purchasing his own home at a young age, he knows the hard work it takes to be able to buy your first home. Now, as a family man himself, he understands the emotional significance of finding the perfect home or transitioning to new opportunities.\n\nWhether you're buying or selling, Tommy is focused on listening to your needs and helping you achieve your next real estate milestone.",
-      "agentArea": "Lower Hutt",
-      "agentImage": "https://redcoats.professionals.co.nz/hubfs/1400x1000_Agent%20Page_33.jpg",
-      "agentbadges": "https://redcoats.professionals.co.nz/hubfs/LH%20Awards-1.png",
-      "contact": {
-        "Phone": "027 379 7385",
-        "Email": "tommy@redcoats.co.nz"
-      },
-      "id": "a2fd3100-6ff0-4931-afb4-d2c279ea16b2",
-      "type": "agent"
-    },
-    "features": {
-      "Bed": "3",
-      "Bath": "1",
-      "Garages": "2",
-      "Floor": "150m2",
-      "Land": "847 m2"
-    }
-  },
-  {
-    "trending": 7,
-    "id": "74f177a3-7702-498e-8f91-c7342f0a910a",
-    "lat": "",
-    "lon": "",
-    "address": "77 Walters Street, Avalon, Lower Hutt",
-    "title": "1950s AVALON HOME WITH ENDLESS POTENTIAL!",
-    "price": "Auction",
-    "description": "Welcome to 77 Walters Street, Avalon – A 1950s home that is brimming with potential and awaiting your personal touch. The home presents an extraordinary opportunity - with its flexible layout, rich history, and prime location it’s a canvas awaiting your creative ideas and renovations. <br>\n<br>\nThis property has been cherished by only one family over the years, standing as a testament to its rich local history. Now, it invites new owners to breathe fresh life into it. Situated on a sun-soaked, flat section, this beloved residence offers itself for renovation and has exciting possibilities.<br>\n<br>\nDiscover a welcoming interior that boasts two generous double bedrooms. The flexible layout features multiple living areas, open plan kitchen and dining, the family bathroom featuring a shower and vanity for your everyday needs and a separate toilet.<br>\n<br>\nYou will also find a conservatory that beckons bright morning light opening onto the deck at the back of the home. The property features convenient laundry facilities and an extra space well-suited to be an office or additional storage area.<br>\n<br>\nThe fully fenced layout provides peace of mind for families, ensuring privacy and security. With a single garage and adequate off-street parking you won't have to worry about where to park the family and guest vehicles.<br>\n<br>\nLocation is everything, and 77 Walters Street has this. It is just a short stroll from the Naenae train station and subway, and through to the Naenae Shopping Centre. Close proximity to Park Ave Shops and it is within 200 to 300m of local educational facilities:  Avalon Kindergarten, Avalon Primary School, Kimi Ora School, Naenae Intermediate and College. There is easy access to the motorway allowing for smooth travel options throughout the wider region.<br>\n<br>\nDo not miss your chance to make this cherished Avalon residence your own. Contact us today to arrange a viewing and explore the potential this delightful property offers. Your new home is waiting!<br>\n<br>\nTo be sold by Auction at our premises 28 Cornwall Street on Thursday 28th August at 12.30pm (unless sold prior)",
-    "type": "property",
-    "images": [
-      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26861/3003150611_1600-0.jpeg?width=1200&name=3003150611_1600-0.jpeg",
-      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26861/3003150612_1600-0.jpeg?width=1200&name=3003150612_1600-0.jpeg",
-      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26861/3003150613_1600-0.jpeg?width=1200&name=3003150613_1600-0.jpeg",
-      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26861/3003150614_1600-0.jpeg?width=1200&name=3003150614_1600-0.jpeg",
-      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26861/3003150615_1600-0.jpeg?width=1200&name=3003150615_1600-0.jpeg",
-      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26861/3003150616_1600-0.jpeg?width=1200&name=3003150616_1600-0.jpeg",
-      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26861/3003150617_1600-0.jpeg?width=1200&name=3003150617_1600-0.jpeg",
-      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26861/3003150620_1600-0.jpeg?width=1200&name=3003150620_1600-0.jpeg",
-      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26861/3003150619_1600-0.jpeg?width=1200&name=3003150619_1600-0.jpeg",
-      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26861/3003150621_1600-0.jpeg?width=1200&name=3003150621_1600-0.jpeg",
-      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26861/3003150622_1600-0.jpeg?width=1200&name=3003150622_1600-0.jpeg",
-      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26861/3003150623_1600-0.jpeg?width=1200&name=3003150623_1600-0.jpeg",
-      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26861/3003150624_1600-0.jpeg?width=1200&name=3003150624_1600-0.jpeg",
-      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26861/3003150625_1600-0.jpeg?width=1200&name=3003150625_1600-0.jpeg",
-      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26861/3003149077_1600-0.jpeg?width=1200&name=3003149077_1600-0.jpeg",
-      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26861/3003150626_1600-0.jpeg?width=1200&name=3003150626_1600-0.jpeg",
-      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26861/3003150628_1600-0.jpeg?width=1200&name=3003150628_1600-0.jpeg",
-      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26861/3003150629_1600-0.jpeg?width=1200&name=3003150629_1600-0.jpeg",
-      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26861/3003150630_1600-0.jpeg?width=1200&name=3003150630_1600-0.jpeg",
-      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26861/3003150631_1600-0.jpeg?width=1200&name=3003150631_1600-0.jpeg",
-      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26861/3003150632_1600-0.jpeg?width=1200&name=3003150632_1600-0.jpeg",
-      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26861/3003150633_1600-0.jpeg?width=1200&name=3003150633_1600-0.jpeg",
-      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26861/3003150634_1600-0.jpeg?width=1200&name=3003150634_1600-0.jpeg",
-      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26861/3003150635_1600-0.jpeg?width=1200&name=3003150635_1600-0.jpeg",
-      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26861/3003150636_1600-0.jpeg?width=1200&name=3003150636_1600-0.jpeg",
-      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26861/3003149078_1600-0.jpeg?width=1200&name=3003149078_1600-0.jpeg"
-    ],
-    "video": "https://www.youtube.com/embed/Ggs6Yp_WsCU",
-    "agent": {
-      "agentName": "Harry Lamb",
-      "agentDescription": "About Harry Lamb\n\nLicensed Real Estate Salesperson\n\nTeam Lamb\n\nTeam Lamb - Your trusted Real Estate partner & proud to be part of your journey! Led by Harry Lamb our high-performance team is dedicated to providing a world-class standard in Real Estate services.\n\nWith a personalised approach, tailored to each unique listing campaign, we ensure that every client feels valued and understood throughout their journey.\n\nHarry oversees all aspects of our property sales with unwavering energy and enthusiasm!\n\nMo’s passion for Real Estate shines through her ability to connect with clients and understand their specific needs. She excels at communication, guaranteeing an authentic professional experience for both buyers and sellers.\n\nSue, our full-time licensed Personal Assistant, manages the administrative side of Team Lamb. Her expertise ensures our vendors and large database of qualified buyers receive continuous support throughout their selling and purchasing journey.\n\nOur team's strength lies in our ability to communicate effectively and our commitment to understanding your needs ensures focused attention from day one. The team works hard on implementing and evolving our systems and processes which will in turn enhance efficiency and effectiveness in every transaction. This has resulted in Team Lamb being awarded New Zealand's #1 Most Effective Sales Team for 2024.\n\nConsistent positive feedback from clients highlights our dedication to service excellence. Strong collaborations within the industry allow us to leverage resources and networks for superior outcomes. A robust database management system ensures ongoing care and support for buyers throughout their purchasing journey.\n\nWe pride ourselves on being more than just Real Estate Salespeople; we are your dedicated partners in navigating the property market. Real Estate is not just about properties; it’s about people. Our mission is to create connections that lead to exceptional experiences. Action speaks louder than words; it’s the results we deliver that truly matter.\n\nWith Team Lamb trust is at the core of what we do.",
-      "agentArea": "Lower Hutt",
-      "agentImage": "https://redcoats.professionals.co.nz/hubfs/1400x1000_Agent%20Page_10.jpg",
-      "agentbadges": "https://redcoats.professionals.co.nz/hubfs/LH%20Awards%20(1).png",
-      "contact": {
-        "Phone": "027 255 9510",
-        "Email": "harry.lamb@redcoats.co.nz"
-      },
-      "id": "5778a3f4-9582-4bee-b1c5-7155bd32811f",
-      "type": "agent"
-    },
-    "features": {
-      "Bed": "2",
-      "Bath": "1",
-      "Garages": "1",
-      "Floor": "130m2",
-      "Land": "780 m2",
-      "Office:": "1"
-    }
-  },
-  {
-    "trending": 8,
-    "id": "8476d736-5f49-4fe8-8bad-43ac9d08d736",
-    "lat": "",
-    "lon": "",
-    "address": "145 Wainuiomata Road, Wainuiomata, Lower Hutt",
-    "title": "SPACE, COMFORT AND ROOM TO ADD VALUE",
-    "price": "$629,000",
-    "description": "If you need space, flexibility, and a smart opportunity to add value, this four-bedroom home delivers.<br>\n<br>\nWith recently renovated bathrooms and double glazing where it counts, the hard work's already been started. There's still room to make it your own, with scope to update the kitchen or finish things off in your style.<br>\n<br>\nSet on a generous section, a concrete slab is already down for a garage, so you're one step closer to adding even more practicality. Whether you're upsizing, investing, or just looking for a solid home in a central spot, this is a smart move in the right direction.<br>\n<br>\nPlenty of bedrooms, great bones, and a world of potential, this one's ready when you are.<br>\n<br>\n- Four spacious bedrooms<br>\n- Double glazing upgrades<br>\n- Stylish, renovated bathrooms<br>\n- Concrete slab for garage<br>\n- Scope to add serious value",
-    "type": "property",
-    "images": [
-      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26868/3003140548_1600-0.jpeg?width=1200&name=3003140548_1600-0.jpeg",
-      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26868/3003140559_1600-0.jpeg?width=1200&name=3003140559_1600-0.jpeg",
-      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26868/3003140562_1600-0.jpeg?width=1200&name=3003140562_1600-0.jpeg",
-      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26868/3003140565_1600-0.jpeg?width=1200&name=3003140565_1600-0.jpeg",
-      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26868/3003140547_1600-0.jpeg?width=1200&name=3003140547_1600-0.jpeg",
-      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26868/3003140545_1600-0.jpeg?width=1200&name=3003140545_1600-0.jpeg",
-      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26868/3003140551_1600-0.jpeg?width=1200&name=3003140551_1600-0.jpeg",
-      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26868/3003140556_1600-0.jpeg?width=1200&name=3003140556_1600-0.jpeg",
-      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26868/3003140560_1600-0.jpeg?width=1200&name=3003140560_1600-0.jpeg",
-      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26868/3003140563_1600-0.jpeg?width=1200&name=3003140563_1600-0.jpeg",
-      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26868/3003140564_1600-0.jpeg?width=1200&name=3003140564_1600-0.jpeg",
-      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26868/3003140566_1600-0.jpeg?width=1200&name=3003140566_1600-0.jpeg",
-      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26868/3003140531_1600-0.jpeg?width=1200&name=3003140531_1600-0.jpeg",
-      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26868/3003140535_1600-0.jpeg?width=1200&name=3003140535_1600-0.jpeg",
-      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26868/3003140532_1600-0.jpeg?width=1200&name=3003140532_1600-0.jpeg",
-      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26868/3003140533_1600-0.jpeg?width=1200&name=3003140533_1600-0.jpeg"
-    ],
-    "video": "https://www.youtube.com/embed/MlhU8h0IKcU",
-    "agent": {
-      "agentName": "Meg Cross",
-      "agentDescription": "About Meg Cross\n\nLicensed Real Estate Salesperson\n\nHi, I’m Meg! With over 15 years in sales, marketing, and business development, including leading the Marketing Division at Professionals, I’m now focused on using my experience to guide clients through the property market. My career has been centered on driving growth, building strong relationships, and creating marketing strategies that get results. Now, I’m bringing that expertise to help clients confidently navigate the property market.\n\nFor over five years, I worked closely with agents and vendors to showcase properties in the best possible light. That experience gave me an insider’s understanding of what works (and what doesn’t) when it comes to attracting the right buyers and achieving the best results.\n\nOutside of work, I’m a proud mum of two, my daughter attends Muritai School, and my son is at HIBS. I love being involved in their activities and even coach my daughter’s basketball team (which is just as competitive as the real estate market some days!).\n\nBefore all of this, I was a scholarship athlete at Southern Oregon University, where I developed the discipline, resilience, and competitive drive that still fuels me today. Whether it's crafting strategic marketing plans, presenting homes in their best light, or negotiating top-dollar sales, I love what I do and always bring my absolute best.\n\nIf you’re thinking about making a move, let’s chat!",
-      "agentArea": "Lower Hutt",
-      "agentImage": "https://redcoats.professionals.co.nz/hubfs/1400x1000_Agent%20Page_20-1.jpg",
-      "agentbadges": "https://redcoats.professionals.co.nz/hubfs/LH%20Awards-1.png",
-      "contact": {
-        "Phone": "021 029 13571",
-        "Email": "meg@redcoats.co.nz"
-      },
-      "id": "d61ba7b0-3aac-4680-9d88-9444e3dc07ed",
-      "type": "agent"
-    },
-    "features": {
-      "Bed": "4",
-      "Bath": "2",
-      "Floor": "110m2",
-      "Land": "341 m2"
-    }
-  },
-  {
-    "trending": 9,
-    "id": "4afece38-0656-48f9-901d-8facd09d8d08",
-    "lat": "",
-    "lon": "",
-    "address": "4 Betty Boyes Street, Wallaceville, Upper Hutt",
-    "title": "SMART, STYLISH AND SO EASY TO LOVE",
-    "price": "$620,000",
-    "description": "Stylish, low-maintenance, and just a stone's throw from everything Upper Hutt has to offer, welcome to your next smart move.<br>\n<br>\nPositioned in the heart of sought-after Wallaceville Estate, this contemporary two-bedroom townhouse is ideal for professionals, downsizers, or investors wanting turn-key convenience in a location that keeps you connected. Just a short stroll to Wallaceville train station and minutes from Brewtown and Upper Hutt CBD, it delivers the perfect blend of comfort and accessibility.<br>\n<br>\nInside, the home impresses with light-filled open plan living, a sleek modern kitchen, and generous proportions throughout, including two double bedrooms with extra-deep wardrobes and a beautifully finished, spacious bathroom. Step out to a private patio, ideal for relaxed summer evenings or effortless weekends.<br>\n<br>\nThoughtfully designed for modern life, you'll enjoy the benefits of double glazing, heat pump comfort, quality appliances, and contemporary finishes from top to toe. With off-street parking and a fully fenced exterior, every detail has been considered.<br>\n<br>\nAt a glance:<br>\nTwo generous double bedrooms with oversized wardrobes.<br>\n<br>\nStylish open- plan kitchen, dining, and living.<br>\n<br>\nQuality fittings, modern insulation, double glazing, and heat pump.<br>\n<br>\nPrivate patio and easy-care outdoor space.<br>\n<br>\nOff-street parking.<br>\n<br>\nWalk to rail, schools, parks, Brewtown, and the CBD<br>\n<br>\nWhether you're stepping onto the ladder or stepping back from it, this one delivers.<br>\n<br>\nGet in touch for a private viewing or visit the next open home, and secure your place in one of Upper Hutt's fastest-growing communities.",
-    "type": "property",
-    "images": [
-      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26870/3003141822_1600-0.jpeg?width=1200&name=3003141822_1600-0.jpeg",
-      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26870/3003141816_1600-0.jpeg?width=1200&name=3003141816_1600-0.jpeg",
-      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26870/3003141820_1600-0.jpeg?width=1200&name=3003141820_1600-0.jpeg",
-      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26870/3003141815_1600-0.jpeg?width=1200&name=3003141815_1600-0.jpeg",
-      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26870/3003141811_1600-0.jpeg?width=1200&name=3003141811_1600-0.jpeg",
-      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26870/3003141829_1600-0.jpeg?width=1200&name=3003141829_1600-0.jpeg",
-      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26870/3003141823_1600-0.jpeg?width=1200&name=3003141823_1600-0.jpeg",
-      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26870/3003141834_1600-0.jpeg?width=1200&name=3003141834_1600-0.jpeg",
-      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26870/3003141835_1600-0.jpeg?width=1200&name=3003141835_1600-0.jpeg",
-      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26870/3003141836_1600-0.jpeg?width=1200&name=3003141836_1600-0.jpeg",
-      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26870/3003141837_1600-0.jpeg?width=1200&name=3003141837_1600-0.jpeg",
-      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26870/3003141840_1600-0.jpeg?width=1200&name=3003141840_1600-0.jpeg",
-      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26870/3003141839_1600-0.jpeg?width=1200&name=3003141839_1600-0.jpeg",
-      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26870/3003141830_1600-0.jpeg?width=1200&name=3003141830_1600-0.jpeg",
-      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26870/3003141808_1600-0.jpeg?width=1200&name=3003141808_1600-0.jpeg",
-      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26870/3003141801_1600-0.jpeg?width=1200&name=3003141801_1600-0.jpeg",
-      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26870/3003141802_1600-0.jpeg?width=1200&name=3003141802_1600-0.jpeg"
-    ],
-    "video": "https://www.youtube.com/embed/VZr35DmXY6Y",
-    "agent": {
-      "agentName": "Meg Cross",
-      "agentDescription": "About Meg Cross\n\nLicensed Real Estate Salesperson\n\nHi, I’m Meg! With over 15 years in sales, marketing, and business development, including leading the Marketing Division at Professionals, I’m now focused on using my experience to guide clients through the property market. My career has been centered on driving growth, building strong relationships, and creating marketing strategies that get results. Now, I’m bringing that expertise to help clients confidently navigate the property market.\n\nFor over five years, I worked closely with agents and vendors to showcase properties in the best possible light. That experience gave me an insider’s understanding of what works (and what doesn’t) when it comes to attracting the right buyers and achieving the best results.\n\nOutside of work, I’m a proud mum of two, my daughter attends Muritai School, and my son is at HIBS. I love being involved in their activities and even coach my daughter’s basketball team (which is just as competitive as the real estate market some days!).\n\nBefore all of this, I was a scholarship athlete at Southern Oregon University, where I developed the discipline, resilience, and competitive drive that still fuels me today. Whether it's crafting strategic marketing plans, presenting homes in their best light, or negotiating top-dollar sales, I love what I do and always bring my absolute best.\n\nIf you’re thinking about making a move, let’s chat!",
-      "agentArea": "Lower Hutt",
-      "agentImage": "https://redcoats.professionals.co.nz/hubfs/1400x1000_Agent%20Page_20-1.jpg",
-      "agentbadges": "https://redcoats.professionals.co.nz/hubfs/LH%20Awards-1.png",
-      "contact": {
-        "Phone": "021 029 13571",
-        "Email": "meg@redcoats.co.nz"
-      },
-      "id": "6103f728-4ea9-4928-8bdb-c3ecd9a315d8",
-      "type": "agent"
-    },
-    "features": {
-      "Bed": "2",
-      "Bath": "1",
-      "Floor": "82m2",
-      "Land": "95 m2"
-    }
-  },
-  {
-    "trending": 10,
-    "id": "9c005b10-e538-405d-9515-597cf1c7804e",
-    "lat": "",
-    "lon": "",
-    "address": "14 Matuhi Street, Tirohanga, Lower Hutt",
-    "title": "RENOVATED, READY, AND BUILT FOR VIEWS",
-    "price": "$939,000",
-    "description": "Recently renovated and move-in ready, 14 Matuhi Street offers the perfect combination of comfort, style, and function, all while showcasing incredible views across the Hutt Valley and harbour.<br>\n<br>\nSet across three well-considered levels, this home has been designed with family living in mind. The top floor features three spacious bedrooms, all with built-in wardrobes, along with a modern family bathroom. On the central level, you'll find the heart of the home, a modern, well designed kitchen and open-plan dining area that connects effortlessly to the living room. From here, step straight out onto expansive decks that wrap around the home, offering multiple sun-soaked spaces to relax, dine, and entertain.<br>\n<br>\nThe lower level provides even more flexibility, with a fourth bedroom, second living area, a second bathroom, laundry, and internal-access garage, making it an ideal space for guests, teenagers, or working from home.<br>\n<br>\nWhether you're hosting summer barbecues or enjoying quiet mornings with a coffee in hand, the indoor-outdoor connection and breathtaking outlooks make this home a true retreat. With all the hard work done, all that's left to do is move in and enjoy.<br>\n<br>\n- Renovated and move-in ready<br>\n- Stunning views<br>\n- Open-plan living with indoor-outdoor flow<br>\n- Expansive decks<br>\n- Internal-access single garage, plus off-street parking<br>\n- Private and elevated setting in sought-after Tirohanga",
-    "type": "property",
-    "images": [
-      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26880/3003142970_1600-0.jpeg?width=1200&name=3003142970_1600-0.jpeg",
-      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26880/3003142958_1600-0.jpeg?width=1200&name=3003142958_1600-0.jpeg",
-      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26880/3003142908_1600-0.jpeg?width=1200&name=3003142908_1600-0.jpeg",
-      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26880/3003142956_1600-0.jpeg?width=1200&name=3003142956_1600-0.jpeg",
-      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26880/3003142918_1600-0.jpeg?width=1200&name=3003142918_1600-0.jpeg",
-      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26880/3003142914_1600-0.jpeg?width=1200&name=3003142914_1600-0.jpeg",
-      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26880/3003142916_1600-0.jpeg?width=1200&name=3003142916_1600-0.jpeg",
-      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26880/3003142910_1600-0.jpeg?width=1200&name=3003142910_1600-0.jpeg",
-      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26880/3003142905_1600-0.jpeg?width=1200&name=3003142905_1600-0.jpeg",
-      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26880/3003142954_1600-0.jpeg?width=1200&name=3003142954_1600-0.jpeg",
-      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26880/3003142895_1600-0.jpeg?width=1200&name=3003142895_1600-0.jpeg",
-      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26880/3003142897_1600-0.jpeg?width=1200&name=3003142897_1600-0.jpeg",
-      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26880/3003142901_1600-0.jpeg?width=1200&name=3003142901_1600-0.jpeg",
-      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26880/3003142899_1600-0.jpeg?width=1200&name=3003142899_1600-0.jpeg",
-      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26880/3003142924_1600-0.jpeg?width=1200&name=3003142924_1600-0.jpeg",
-      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26880/3003142920_1600-0.jpeg?width=1200&name=3003142920_1600-0.jpeg",
-      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26880/3003142930_1600-0.jpeg?width=1200&name=3003142930_1600-0.jpeg",
-      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26880/3003142932_1600-0.jpeg?width=1200&name=3003142932_1600-0.jpeg",
-      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26880/3003142889_1600-0.jpeg?width=1200&name=3003142889_1600-0.jpeg",
-      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26880/3003142489_1600-0.jpeg?width=1200&name=3003142489_1600-0.jpeg",
-      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26880/3003142938_1600-0.jpeg?width=1200&name=3003142938_1600-0.jpeg",
-      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26880/3003142940_1600-0.jpeg?width=1200&name=3003142940_1600-0.jpeg",
-      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26880/3003142936_1600-0.jpeg?width=1200&name=3003142936_1600-0.jpeg",
-      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26880/3003142942_1600-0.jpeg?width=1200&name=3003142942_1600-0.jpeg",
-      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26880/3003142944_1600-0.jpeg?width=1200&name=3003142944_1600-0.jpeg",
-      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26880/3003142948_1600-0.jpeg?width=1200&name=3003142948_1600-0.jpeg",
-      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26880/3003142950_1600-0.jpeg?width=1200&name=3003142950_1600-0.jpeg",
-      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26880/3003142962_1600-0.jpeg?width=1200&name=3003142962_1600-0.jpeg",
-      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26880/3003142960_1600-0.jpeg?width=1200&name=3003142960_1600-0.jpeg",
-      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26880/3003142976_1600-0.jpeg?width=1200&name=3003142976_1600-0.jpeg",
-      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26880/3003142974_1600-0.jpeg?width=1200&name=3003142974_1600-0.jpeg",
-      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26880/3003142980_1600-0.jpeg?width=1200&name=3003142980_1600-0.jpeg",
-      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26880/3003142486_1600-0.jpeg?width=1200&name=3003142486_1600-0.jpeg"
-    ],
-    "video": "https://www.youtube.com/embed/7cjV7PkcHXw",
-    "agent": {
-      "agentName": "Kaitlyn Montgomery",
-      "agentDescription": "About Kaitlyn Montgomery\n\nLicensed Real Estate Salesperson\n\nTeam Alice & Aaron\n\nKaitlyn has supported real estate behind the scenes since 2022, honing her skills and gaining invaluable insights into the industry. Now, fuelled by her passion for real estate, connecting with others and helping them achieve their goals, she has naturally transitioned into sales.\n\nHer background in the operations and administrative side of real estate means she brings an organised approach to what can be a stressful time. Her goal is to bring her client’s peace of mind and keep them clearly informed throughout the process.\n\nHaving lived in the Hutt Valley for most of her life, she possesses an authentic appreciation for its communities and lifestyle. Even managing to persuade her Kapiti-born-and-bred husband to join her.\n\nKaitlyn joins Team Alice and Aaron, known for their BIG Results, which isn’t just a tag line but a reality.  With the dedicated team known for their strong negotiating and genuine care she fits right in.\n\n ",
-      "agentArea": "Lower Hutt & Kapiti",
-      "agentImage": "https://redcoats.professionals.co.nz/hubfs/1400x1000_Agent%20Page_16.jpg",
-      "agentbadges": "https://redcoats.professionals.co.nz/hubfs/LH%20Awards-2.png",
-      "contact": {
-        "Phone": "022 630 9711",
-        "Email": "kaitlyn@redcoats.co.nz"
-      },
-      "id": "702ed08c-fa0a-4f56-81eb-e8f9d91dbffb",
-      "type": "agent"
-    },
-    "features": {
-      "Bed": "4",
-      "Bath": "2",
-      "Garages": "1",
-      "Floor": "210m2",
-      "Land": "636 m2"
-    }
-  },
-  {
-    "id": "3c5c3649-6dff-46f4-a9b5-d9ea1ee8de57",
-    "lat": "",
-    "lon": "",
-    "address": "24 Roberts Street, Wainuiomata, Lower Hutt",
-    "title": "A WINNER FOR BEGINNERS",
-    "price": "$536,000",
-    "description": "This solid and tidy three-bedroom home presents a fantastic opportunity for first-home buyers or savvy investors looking to secure a well-located property. Step inside to a spacious lounge that flows seamlessly into a sunny conservatory, the perfect spot for family gatherings, birthday parties, or relaxed day-to-day living. With easy indoor-outdoor flow to the private backyard, entertaining is a breeze no matter the season. You’ll never have to worry about space again. The original kitchen is in good condition and offers generous bench space along with a dedicated dining area, a practical and welcoming hub for family meals. The traditional layout of three bedrooms, one master and two large singles is ideal for young families or couples needing a guest room or home office. A functional family bathroom and separate laundry enhance the home’s practicality and comfort. Outside, the fully fenced 614m² section is bathed in sun and perfect for children and pets to play safely. An extra extra large single garage, it really is a handyman's dream! Plus there's additional off-street parking ensuring convenience and security. Comfortable as-is, with plenty of scope to update and make your own, this home is ready to move into and full of potential. Don't miss this chance to step onto the property ladder, contact the team today and make 24 Roberts Street your first home!",
-    "type": "property",
-    "images": [
-      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26886/3003143603_1600-0.jpeg?width=1200&name=3003143603_1600-0.jpeg",
-      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26886/3003143609_1600-0.jpeg?width=1200&name=3003143609_1600-0.jpeg",
-      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26886/3003143625_1600-0.jpeg?width=1200&name=3003143625_1600-0.jpeg",
-      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26886/3003143620_1600-0.jpeg?width=1200&name=3003143620_1600-0.jpeg",
-      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26886/3003143621_1600-0.jpeg?width=1200&name=3003143621_1600-0.jpeg",
-      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26886/3003143627_1600-0.jpeg?width=1200&name=3003143627_1600-0.jpeg",
-      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26886/3003143629_1600-0.jpeg?width=1200&name=3003143629_1600-0.jpeg",
-      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26886/3003143631_1600-0.jpeg?width=1200&name=3003143631_1600-0.jpeg",
-      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26886/3003143630_1600-0.jpeg?width=1200&name=3003143630_1600-0.jpeg",
-      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26886/3003143632_1600-0.jpeg?width=1200&name=3003143632_1600-0.jpeg",
-      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26886/3003143633_1600-0.jpeg?width=1200&name=3003143633_1600-0.jpeg",
-      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26886/3003143624_1600-0.jpeg?width=1200&name=3003143624_1600-0.jpeg",
-      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26886/3003143528_1600-0.jpeg?width=1200&name=3003143528_1600-0.jpeg",
-      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26886/3003143607_1600-0.jpeg?width=1200&name=3003143607_1600-0.jpeg",
-      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26886/3003143616_1600-0.jpeg?width=1200&name=3003143616_1600-0.jpeg",
-      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26886/3003143525_1600-0.jpeg?width=1200&name=3003143525_1600-0.jpeg",
-      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26886/3003143524_1600-0.jpeg?width=1200&name=3003143524_1600-0.jpeg",
-      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26886/3003143608_1600-0.jpeg?width=1200&name=3003143608_1600-0.jpeg"
-    ],
-    "video": "https://www.youtube.com/embed/yGmkhZ0UPEM",
-    "agent": {
-      "agentName": "Shane Brockelbank",
-      "agentDescription": "About Shane Brockelbank\n\nLicensed Real Estate Salesperson\n\nTeam Brockelbank\n\nPassionate about real estate, Shane is one of the best in the business and an expert in his field. Consistently winning awards both nationally and internationally, his proven success speaks for itself. He attributes this success to his people and negotiation skills which he combines with effective marketing.\n\n“To be a good real estate salesperson you need the ability to adapt and build a rapport with everybody in the market place including both sellers and buyers. It doesn’t matter what kind of home you are selling, it is all about relationships at the end of the day”.\n\nBeing a good listener with high integrity, it’s Shane's pressure-free marketing approach and his emphasis on relationship management which sees him consistently deliver outstanding results for his clients.",
-      "agentArea": "Lower Hutt",
-      "agentImage": "https://redcoats.professionals.co.nz/hubfs/1400x1000_Agent%20Page_25-1.jpg",
-      "agentbadges": "https://redcoats.professionals.co.nz/hubfs/LH%20Awards-May-18-2025-09-40-32-2733-PM.png",
-      "contact": {
-        "Phone": "021 459 622",
-        "Email": "shane@redcoats.co.nz"
-      },
-      "id": "b64233a2-9480-4550-83e1-8523cf8573a7",
-      "type": "agent"
-    },
-    "features": {
-      "Bed": "3",
-      "Bath": "1",
-      "Garages": "1",
-      "Floor": "110m2",
-      "Land": "614 m2"
-    }
-  },
-  {
-    "id": "d13a4296-7cf8-4d3d-b2f4-9728bbf42bc2",
-    "lat": "",
-    "lon": "",
-    "address": "108 Normandale Road, Normandale, Lower Hutt",
-    "title": "BIG, BOLD AND BEAUTIFUL",
-    "price": "$979,000",
-    "description": "Welcome to this stunning family residence, nestled in the heart of Normandale. Thoughtfully renovated, this charming four-bedroom home offers modern comfort and functionality, making it the perfect sanctuary for families seeking space, style, and a strong sense of community.<br>\n <br>\nStep inside and discover a well-designed layout tailored for family living. Three generously sized double bedrooms are located upstairs alongside a spacious, modern family bathroom. Meanwhile, the master suite downstairs is a true retreat, featuring a large walk-through wardrobe and a luxurious ensuite with a fully tiled walk-in rain shower, offering both privacy and convenience. The living spaces are equally impressive. A beautifully appointed open-plan kitchen combines sleek, contemporary finishes with practical design. Whether cooking up a family meal or entertaining guests, the kitchen's ample storage and stylish layout are sure to impress. The kitchen flows effortlessly into the dining and social space, while a large, separate lounge upstairs provides the perfect setting for family evenings or movie nights.<br>\n <br>\nOutdoors, this home truly shines. An expansive entertainer's deck off the kitchen features a built-in fireplace and pizza oven, perfect for summer gatherings, alfresco dining, or simply enjoying the sunshine. The flat, fully usable section is ideal for children and pets to play safely. Plus a second, more intimate deck off the upstairs lounge offers the perfect spot for your morning coffee or a peaceful evening wind-down. Additional features include a guest toilet, ventilation system, single drive-through garage with separate workshop and extra off-street parking, ensuring both security and convenience. Located in the sought-after suburb of Normandale, this home offers easy access to excellent schools and parks, with local amenities just moments away. Don't miss your chance to secure this exceptional property today. Contact us today to arrange a viewing and experience the lifestyle that 108 Normandale Road has to offer. Your dream family home awaits!<br>\n<br>\n- Four bedrooms<br>\n- Great master bedroom<br>\n- Open plan kitchen<br>\n- Entertainers deck<br>\n- Garage + off street parking<br>\n- Good location",
-    "type": "property",
-    "images": [
-      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26835/3003143448_1600-0.jpeg?width=1200&name=3003143448_1600-0.jpeg",
-      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26835/3003143471_1600-0.jpeg?width=1200&name=3003143471_1600-0.jpeg",
-      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26835/3003143466_1600-0.jpeg?width=1200&name=3003143466_1600-0.jpeg",
-      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26835/3003143468_1600-0.jpeg?width=1200&name=3003143468_1600-0.jpeg",
-      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26835/3003143465_1600-0.jpeg?width=1200&name=3003143465_1600-0.jpeg",
-      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26835/3003143463_1600-0.jpeg?width=1200&name=3003143463_1600-0.jpeg",
-      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26835/3003143472_1600-0.jpeg?width=1200&name=3003143472_1600-0.jpeg",
-      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26835/3003143473_1600-0.jpeg?width=1200&name=3003143473_1600-0.jpeg",
-      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26835/3003143479_1600-0.jpeg?width=1200&name=3003143479_1600-0.jpeg",
-      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26835/3003143477_1600-0.jpeg?width=1200&name=3003143477_1600-0.jpeg",
-      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26835/3003143480_1600-0.jpeg?width=1200&name=3003143480_1600-0.jpeg",
-      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26835/3003143373_1600-0.jpeg?width=1200&name=3003143373_1600-0.jpeg",
-      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26835/3003143482_1600-0.jpeg?width=1200&name=3003143482_1600-0.jpeg",
-      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26835/3003143481_1600-0.jpeg?width=1200&name=3003143481_1600-0.jpeg",
-      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26835/3003143483_1600-0.jpeg?width=1200&name=3003143483_1600-0.jpeg",
-      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26835/3003143484_1600-0.jpeg?width=1200&name=3003143484_1600-0.jpeg",
-      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26835/3003143485_1600-0.jpeg?width=1200&name=3003143485_1600-0.jpeg",
-      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26835/3003143462_1600-0.jpeg?width=1200&name=3003143462_1600-0.jpeg",
-      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26835/3003143456_1600-0.jpeg?width=1200&name=3003143456_1600-0.jpeg",
-      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26835/3003143453_1600-0.jpeg?width=1200&name=3003143453_1600-0.jpeg",
-      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26835/3003143446_1600-0.jpeg?width=1200&name=3003143446_1600-0.jpeg"
-    ],
-    "video": "https://www.youtube.com/embed/ty6_IaX3Ei8",
-    "agent": {
-      "agentName": "Shane Brockelbank",
-      "agentDescription": "About Shane Brockelbank\n\nLicensed Real Estate Salesperson\n\nTeam Brockelbank\n\nPassionate about real estate, Shane is one of the best in the business and an expert in his field. Consistently winning awards both nationally and internationally, his proven success speaks for itself. He attributes this success to his people and negotiation skills which he combines with effective marketing.\n\n“To be a good real estate salesperson you need the ability to adapt and build a rapport with everybody in the market place including both sellers and buyers. It doesn’t matter what kind of home you are selling, it is all about relationships at the end of the day”.\n\nBeing a good listener with high integrity, it’s Shane's pressure-free marketing approach and his emphasis on relationship management which sees him consistently deliver outstanding results for his clients.",
-      "agentArea": "Lower Hutt",
-      "agentImage": "https://redcoats.professionals.co.nz/hubfs/1400x1000_Agent%20Page_25-1.jpg",
-      "agentbadges": "https://redcoats.professionals.co.nz/hubfs/LH%20Awards-May-18-2025-09-40-32-2733-PM.png",
-      "contact": {
-        "Phone": "021 459 622",
-        "Email": "shane@redcoats.co.nz"
-      },
-      "id": "08cbec2a-5b6b-43cc-bb92-d466031f3e10",
-      "type": "agent"
-    },
-    "features": {
-      "Bed": "4",
-      "Bath": "2",
-      "Garages": "1",
-      "Floor": "250m2",
-      "Land": "615 m2"
-    }
-    // empty videos
-
-  },
-  {
     "id": "4a28f871-2922-4def-9418-22304f4b9cfa",
     "lat": -41.17403389558167,
     "lon": 174.960715,
@@ -817,6 +221,58 @@ export const myallPropertyData = [
     }
   },
   {
+    "id": "e069780c-fdd0-475c-af10-d94ec1cfb211",
+    "lat": -41.203194177869214,
+    "lon": 174.8948016269861,
+    "address": "100a Normandale Road, Normandale, Lower Hutt",
+    "title": "SERENE SETTING! RENOVATED!",
+    "price": "$585,000",
+    "description": "Perfectly positioned to capture great sun and peaceful native bush views, this newly refreshed two bedroom home is the ideal first step on the property ladder, down-sizer or a smart investment. Enjoy the comfort and style of a brand-new kitchen with modern appliances, fresh carpet underfoot, and a sleek, updated bathroom. The open-plan living flows out to a sunny balcony via a double-glazed ranchslider, perfect for morning coffee or evening cheese and wines. Set back from the road for privacy, with a fully fenced backyard and generous under-house storage, this home is as practical as it is charming. Gas hot water, off-street parking, and a fantastic location close to public transport complete the package. <br>\n<br>\n- Two double bedrooms <br>\n- Brand new kitchen and bathroom <br>\n- Sunny deck with bush views <br>\n- Private, with off-street parking <br>\n- Zoned for sought-after schools",
+    "type": "property",
+    "images": [
+      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26743/3003117398_1600-0.jpeg?width=1200&name=3003117398_1600-0.jpeg",
+      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26743/3003117402_1600-0.jpeg?width=1200&name=3003117402_1600-0.jpeg",
+      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26743/3003117405_1600-0.jpeg?width=1200&name=3003117405_1600-0.jpeg",
+      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26743/3003117407_1600-0.jpeg?width=1200&name=3003117407_1600-0.jpeg",
+      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26743/3003117410_1600-0.jpeg?width=1200&name=3003117410_1600-0.jpeg",
+      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26743/3003117400_1600-0.jpeg?width=1200&name=3003117400_1600-0.jpeg",
+      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26743/3003117401_1600-0.jpeg?width=1200&name=3003117401_1600-0.jpeg",
+      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26743/3003117404_1600-0.jpeg?width=1200&name=3003117404_1600-0.jpeg",
+      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26743/3003117412_1600-0.jpeg?width=1200&name=3003117412_1600-0.jpeg",
+      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26743/3003117393_1600-0.jpeg?width=1200&name=3003117393_1600-0.jpeg",
+      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26743/3003117394_1600-0.jpeg?width=1200&name=3003117394_1600-0.jpeg",
+      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26743/3003117395_1600-0.jpeg?width=1200&name=3003117395_1600-0.jpeg",
+      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26743/3003117396_1600-0.jpeg?width=1200&name=3003117396_1600-0.jpeg",
+      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26743/3003117416_1600-0.jpeg?width=1200&name=3003117416_1600-0.jpeg",
+      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26743/3003117417_1600-0.jpeg?width=1200&name=3003117417_1600-0.jpeg",
+      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26743/3003117388_1600-0.jpeg?width=1200&name=3003117388_1600-0.jpeg",
+      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26743/3003117414_1600-0.jpeg?width=1200&name=3003117414_1600-0.jpeg",
+      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26743/3003117392_1600-0.jpeg?width=1200&name=3003117392_1600-0.jpeg",
+      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26743/3003117389_1600-0.jpeg?width=1200&name=3003117389_1600-0.jpeg",
+      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26743/3003117391_1600-0.jpeg?width=1200&name=3003117391_1600-0.jpeg",
+      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26743/3003117006_1600-0.jpeg?width=1200&name=3003117006_1600-0.jpeg"
+    ],
+    "video": "https://www.youtube.com/embed/xR-pcH4eFmc",
+    "agent": {
+      "agentName": "Kaitlyn Montgomery",
+      "agentDescription": "About Kaitlyn Montgomery\n\nLicensed Real Estate Salesperson\n\nTeam Alice & Aaron\n\nKaitlyn has supported real estate behind the scenes since 2022, honing her skills and gaining invaluable insights into the industry. Now, fuelled by her passion for real estate, connecting with others and helping them achieve their goals, she has naturally transitioned into sales.\n\nHer background in the operations and administrative side of real estate means she brings an organised approach to what can be a stressful time. Her goal is to bring her client’s peace of mind and keep them clearly informed throughout the process.\n\nHaving lived in the Hutt Valley for most of her life, she possesses an authentic appreciation for its communities and lifestyle. Even managing to persuade her Kapiti-born-and-bred husband to join her.\n\nKaitlyn joins Team Alice and Aaron, known for their BIG Results, which isn’t just a tag line but a reality.  With the dedicated team known for their strong negotiating and genuine care she fits right in.\n\n ",
+      "agentArea": "Lower Hutt & Kapiti",
+      "agentImage": "https://redcoats.professionals.co.nz/hubfs/1400x1000_Agent%20Page_16.jpg",
+      "agentbadges": "https://redcoats.professionals.co.nz/hubfs/LH%20Awards-2.png",
+      "contact": {
+        "Phone": "022 630 9711",
+        "Email": "kaitlyn@redcoats.co.nz"
+      },
+      "id": "fa6d9ddf-0807-4061-b6ac-64aeee3fce59",
+      "type": "agent"
+    },
+    "features": {
+      "Bed": "2",
+      "Bath": "1",
+      "Floor": "60m2"
+    }
+  },
+  {
     "id": "a793728c-5df1-45e2-8bf6-032bc4d1fda8",
     "lat": -41.18613310515605,
     "lon": 174.98304354232866,
@@ -876,8 +332,8 @@ export const myallPropertyData = [
   },
   {
     "id": "ff3107a2-e6c8-44c8-9e34-ac465d937be2",
-    "lat": -41.173829045993,
-    "lon": 175.02995996561557,
+    "lat": "",
+    "lon": "",
     "address": "32 and 30 Avian Crescent, Blue Mountains, Upper Hutt",
     "title": "Quirky Multi-Level Retreat on two Titles",
     "price": "Deadline for Offers closing 2nd September at 1.00pm (will not be sold prior)",
@@ -940,8 +396,8 @@ export const myallPropertyData = [
   },
   {
     "id": "6c0415c3-1574-43b9-a11a-427a3548fac1",
-    "lat": -41.08674780058767,
-    "lon": 175.1621810846574,
+    "lat": "",
+    "lon": "",
     "address": "54A Kaitoke Loop, Kaitoke, Upper Hutt",
     "title": "A Lifestyle Opportunity Full of Potential",
     "price": "BEO $889,000",
@@ -1005,8 +461,8 @@ export const myallPropertyData = [
   },
   {
     "id": "28d983f0-28b2-447e-9926-4deeb4f8c90f",
-    "lat": -41.20775835076362,
-    "lon": 174.93501408465735,
+    "lat": "",
+    "lon": "",
     "address": "9/342 Waiwhetu Road, Fairfield, Lower Hutt",
     "title": "LAST ONE AVAILABLE!",
     "price": "$779,000",
@@ -1047,8 +503,8 @@ export const myallPropertyData = [
   },
   {
     "id": "3921693c-3f10-4a47-97d2-204be728e8f8",
-    "lat": -41.14880398007508,
-    "lon": 175.00727471164345,
+    "lat": "",
+    "lon": "",
     "address": "2 Chalfont Road, Silverstream, Upper Hutt",
     "title": "Room to Relax and Space to Grow in Silverstream",
     "price": "Deadline for Offers closing 28th August at 2.00pm (will not be sold prior)",
@@ -1111,8 +567,8 @@ export const myallPropertyData = [
   },
   {
     "id": "df26ef53-4a79-4344-b216-d15136f38169",
-    "lat": -41.13455556835024,
-    "lon": 175.0385757116434,
+    "lat": "",
+    "lon": "",
     "address": "3/10 Islington Street, Trentham, Upper Hutt",
     "title": "Low-Maintenance Living Near It All",
     "price": "BEO $429,000",
@@ -1155,8 +611,8 @@ export const myallPropertyData = [
   },
   {
     "id": "0d2aa35d-563c-4f36-87ad-133abc3c4b9f",
-    "lat": -41.15501517517338,
-    "lon": 175.00936891534263,
+    "lat": "",
+    "lon": "",
     "address": "3 Duncraig Street, Silverstream, Upper Hutt",
     "title": "SPACIOUS IN SILVERSTREAM",
     "price": "By Negotiation",
@@ -1358,6 +814,55 @@ export const myallPropertyData = [
     }
   },
   {
+    "id": "99c1ae63-205d-4871-8e60-26f3d6abc889",
+    "lat": "",
+    "lon": "",
+    "address": "6 Castle Crescent, Stokes Valley, Lower Hutt",
+    "title": "FRESH, MODERN &amp; MOVE IN READY",
+    "price": "Negotiation",
+    "description": "Welcome to 6 Castle Street located in the sunny Stokes Valley. This home was constructed in 2016 and offers an unbeatable opportunity for first home buyers or just those looking for a low maintenance home to fit their busy lifestyle. <br>\n<br>\nStep inside to find a large open plan living &amp; dining area that provides breathtaking views out over Manor Park Golf Sanctuary. The modern kitchen has been thoughtfully designed with families in mind providing ample space to prepare delicious family meals. The first level has the added benefit of a separate toilet off the internal access garage to add to the practicality of the home. <br>\n<br>\nAs you head downstairs you are greeted with 3 very well sized bedrooms, all with built in wardrobes providing plenty of storage. The master bedroom also comes well equipped with those stunning views as well as an ensuite and walk in robe.<br>\n<br>\nThe home is kept warm all year round being fully doubled glazed as well as having a gas central heating system fitted on top of being well positioned for all day sun. <br>\n<br>\nMake your next move a smart one - get in touch today for a viewing or come along to one of our open homes. <br>\n<br>\n- 3 Bedrooms<br>\n- 2 Bathrooms + an extra toilet<br>\n- Open plan<br>\n- Great views<br>\n- Internal access garage",
+    "type": "property",
+    "images": [
+      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26813/3003145891_1600-0.jpeg?width=1200&name=3003145891_1600-0.jpeg",
+      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26813/3003145901_1600-0.jpeg?width=1200&name=3003145901_1600-0.jpeg",
+      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26813/3003145892_1600-0.jpeg?width=1200&name=3003145892_1600-0.jpeg",
+      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26813/3003145897_1600-0.jpeg?width=1200&name=3003145897_1600-0.jpeg",
+      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26813/3003145898_1600-0.jpeg?width=1200&name=3003145898_1600-0.jpeg",
+      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26813/3003145903_1600-0.jpeg?width=1200&name=3003145903_1600-0.jpeg",
+      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26813/3003145899_1600-0.jpeg?width=1200&name=3003145899_1600-0.jpeg",
+      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26813/3003145908_1600-0.jpeg?width=1200&name=3003145908_1600-0.jpeg",
+      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26813/3003145913_1600-0.jpeg?width=1200&name=3003145913_1600-0.jpeg",
+      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26813/3003145905_1600-0.jpeg?width=1200&name=3003145905_1600-0.jpeg",
+      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26813/3003145921_1600-0.jpeg?width=1200&name=3003145921_1600-0.jpeg",
+      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26813/3003145916_1600-0.jpeg?width=1200&name=3003145916_1600-0.jpeg",
+      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26813/3003145920_1600-0.jpeg?width=1200&name=3003145920_1600-0.jpeg",
+      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26813/3003145919_1600-0.jpeg?width=1200&name=3003145919_1600-0.jpeg",
+      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26813/3003145885_1600-0.jpeg?width=1200&name=3003145885_1600-0.jpeg",
+      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26813/3003145889_1600-0.jpeg?width=1200&name=3003145889_1600-0.jpeg"
+    ],
+    "video": "https://www.youtube.com/embed/tyuKXqjKkCY",
+    "agent": {
+      "agentName": "Shane Brockelbank",
+      "agentDescription": "About Shane Brockelbank\n\nLicensed Real Estate Salesperson\n\nTeam Brockelbank\n\nPassionate about real estate, Shane is one of the best in the business and an expert in his field. Consistently winning awards both nationally and internationally, his proven success speaks for itself. He attributes this success to his people and negotiation skills which he combines with effective marketing.\n\n“To be a good real estate salesperson you need the ability to adapt and build a rapport with everybody in the market place including both sellers and buyers. It doesn’t matter what kind of home you are selling, it is all about relationships at the end of the day”.\n\nBeing a good listener with high integrity, it’s Shane's pressure-free marketing approach and his emphasis on relationship management which sees him consistently deliver outstanding results for his clients.",
+      "agentArea": "Lower Hutt",
+      "agentImage": "https://redcoats.professionals.co.nz/hubfs/1400x1000_Agent%20Page_25-1.jpg",
+      "agentbadges": "https://redcoats.professionals.co.nz/hubfs/LH%20Awards-May-18-2025-09-40-32-2733-PM.png",
+      "contact": {
+        "Phone": "021 459 622",
+        "Email": "shane@redcoats.co.nz"
+      },
+      "id": "09fa0191-8ddd-498e-85ec-eb9852a9ad54",
+      "type": "agent"
+    },
+    "features": {
+      "Bed": "3",
+      "Bath": "3",
+      "Garages": "1",
+      "Floor": "202m2",
+      "Land": "731 m2"
+    }
+  },
+  {
     "id": "fa4e461b-d4de-46eb-ac46-69fbdb6b86a1",
     "lat": "",
     "lon": "",
@@ -1405,6 +910,53 @@ export const myallPropertyData = [
       "Garages": "1",
       "Floor": "90m2",
       "Land": "558 m2"
+    }
+  },
+  {
+    "id": "7133600c-463b-449c-bdee-dcbb85a98314",
+    "lat": "",
+    "lon": "",
+    "address": "16 Sladden Street, Naenae, Lower Hutt",
+    "title": "SUPER SHARP ON SLADDEN",
+    "price": "$489,000",
+    "description": "Yes there are choices out there for two bedroom townhouses but these ones beat the rest by a country mile!<br>\n<br>\nLet's list the ways:<br>\n- Unit 4 is also available at $489,000<br>\n- Two double bedrooms with fully kitted wall to wall wardrobes <br>\n- Gorgeous tiled family bathroom with walk-in rain shower<br>\n- Spacious kitchen with bench and cupboard space<br>\n- Open plan dining and lounge flowing out to a fenced courtyard<br>\n- Office nook (a must have these days!)<br>\n- Plenty of storage space<br>\n- A hop, skip and jump, to shops, Naenae Pool, Barton Reserve, the train station and bus stops<br>\n<br>\n- And let's not forget the sharp price - that gets a tick!<br>\n<br>\nPriced to sell and they are being snapped up, so get in touch today to view.",
+    "type": "property",
+    "images": [
+      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26887/3003147134_1600-0.jpeg?width=1200&name=3003147134_1600-0.jpeg",
+      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26887/3003147138_1600-0.jpeg?width=1200&name=3003147138_1600-0.jpeg",
+      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26887/3003147139_1600-0.jpeg?width=1200&name=3003147139_1600-0.jpeg",
+      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26887/3003147141_1600-0.jpeg?width=1200&name=3003147141_1600-0.jpeg",
+      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26887/3003147153_1600-0.jpeg?width=1200&name=3003147153_1600-0.jpeg",
+      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26887/3003147143_1600-0.jpeg?width=1200&name=3003147143_1600-0.jpeg",
+      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26887/3003147144_1600-0.jpeg?width=1200&name=3003147144_1600-0.jpeg",
+      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26887/3003147146_1600-0.jpeg?width=1200&name=3003147146_1600-0.jpeg",
+      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26887/3003147155_1600-0.jpeg?width=1200&name=3003147155_1600-0.jpeg",
+      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26887/3003147156_1600-0.jpeg?width=1200&name=3003147156_1600-0.jpeg",
+      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26887/3003147159_1600-0.jpeg?width=1200&name=3003147159_1600-0.jpeg",
+      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26887/3003147161_1600-0.jpeg?width=1200&name=3003147161_1600-0.jpeg",
+      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26887/3003147149_1600-0.jpeg?width=1200&name=3003147149_1600-0.jpeg",
+      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26887/3003147151_1600-0.jpeg?width=1200&name=3003147151_1600-0.jpeg",
+      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26887/3003147135_1600-0.jpeg?width=1200&name=3003147135_1600-0.jpeg"
+    ],
+    "video": "https://www.youtube.com/embed/E0X3-5LFmCE",
+    "agent": {
+      "agentName": "Shane Brockelbank",
+      "agentDescription": "About Shane Brockelbank\n\nLicensed Real Estate Salesperson\n\nTeam Brockelbank\n\nPassionate about real estate, Shane is one of the best in the business and an expert in his field. Consistently winning awards both nationally and internationally, his proven success speaks for itself. He attributes this success to his people and negotiation skills which he combines with effective marketing.\n\n“To be a good real estate salesperson you need the ability to adapt and build a rapport with everybody in the market place including both sellers and buyers. It doesn’t matter what kind of home you are selling, it is all about relationships at the end of the day”.\n\nBeing a good listener with high integrity, it’s Shane's pressure-free marketing approach and his emphasis on relationship management which sees him consistently deliver outstanding results for his clients.",
+      "agentArea": "Lower Hutt",
+      "agentImage": "https://redcoats.professionals.co.nz/hubfs/1400x1000_Agent%20Page_25-1.jpg",
+      "agentbadges": "https://redcoats.professionals.co.nz/hubfs/LH%20Awards-May-18-2025-09-40-32-2733-PM.png",
+      "contact": {
+        "Phone": "021 459 622",
+        "Email": "shane@redcoats.co.nz"
+      },
+      "id": "8287e182-bd97-463f-93ef-01819181dfc0",
+      "type": "agent"
+    },
+    "features": {
+      "Bed": "2",
+      "Bath": "1",
+      "Floor": "64m2",
+      "Land": "80 m2"
     }
   },
   {
@@ -1463,6 +1015,118 @@ export const myallPropertyData = [
       "Garages": "2",
       "Floor": "222m2",
       "Land": "20008 m2"
+    }
+  },
+  {
+    "id": "6b8d0a51-2a6b-4fa3-9c73-a8b02d6826d2",
+    "lat": "",
+    "lon": "",
+    "address": "56 Brentwood Street, Trentham, Upper Hutt",
+    "title": "ITS BETTER ON BRENTWOOD",
+    "price": "$695,000",
+    "description": "Perfectly positioned in a quiet, family-friendly neighborhood, this beautifully presented and fully renovated home offers a seamless blend of space, comfort, and convenience. Whether you're a first-home buyer, young family or looking to downsize this property ticks all the boxes.<br>\nKey Features:<br>\n- Freshly painted inside and out<br>\n- 3 spacious bedrooms with built-in wardrobes<br>\n- Fully double glazed<br>\n- Modern family bathroom with separate toilet<br>\n- Open-plan living and dining filled with natural light<br>\n- Contemporary kitchen with quality appliances and great storage<br>\n- Dedicated laundry area<br>\n- Off street car pad<br>\n- Fully fenced and landscaped – safe for children and pets<br>\n- Low-maintenance gardens <br>\n- Heat pump for year-round comfort<br>\n<br>\nStep inside to discover a warm and welcoming interior with generous rooms and a smart layout designed for relaxed family living. <br>\nLocated just minutes from Upper Hutt CBD, public transport, local schools, parks, and shops, 56 Brentwood Street combines suburban peace with central accessibility. Whether you're commuting or working locally, everything you need is right here. Don’t miss the opportunity to make this your new home. Properties like this don’t stay on the market for long and this one is priced to sell!",
+    "type": "property",
+    "images": [
+      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26839/3003147660_1600-0.jpeg?width=1200&name=3003147660_1600-0.jpeg",
+      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26839/3003147679_1600-0.jpeg?width=1200&name=3003147679_1600-0.jpeg",
+      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26839/3003147673_1600-0.jpeg?width=1200&name=3003147673_1600-0.jpeg",
+      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26839/3003147678_1600-0.jpeg?width=1200&name=3003147678_1600-0.jpeg",
+      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26839/3003147680_1600-0.jpeg?width=1200&name=3003147680_1600-0.jpeg",
+      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26839/3003147677_1600-0.jpeg?width=1200&name=3003147677_1600-0.jpeg",
+      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26839/3003147675_1600-0.jpeg?width=1200&name=3003147675_1600-0.jpeg",
+      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26839/3003147672_1600-0.jpeg?width=1200&name=3003147672_1600-0.jpeg",
+      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26839/3003147674_1600-0.jpeg?width=1200&name=3003147674_1600-0.jpeg",
+      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26839/3003147667_1600-0.jpeg?width=1200&name=3003147667_1600-0.jpeg",
+      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26839/3003147665_1600-0.jpeg?width=1200&name=3003147665_1600-0.jpeg",
+      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26839/3003147666_1600-0.jpeg?width=1200&name=3003147666_1600-0.jpeg",
+      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26839/3003147668_1600-0.jpeg?width=1200&name=3003147668_1600-0.jpeg",
+      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26839/3003147670_1600-0.jpeg?width=1200&name=3003147670_1600-0.jpeg",
+      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26839/3003147669_1600-0.jpeg?width=1200&name=3003147669_1600-0.jpeg",
+      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26839/3003147661_1600-0.jpeg?width=1200&name=3003147661_1600-0.jpeg",
+      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26839/3003147662_1600-0.jpeg?width=1200&name=3003147662_1600-0.jpeg",
+      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26839/3003147659_1600-0.jpeg?width=1200&name=3003147659_1600-0.jpeg"
+    ],
+    "video": "https://www.youtube.com/embed/T3fFIn4aB3o",
+    "agent": {
+      "agentName": "Shane Brockelbank",
+      "agentDescription": "About Shane Brockelbank\n\nLicensed Real Estate Salesperson\n\nTeam Brockelbank\n\nPassionate about real estate, Shane is one of the best in the business and an expert in his field. Consistently winning awards both nationally and internationally, his proven success speaks for itself. He attributes this success to his people and negotiation skills which he combines with effective marketing.\n\n“To be a good real estate salesperson you need the ability to adapt and build a rapport with everybody in the market place including both sellers and buyers. It doesn’t matter what kind of home you are selling, it is all about relationships at the end of the day”.\n\nBeing a good listener with high integrity, it’s Shane's pressure-free marketing approach and his emphasis on relationship management which sees him consistently deliver outstanding results for his clients.",
+      "agentArea": "Lower Hutt",
+      "agentImage": "https://redcoats.professionals.co.nz/hubfs/1400x1000_Agent%20Page_25-1.jpg",
+      "agentbadges": "https://redcoats.professionals.co.nz/hubfs/LH%20Awards-May-18-2025-09-40-32-2733-PM.png",
+      "contact": {
+        "Phone": "021 459 622",
+        "Email": "shane@redcoats.co.nz"
+      },
+      "id": "fcd31da7-ba92-4732-9095-b139ce24aef6",
+      "type": "agent"
+    },
+    "features": {
+      "Bed": "3",
+      "Bath": "1",
+      "Floor": "105m2",
+      "Land": "267 m2"
+    }
+  },
+  {
+    "id": "9da9eca1-2095-465d-a044-8e8cfcf56c77",
+    "lat": "",
+    "lon": "",
+    "address": "22 Vista Grove, Kelson, Lower Hutt",
+    "title": "FIRST HOME VALUE ON VISTA",
+    "price": "Deadline Sale",
+    "description": "Kia Ora, welcome to 22 Vista Grove in beautiful Kelson.<br>\n<br>\nThis is the dream Kiwi first home.<br>\n<br>\nGreat size, layout, location, ready to move into, but with plenty of room to add value as you go.<br>\n<br>\nThe current owners have loved the home over the years, but it’s now time for someone else to take on an<br>\nopportunity not to be missed in this market!<br>\n<br>\nThe property highlights include:<br>\n<br>\n- 3 double bedrooms with storage.<br>\n- Open living and dining space with wood burner<br>\n- Great outlook over the Hutt Valley<br>\n- Family bathroom bath &amp; shower + separate toilet<br>\n- Large separate laundry<br>\n- Sleepout/Rumpus out back (perfect for teenagers or office)<br>\n- Large Double garage + off-street parking<br>\n- Private location, quiet cul-de-sac, perfect for kids<br>\n- Awesome primary school, park, and Kelson 4 square all close by<br>\n- Only around the corner from SH2 for an easy commute to Lower Hutt or the city<br>\n- This one is perfect for your first home, the family, or even an investment.<br>\n- Come and take a look before it’s gone.<br>\n<br>\nThere’s no need to wait for an open home, contact Tommy Laybourn - 027 379 7385 today to book a<br>\nprivate viewing!<br>\n<br>\nDeadline Sale closing our office, 28 Cornwall Street, Lower Hutt @ 11.00am Thursday 14 August 2025 (will not be sold prior)",
+    "type": "property",
+    "images": [
+      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26896/3003147408_1600-0.jpeg?width=1200&name=3003147408_1600-0.jpeg",
+      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26896/3003147424_1600-0.jpeg?width=1200&name=3003147424_1600-0.jpeg",
+      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26896/3003147433_1600-0.jpeg?width=1200&name=3003147433_1600-0.jpeg",
+      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26896/3003147410_1600-0.jpeg?width=1200&name=3003147410_1600-0.jpeg",
+      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26896/3003147411_1600-0.jpeg?width=1200&name=3003147411_1600-0.jpeg",
+      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26896/3003147413_1600-0.jpeg?width=1200&name=3003147413_1600-0.jpeg",
+      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26896/3003147414_1600-0.jpeg?width=1200&name=3003147414_1600-0.jpeg",
+      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26896/3003147415_1600-0.jpeg?width=1200&name=3003147415_1600-0.jpeg",
+      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26896/3003147416_1600-0.jpeg?width=1200&name=3003147416_1600-0.jpeg",
+      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26896/3003147417_1600-0.jpeg?width=1200&name=3003147417_1600-0.jpeg",
+      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26896/3003147418_1600-0.jpeg?width=1200&name=3003147418_1600-0.jpeg",
+      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26896/3003147419_1600-0.jpeg?width=1200&name=3003147419_1600-0.jpeg",
+      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26896/3003147421_1600-0.jpeg?width=1200&name=3003147421_1600-0.jpeg",
+      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26896/3003147422_1600-0.jpeg?width=1200&name=3003147422_1600-0.jpeg",
+      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26896/3003147423_1600-0.jpeg?width=1200&name=3003147423_1600-0.jpeg",
+      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26896/3003147426_1600-0.jpeg?width=1200&name=3003147426_1600-0.jpeg",
+      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26896/3003147427_1600-0.jpeg?width=1200&name=3003147427_1600-0.jpeg",
+      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26896/3003147428_1600-0.jpeg?width=1200&name=3003147428_1600-0.jpeg",
+      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26896/3003147429_1600-0.jpeg?width=1200&name=3003147429_1600-0.jpeg",
+      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26896/3003147430_1600-0.jpeg?width=1200&name=3003147430_1600-0.jpeg",
+      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26896/3003147431_1600-0.jpeg?width=1200&name=3003147431_1600-0.jpeg",
+      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26896/3003147432_1600-0.jpeg?width=1200&name=3003147432_1600-0.jpeg",
+      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26896/3003147409_1600-0.jpeg?width=1200&name=3003147409_1600-0.jpeg",
+      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26896/3003147407_1600-0.jpeg?width=1200&name=3003147407_1600-0.jpeg",
+      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26896/3003147405_1600-0.jpeg?width=1200&name=3003147405_1600-0.jpeg",
+      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26896/3003147406_1600-0.jpeg?width=1200&name=3003147406_1600-0.jpeg",
+      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26896/3003147403_1600-0.jpeg?width=1200&name=3003147403_1600-0.jpeg",
+      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26896/3003147404_1600-0.jpeg?width=1200&name=3003147404_1600-0.jpeg",
+      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26896/3003147453_1600-0.jpeg?width=1200&name=3003147453_1600-0.jpeg"
+    ],
+    "video": "https://www.youtube.com/embed/3dCyEW7lh0c?feature=share",
+    "agent": {
+      "agentName": "Tommy Laybourn",
+      "agentDescription": "About Tommy Laybourn\n\nLicensed Real Estate Salesperson\n\nReliable, hard-working and authentic are just some of the ways Tommy has been described in his career. Entering Real Estate with a sales and management background, Tommy possesses the skills necessary for high-performing sales results in the Real estate Market. However, what truly distinguishes him is his genuine passion for people and the community.\n\nA true \"people person,\" Tommy prioritises forging strong, meaningful connections with his clients. He listens attentively to their needs, ensuring that every aspect of their real estate journey is tailored to their specific goals. Based locally in the Hutt Valley with his family, Tommy is deeply committed to his community and approaches his work with a diligent, results-oriented mindset.\n\nIn his spare time, you’ll find him teaching a class at the gym, or spending quality time with family and friends. Having navigated the challenges of purchasing his own home at a young age, he knows the hard work it takes to be able to buy your first home. Now, as a family man himself, he understands the emotional significance of finding the perfect home or transitioning to new opportunities.\n\nWhether you're buying or selling, Tommy is focused on listening to your needs and helping you achieve your next real estate milestone.",
+      "agentArea": "Lower Hutt",
+      "agentImage": "https://redcoats.professionals.co.nz/hubfs/1400x1000_Agent%20Page_33.jpg",
+      "agentbadges": "https://redcoats.professionals.co.nz/hubfs/LH%20Awards-1.png",
+      "contact": {
+        "Phone": "027 379 7385",
+        "Email": "tommy@redcoats.co.nz"
+      },
+      "id": "a2fd3100-6ff0-4931-afb4-d2c279ea16b2",
+      "type": "agent"
+    },
+    "features": {
+      "Bed": "3",
+      "Bath": "1",
+      "Garages": "2",
+      "Floor": "150m2",
+      "Land": "847 m2"
     }
   },
   {
@@ -1559,6 +1223,66 @@ export const myallPropertyData = [
     }
   },
   {
+    "id": "74f177a3-7702-498e-8f91-c7342f0a910a",
+    "lat": "",
+    "lon": "",
+    "address": "77 Walters Street, Avalon, Lower Hutt",
+    "title": "1950s AVALON HOME WITH ENDLESS POTENTIAL!",
+    "price": "Auction",
+    "description": "Welcome to 77 Walters Street, Avalon – A 1950s home that is brimming with potential and awaiting your personal touch. The home presents an extraordinary opportunity - with its flexible layout, rich history, and prime location it’s a canvas awaiting your creative ideas and renovations. <br>\n<br>\nThis property has been cherished by only one family over the years, standing as a testament to its rich local history. Now, it invites new owners to breathe fresh life into it. Situated on a sun-soaked, flat section, this beloved residence offers itself for renovation and has exciting possibilities.<br>\n<br>\nDiscover a welcoming interior that boasts two generous double bedrooms. The flexible layout features multiple living areas, open plan kitchen and dining, the family bathroom featuring a shower and vanity for your everyday needs and a separate toilet.<br>\n<br>\nYou will also find a conservatory that beckons bright morning light opening onto the deck at the back of the home. The property features convenient laundry facilities and an extra space well-suited to be an office or additional storage area.<br>\n<br>\nThe fully fenced layout provides peace of mind for families, ensuring privacy and security. With a single garage and adequate off-street parking you won't have to worry about where to park the family and guest vehicles.<br>\n<br>\nLocation is everything, and 77 Walters Street has this. It is just a short stroll from the Naenae train station and subway, and through to the Naenae Shopping Centre. Close proximity to Park Ave Shops and it is within 200 to 300m of local educational facilities:  Avalon Kindergarten, Avalon Primary School, Kimi Ora School, Naenae Intermediate and College. There is easy access to the motorway allowing for smooth travel options throughout the wider region.<br>\n<br>\nDo not miss your chance to make this cherished Avalon residence your own. Contact us today to arrange a viewing and explore the potential this delightful property offers. Your new home is waiting!<br>\n<br>\nTo be sold by Auction at our premises 28 Cornwall Street on Thursday 28th August at 12.30pm (unless sold prior)",
+    "type": "property",
+    "images": [
+      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26861/3003150611_1600-0.jpeg?width=1200&name=3003150611_1600-0.jpeg",
+      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26861/3003150612_1600-0.jpeg?width=1200&name=3003150612_1600-0.jpeg",
+      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26861/3003150613_1600-0.jpeg?width=1200&name=3003150613_1600-0.jpeg",
+      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26861/3003150614_1600-0.jpeg?width=1200&name=3003150614_1600-0.jpeg",
+      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26861/3003150615_1600-0.jpeg?width=1200&name=3003150615_1600-0.jpeg",
+      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26861/3003150616_1600-0.jpeg?width=1200&name=3003150616_1600-0.jpeg",
+      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26861/3003150617_1600-0.jpeg?width=1200&name=3003150617_1600-0.jpeg",
+      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26861/3003150620_1600-0.jpeg?width=1200&name=3003150620_1600-0.jpeg",
+      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26861/3003150619_1600-0.jpeg?width=1200&name=3003150619_1600-0.jpeg",
+      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26861/3003150621_1600-0.jpeg?width=1200&name=3003150621_1600-0.jpeg",
+      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26861/3003150622_1600-0.jpeg?width=1200&name=3003150622_1600-0.jpeg",
+      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26861/3003150623_1600-0.jpeg?width=1200&name=3003150623_1600-0.jpeg",
+      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26861/3003150624_1600-0.jpeg?width=1200&name=3003150624_1600-0.jpeg",
+      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26861/3003150625_1600-0.jpeg?width=1200&name=3003150625_1600-0.jpeg",
+      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26861/3003149077_1600-0.jpeg?width=1200&name=3003149077_1600-0.jpeg",
+      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26861/3003150626_1600-0.jpeg?width=1200&name=3003150626_1600-0.jpeg",
+      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26861/3003150628_1600-0.jpeg?width=1200&name=3003150628_1600-0.jpeg",
+      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26861/3003150629_1600-0.jpeg?width=1200&name=3003150629_1600-0.jpeg",
+      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26861/3003150630_1600-0.jpeg?width=1200&name=3003150630_1600-0.jpeg",
+      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26861/3003150631_1600-0.jpeg?width=1200&name=3003150631_1600-0.jpeg",
+      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26861/3003150632_1600-0.jpeg?width=1200&name=3003150632_1600-0.jpeg",
+      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26861/3003150633_1600-0.jpeg?width=1200&name=3003150633_1600-0.jpeg",
+      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26861/3003150634_1600-0.jpeg?width=1200&name=3003150634_1600-0.jpeg",
+      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26861/3003150635_1600-0.jpeg?width=1200&name=3003150635_1600-0.jpeg",
+      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26861/3003150636_1600-0.jpeg?width=1200&name=3003150636_1600-0.jpeg",
+      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26861/3003149078_1600-0.jpeg?width=1200&name=3003149078_1600-0.jpeg"
+    ],
+    "video": "https://www.youtube.com/embed/Ggs6Yp_WsCU",
+    "agent": {
+      "agentName": "Harry Lamb",
+      "agentDescription": "About Harry Lamb\n\nLicensed Real Estate Salesperson\n\nTeam Lamb\n\nTeam Lamb - Your trusted Real Estate partner & proud to be part of your journey! Led by Harry Lamb our high-performance team is dedicated to providing a world-class standard in Real Estate services.\n\nWith a personalised approach, tailored to each unique listing campaign, we ensure that every client feels valued and understood throughout their journey.\n\nHarry oversees all aspects of our property sales with unwavering energy and enthusiasm!\n\nMo’s passion for Real Estate shines through her ability to connect with clients and understand their specific needs. She excels at communication, guaranteeing an authentic professional experience for both buyers and sellers.\n\nSue, our full-time licensed Personal Assistant, manages the administrative side of Team Lamb. Her expertise ensures our vendors and large database of qualified buyers receive continuous support throughout their selling and purchasing journey.\n\nOur team's strength lies in our ability to communicate effectively and our commitment to understanding your needs ensures focused attention from day one. The team works hard on implementing and evolving our systems and processes which will in turn enhance efficiency and effectiveness in every transaction. This has resulted in Team Lamb being awarded New Zealand's #1 Most Effective Sales Team for 2024.\n\nConsistent positive feedback from clients highlights our dedication to service excellence. Strong collaborations within the industry allow us to leverage resources and networks for superior outcomes. A robust database management system ensures ongoing care and support for buyers throughout their purchasing journey.\n\nWe pride ourselves on being more than just Real Estate Salespeople; we are your dedicated partners in navigating the property market. Real Estate is not just about properties; it’s about people. Our mission is to create connections that lead to exceptional experiences. Action speaks louder than words; it’s the results we deliver that truly matter.\n\nWith Team Lamb trust is at the core of what we do.",
+      "agentArea": "Lower Hutt",
+      "agentImage": "https://redcoats.professionals.co.nz/hubfs/1400x1000_Agent%20Page_10.jpg",
+      "agentbadges": "https://redcoats.professionals.co.nz/hubfs/LH%20Awards%20(1).png",
+      "contact": {
+        "Phone": "027 255 9510",
+        "Email": "harry.lamb@redcoats.co.nz"
+      },
+      "id": "5778a3f4-9582-4bee-b1c5-7155bd32811f",
+      "type": "agent"
+    },
+    "features": {
+      "Bed": "2",
+      "Bath": "1",
+      "Garages": "1",
+      "Floor": "130m2",
+      "Land": "780 m2",
+      "Office:": "1"
+    }
+  },
+  {
     "id": "52645728-f1cf-41fa-92c3-7074486630bc",
     "lat": "",
     "lon": "",
@@ -1646,6 +1370,169 @@ export const myallPropertyData = [
       "Carports": "1",
       "Floor": "90m2",
       "Land": "550 m2"
+    }
+  },
+  {
+    "id": "8476d736-5f49-4fe8-8bad-43ac9d08d736",
+    "lat": "",
+    "lon": "",
+    "address": "145 Wainuiomata Road, Wainuiomata, Lower Hutt",
+    "title": "SPACE, COMFORT AND ROOM TO ADD VALUE",
+    "price": "$629,000",
+    "description": "If you need space, flexibility, and a smart opportunity to add value, this four-bedroom home delivers.<br>\n<br>\nWith recently renovated bathrooms and double glazing where it counts, the hard work's already been started. There's still room to make it your own, with scope to update the kitchen or finish things off in your style.<br>\n<br>\nSet on a generous section, a concrete slab is already down for a garage, so you're one step closer to adding even more practicality. Whether you're upsizing, investing, or just looking for a solid home in a central spot, this is a smart move in the right direction.<br>\n<br>\nPlenty of bedrooms, great bones, and a world of potential, this one's ready when you are.<br>\n<br>\n- Four spacious bedrooms<br>\n- Double glazing upgrades<br>\n- Stylish, renovated bathrooms<br>\n- Concrete slab for garage<br>\n- Scope to add serious value",
+    "type": "property",
+    "images": [
+      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26868/3003140548_1600-0.jpeg?width=1200&name=3003140548_1600-0.jpeg",
+      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26868/3003140559_1600-0.jpeg?width=1200&name=3003140559_1600-0.jpeg",
+      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26868/3003140562_1600-0.jpeg?width=1200&name=3003140562_1600-0.jpeg",
+      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26868/3003140565_1600-0.jpeg?width=1200&name=3003140565_1600-0.jpeg",
+      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26868/3003140547_1600-0.jpeg?width=1200&name=3003140547_1600-0.jpeg",
+      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26868/3003140545_1600-0.jpeg?width=1200&name=3003140545_1600-0.jpeg",
+      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26868/3003140551_1600-0.jpeg?width=1200&name=3003140551_1600-0.jpeg",
+      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26868/3003140556_1600-0.jpeg?width=1200&name=3003140556_1600-0.jpeg",
+      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26868/3003140560_1600-0.jpeg?width=1200&name=3003140560_1600-0.jpeg",
+      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26868/3003140563_1600-0.jpeg?width=1200&name=3003140563_1600-0.jpeg",
+      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26868/3003140564_1600-0.jpeg?width=1200&name=3003140564_1600-0.jpeg",
+      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26868/3003140566_1600-0.jpeg?width=1200&name=3003140566_1600-0.jpeg",
+      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26868/3003140531_1600-0.jpeg?width=1200&name=3003140531_1600-0.jpeg",
+      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26868/3003140535_1600-0.jpeg?width=1200&name=3003140535_1600-0.jpeg",
+      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26868/3003140532_1600-0.jpeg?width=1200&name=3003140532_1600-0.jpeg",
+      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26868/3003140533_1600-0.jpeg?width=1200&name=3003140533_1600-0.jpeg"
+    ],
+    "video": "https://www.youtube.com/embed/MlhU8h0IKcU",
+    "agent": {
+      "agentName": "Meg Cross",
+      "agentDescription": "About Meg Cross\n\nLicensed Real Estate Salesperson\n\nHi, I’m Meg! With over 15 years in sales, marketing, and business development, including leading the Marketing Division at Professionals, I’m now focused on using my experience to guide clients through the property market. My career has been centered on driving growth, building strong relationships, and creating marketing strategies that get results. Now, I’m bringing that expertise to help clients confidently navigate the property market.\n\nFor over five years, I worked closely with agents and vendors to showcase properties in the best possible light. That experience gave me an insider’s understanding of what works (and what doesn’t) when it comes to attracting the right buyers and achieving the best results.\n\nOutside of work, I’m a proud mum of two, my daughter attends Muritai School, and my son is at HIBS. I love being involved in their activities and even coach my daughter’s basketball team (which is just as competitive as the real estate market some days!).\n\nBefore all of this, I was a scholarship athlete at Southern Oregon University, where I developed the discipline, resilience, and competitive drive that still fuels me today. Whether it's crafting strategic marketing plans, presenting homes in their best light, or negotiating top-dollar sales, I love what I do and always bring my absolute best.\n\nIf you’re thinking about making a move, let’s chat!",
+      "agentArea": "Lower Hutt",
+      "agentImage": "https://redcoats.professionals.co.nz/hubfs/1400x1000_Agent%20Page_20-1.jpg",
+      "agentbadges": "https://redcoats.professionals.co.nz/hubfs/LH%20Awards-1.png",
+      "contact": {
+        "Phone": "021 029 13571",
+        "Email": "meg@redcoats.co.nz"
+      },
+      "id": "d61ba7b0-3aac-4680-9d88-9444e3dc07ed",
+      "type": "agent"
+    },
+    "features": {
+      "Bed": "4",
+      "Bath": "2",
+      "Floor": "110m2",
+      "Land": "341 m2"
+    }
+  },
+  {
+    "id": "4afece38-0656-48f9-901d-8facd09d8d08",
+    "lat": "",
+    "lon": "",
+    "address": "4 Betty Boyes Street, Wallaceville, Upper Hutt",
+    "title": "SMART, STYLISH AND SO EASY TO LOVE",
+    "price": "$620,000",
+    "description": "Stylish, low-maintenance, and just a stone's throw from everything Upper Hutt has to offer, welcome to your next smart move.<br>\n<br>\nPositioned in the heart of sought-after Wallaceville Estate, this contemporary two-bedroom townhouse is ideal for professionals, downsizers, or investors wanting turn-key convenience in a location that keeps you connected. Just a short stroll to Wallaceville train station and minutes from Brewtown and Upper Hutt CBD, it delivers the perfect blend of comfort and accessibility.<br>\n<br>\nInside, the home impresses with light-filled open plan living, a sleek modern kitchen, and generous proportions throughout, including two double bedrooms with extra-deep wardrobes and a beautifully finished, spacious bathroom. Step out to a private patio, ideal for relaxed summer evenings or effortless weekends.<br>\n<br>\nThoughtfully designed for modern life, you'll enjoy the benefits of double glazing, heat pump comfort, quality appliances, and contemporary finishes from top to toe. With off-street parking and a fully fenced exterior, every detail has been considered.<br>\n<br>\nAt a glance:<br>\nTwo generous double bedrooms with oversized wardrobes.<br>\n<br>\nStylish open- plan kitchen, dining, and living.<br>\n<br>\nQuality fittings, modern insulation, double glazing, and heat pump.<br>\n<br>\nPrivate patio and easy-care outdoor space.<br>\n<br>\nOff-street parking.<br>\n<br>\nWalk to rail, schools, parks, Brewtown, and the CBD<br>\n<br>\nWhether you're stepping onto the ladder or stepping back from it, this one delivers.<br>\n<br>\nGet in touch for a private viewing or visit the next open home, and secure your place in one of Upper Hutt's fastest-growing communities.",
+    "type": "property",
+    "images": [
+      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26870/3003141822_1600-0.jpeg?width=1200&name=3003141822_1600-0.jpeg",
+      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26870/3003141816_1600-0.jpeg?width=1200&name=3003141816_1600-0.jpeg",
+      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26870/3003141820_1600-0.jpeg?width=1200&name=3003141820_1600-0.jpeg",
+      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26870/3003141815_1600-0.jpeg?width=1200&name=3003141815_1600-0.jpeg",
+      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26870/3003141811_1600-0.jpeg?width=1200&name=3003141811_1600-0.jpeg",
+      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26870/3003141829_1600-0.jpeg?width=1200&name=3003141829_1600-0.jpeg",
+      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26870/3003141823_1600-0.jpeg?width=1200&name=3003141823_1600-0.jpeg",
+      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26870/3003141834_1600-0.jpeg?width=1200&name=3003141834_1600-0.jpeg",
+      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26870/3003141835_1600-0.jpeg?width=1200&name=3003141835_1600-0.jpeg",
+      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26870/3003141836_1600-0.jpeg?width=1200&name=3003141836_1600-0.jpeg",
+      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26870/3003141837_1600-0.jpeg?width=1200&name=3003141837_1600-0.jpeg",
+      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26870/3003141840_1600-0.jpeg?width=1200&name=3003141840_1600-0.jpeg",
+      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26870/3003141839_1600-0.jpeg?width=1200&name=3003141839_1600-0.jpeg",
+      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26870/3003141830_1600-0.jpeg?width=1200&name=3003141830_1600-0.jpeg",
+      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26870/3003141808_1600-0.jpeg?width=1200&name=3003141808_1600-0.jpeg",
+      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26870/3003141801_1600-0.jpeg?width=1200&name=3003141801_1600-0.jpeg",
+      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26870/3003141802_1600-0.jpeg?width=1200&name=3003141802_1600-0.jpeg"
+    ],
+    "video": "https://www.youtube.com/embed/VZr35DmXY6Y",
+    "agent": {
+      "agentName": "Meg Cross",
+      "agentDescription": "About Meg Cross\n\nLicensed Real Estate Salesperson\n\nHi, I’m Meg! With over 15 years in sales, marketing, and business development, including leading the Marketing Division at Professionals, I’m now focused on using my experience to guide clients through the property market. My career has been centered on driving growth, building strong relationships, and creating marketing strategies that get results. Now, I’m bringing that expertise to help clients confidently navigate the property market.\n\nFor over five years, I worked closely with agents and vendors to showcase properties in the best possible light. That experience gave me an insider’s understanding of what works (and what doesn’t) when it comes to attracting the right buyers and achieving the best results.\n\nOutside of work, I’m a proud mum of two, my daughter attends Muritai School, and my son is at HIBS. I love being involved in their activities and even coach my daughter’s basketball team (which is just as competitive as the real estate market some days!).\n\nBefore all of this, I was a scholarship athlete at Southern Oregon University, where I developed the discipline, resilience, and competitive drive that still fuels me today. Whether it's crafting strategic marketing plans, presenting homes in their best light, or negotiating top-dollar sales, I love what I do and always bring my absolute best.\n\nIf you’re thinking about making a move, let’s chat!",
+      "agentArea": "Lower Hutt",
+      "agentImage": "https://redcoats.professionals.co.nz/hubfs/1400x1000_Agent%20Page_20-1.jpg",
+      "agentbadges": "https://redcoats.professionals.co.nz/hubfs/LH%20Awards-1.png",
+      "contact": {
+        "Phone": "021 029 13571",
+        "Email": "meg@redcoats.co.nz"
+      },
+      "id": "6103f728-4ea9-4928-8bdb-c3ecd9a315d8",
+      "type": "agent"
+    },
+    "features": {
+      "Bed": "2",
+      "Bath": "1",
+      "Floor": "82m2",
+      "Land": "95 m2"
+    }
+  },
+  {
+    "id": "9c005b10-e538-405d-9515-597cf1c7804e",
+    "lat": "",
+    "lon": "",
+    "address": "14 Matuhi Street, Tirohanga, Lower Hutt",
+    "title": "RENOVATED, READY, AND BUILT FOR VIEWS",
+    "price": "$939,000",
+    "description": "Recently renovated and move-in ready, 14 Matuhi Street offers the perfect combination of comfort, style, and function, all while showcasing incredible views across the Hutt Valley and harbour.<br>\n<br>\nSet across three well-considered levels, this home has been designed with family living in mind. The top floor features three spacious bedrooms, all with built-in wardrobes, along with a modern family bathroom. On the central level, you'll find the heart of the home, a modern, well designed kitchen and open-plan dining area that connects effortlessly to the living room. From here, step straight out onto expansive decks that wrap around the home, offering multiple sun-soaked spaces to relax, dine, and entertain.<br>\n<br>\nThe lower level provides even more flexibility, with a fourth bedroom, second living area, a second bathroom, laundry, and internal-access garage, making it an ideal space for guests, teenagers, or working from home.<br>\n<br>\nWhether you're hosting summer barbecues or enjoying quiet mornings with a coffee in hand, the indoor-outdoor connection and breathtaking outlooks make this home a true retreat. With all the hard work done, all that's left to do is move in and enjoy.<br>\n<br>\n- Renovated and move-in ready<br>\n- Stunning views<br>\n- Open-plan living with indoor-outdoor flow<br>\n- Expansive decks<br>\n- Internal-access single garage, plus off-street parking<br>\n- Private and elevated setting in sought-after Tirohanga",
+    "type": "property",
+    "images": [
+      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26880/3003142970_1600-0.jpeg?width=1200&name=3003142970_1600-0.jpeg",
+      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26880/3003142958_1600-0.jpeg?width=1200&name=3003142958_1600-0.jpeg",
+      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26880/3003142908_1600-0.jpeg?width=1200&name=3003142908_1600-0.jpeg",
+      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26880/3003142956_1600-0.jpeg?width=1200&name=3003142956_1600-0.jpeg",
+      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26880/3003142918_1600-0.jpeg?width=1200&name=3003142918_1600-0.jpeg",
+      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26880/3003142914_1600-0.jpeg?width=1200&name=3003142914_1600-0.jpeg",
+      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26880/3003142916_1600-0.jpeg?width=1200&name=3003142916_1600-0.jpeg",
+      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26880/3003142910_1600-0.jpeg?width=1200&name=3003142910_1600-0.jpeg",
+      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26880/3003142905_1600-0.jpeg?width=1200&name=3003142905_1600-0.jpeg",
+      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26880/3003142954_1600-0.jpeg?width=1200&name=3003142954_1600-0.jpeg",
+      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26880/3003142895_1600-0.jpeg?width=1200&name=3003142895_1600-0.jpeg",
+      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26880/3003142897_1600-0.jpeg?width=1200&name=3003142897_1600-0.jpeg",
+      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26880/3003142901_1600-0.jpeg?width=1200&name=3003142901_1600-0.jpeg",
+      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26880/3003142899_1600-0.jpeg?width=1200&name=3003142899_1600-0.jpeg",
+      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26880/3003142924_1600-0.jpeg?width=1200&name=3003142924_1600-0.jpeg",
+      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26880/3003142920_1600-0.jpeg?width=1200&name=3003142920_1600-0.jpeg",
+      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26880/3003142930_1600-0.jpeg?width=1200&name=3003142930_1600-0.jpeg",
+      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26880/3003142932_1600-0.jpeg?width=1200&name=3003142932_1600-0.jpeg",
+      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26880/3003142889_1600-0.jpeg?width=1200&name=3003142889_1600-0.jpeg",
+      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26880/3003142489_1600-0.jpeg?width=1200&name=3003142489_1600-0.jpeg",
+      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26880/3003142938_1600-0.jpeg?width=1200&name=3003142938_1600-0.jpeg",
+      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26880/3003142940_1600-0.jpeg?width=1200&name=3003142940_1600-0.jpeg",
+      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26880/3003142936_1600-0.jpeg?width=1200&name=3003142936_1600-0.jpeg",
+      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26880/3003142942_1600-0.jpeg?width=1200&name=3003142942_1600-0.jpeg",
+      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26880/3003142944_1600-0.jpeg?width=1200&name=3003142944_1600-0.jpeg",
+      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26880/3003142948_1600-0.jpeg?width=1200&name=3003142948_1600-0.jpeg",
+      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26880/3003142950_1600-0.jpeg?width=1200&name=3003142950_1600-0.jpeg",
+      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26880/3003142962_1600-0.jpeg?width=1200&name=3003142962_1600-0.jpeg",
+      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26880/3003142960_1600-0.jpeg?width=1200&name=3003142960_1600-0.jpeg",
+      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26880/3003142976_1600-0.jpeg?width=1200&name=3003142976_1600-0.jpeg",
+      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26880/3003142974_1600-0.jpeg?width=1200&name=3003142974_1600-0.jpeg",
+      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26880/3003142980_1600-0.jpeg?width=1200&name=3003142980_1600-0.jpeg",
+      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26880/3003142486_1600-0.jpeg?width=1200&name=3003142486_1600-0.jpeg"
+    ],
+    "video": "https://www.youtube.com/embed/7cjV7PkcHXw",
+    "agent": {
+      "agentName": "Kaitlyn Montgomery",
+      "agentDescription": "About Kaitlyn Montgomery\n\nLicensed Real Estate Salesperson\n\nTeam Alice & Aaron\n\nKaitlyn has supported real estate behind the scenes since 2022, honing her skills and gaining invaluable insights into the industry. Now, fuelled by her passion for real estate, connecting with others and helping them achieve their goals, she has naturally transitioned into sales.\n\nHer background in the operations and administrative side of real estate means she brings an organised approach to what can be a stressful time. Her goal is to bring her client’s peace of mind and keep them clearly informed throughout the process.\n\nHaving lived in the Hutt Valley for most of her life, she possesses an authentic appreciation for its communities and lifestyle. Even managing to persuade her Kapiti-born-and-bred husband to join her.\n\nKaitlyn joins Team Alice and Aaron, known for their BIG Results, which isn’t just a tag line but a reality.  With the dedicated team known for their strong negotiating and genuine care she fits right in.\n\n ",
+      "agentArea": "Lower Hutt & Kapiti",
+      "agentImage": "https://redcoats.professionals.co.nz/hubfs/1400x1000_Agent%20Page_16.jpg",
+      "agentbadges": "https://redcoats.professionals.co.nz/hubfs/LH%20Awards-2.png",
+      "contact": {
+        "Phone": "022 630 9711",
+        "Email": "kaitlyn@redcoats.co.nz"
+      },
+      "id": "702ed08c-fa0a-4f56-81eb-e8f9d91dbffb",
+      "type": "agent"
+    },
+    "features": {
+      "Bed": "4",
+      "Bath": "2",
+      "Garages": "1",
+      "Floor": "210m2",
+      "Land": "636 m2"
     }
   },
   {
@@ -1753,6 +1640,111 @@ export const myallPropertyData = [
     }
   },
   {
+    "id": "3c5c3649-6dff-46f4-a9b5-d9ea1ee8de57",
+    "lat": "",
+    "lon": "",
+    "address": "24 Roberts Street, Wainuiomata, Lower Hutt",
+    "title": "A WINNER FOR BEGINNERS",
+    "price": "$536,000",
+    "description": "This solid and tidy three-bedroom home presents a fantastic opportunity for first-home buyers or savvy investors looking to secure a well-located property. Step inside to a spacious lounge that flows seamlessly into a sunny conservatory, the perfect spot for family gatherings, birthday parties, or relaxed day-to-day living. With easy indoor-outdoor flow to the private backyard, entertaining is a breeze no matter the season. You’ll never have to worry about space again. The original kitchen is in good condition and offers generous bench space along with a dedicated dining area, a practical and welcoming hub for family meals. The traditional layout of three bedrooms, one master and two large singles is ideal for young families or couples needing a guest room or home office. A functional family bathroom and separate laundry enhance the home’s practicality and comfort. Outside, the fully fenced 614m² section is bathed in sun and perfect for children and pets to play safely. An extra extra large single garage, it really is a handyman's dream! Plus there's additional off-street parking ensuring convenience and security. Comfortable as-is, with plenty of scope to update and make your own, this home is ready to move into and full of potential. Don't miss this chance to step onto the property ladder, contact the team today and make 24 Roberts Street your first home!",
+    "type": "property",
+    "images": [
+      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26886/3003143603_1600-0.jpeg?width=1200&name=3003143603_1600-0.jpeg",
+      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26886/3003143609_1600-0.jpeg?width=1200&name=3003143609_1600-0.jpeg",
+      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26886/3003143625_1600-0.jpeg?width=1200&name=3003143625_1600-0.jpeg",
+      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26886/3003143620_1600-0.jpeg?width=1200&name=3003143620_1600-0.jpeg",
+      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26886/3003143621_1600-0.jpeg?width=1200&name=3003143621_1600-0.jpeg",
+      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26886/3003143627_1600-0.jpeg?width=1200&name=3003143627_1600-0.jpeg",
+      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26886/3003143629_1600-0.jpeg?width=1200&name=3003143629_1600-0.jpeg",
+      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26886/3003143631_1600-0.jpeg?width=1200&name=3003143631_1600-0.jpeg",
+      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26886/3003143630_1600-0.jpeg?width=1200&name=3003143630_1600-0.jpeg",
+      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26886/3003143632_1600-0.jpeg?width=1200&name=3003143632_1600-0.jpeg",
+      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26886/3003143633_1600-0.jpeg?width=1200&name=3003143633_1600-0.jpeg",
+      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26886/3003143624_1600-0.jpeg?width=1200&name=3003143624_1600-0.jpeg",
+      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26886/3003143528_1600-0.jpeg?width=1200&name=3003143528_1600-0.jpeg",
+      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26886/3003143607_1600-0.jpeg?width=1200&name=3003143607_1600-0.jpeg",
+      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26886/3003143616_1600-0.jpeg?width=1200&name=3003143616_1600-0.jpeg",
+      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26886/3003143525_1600-0.jpeg?width=1200&name=3003143525_1600-0.jpeg",
+      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26886/3003143524_1600-0.jpeg?width=1200&name=3003143524_1600-0.jpeg",
+      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26886/3003143608_1600-0.jpeg?width=1200&name=3003143608_1600-0.jpeg"
+    ],
+    "video": "https://www.youtube.com/embed/yGmkhZ0UPEM",
+    "agent": {
+      "agentName": "Shane Brockelbank",
+      "agentDescription": "About Shane Brockelbank\n\nLicensed Real Estate Salesperson\n\nTeam Brockelbank\n\nPassionate about real estate, Shane is one of the best in the business and an expert in his field. Consistently winning awards both nationally and internationally, his proven success speaks for itself. He attributes this success to his people and negotiation skills which he combines with effective marketing.\n\n“To be a good real estate salesperson you need the ability to adapt and build a rapport with everybody in the market place including both sellers and buyers. It doesn’t matter what kind of home you are selling, it is all about relationships at the end of the day”.\n\nBeing a good listener with high integrity, it’s Shane's pressure-free marketing approach and his emphasis on relationship management which sees him consistently deliver outstanding results for his clients.",
+      "agentArea": "Lower Hutt",
+      "agentImage": "https://redcoats.professionals.co.nz/hubfs/1400x1000_Agent%20Page_25-1.jpg",
+      "agentbadges": "https://redcoats.professionals.co.nz/hubfs/LH%20Awards-May-18-2025-09-40-32-2733-PM.png",
+      "contact": {
+        "Phone": "021 459 622",
+        "Email": "shane@redcoats.co.nz"
+      },
+      "id": "b64233a2-9480-4550-83e1-8523cf8573a7",
+      "type": "agent"
+    },
+    "features": {
+      "Bed": "3",
+      "Bath": "1",
+      "Garages": "1",
+      "Floor": "110m2",
+      "Land": "614 m2"
+    }
+  },
+  {
+    "id": "d13a4296-7cf8-4d3d-b2f4-9728bbf42bc2",
+    "lat": "",
+    "lon": "",
+    "address": "108 Normandale Road, Normandale, Lower Hutt",
+    "title": "BIG, BOLD AND BEAUTIFUL",
+    "price": "$979,000",
+    "description": "Welcome to this stunning family residence, nestled in the heart of Normandale. Thoughtfully renovated, this charming four-bedroom home offers modern comfort and functionality, making it the perfect sanctuary for families seeking space, style, and a strong sense of community.<br>\n <br>\nStep inside and discover a well-designed layout tailored for family living. Three generously sized double bedrooms are located upstairs alongside a spacious, modern family bathroom. Meanwhile, the master suite downstairs is a true retreat, featuring a large walk-through wardrobe and a luxurious ensuite with a fully tiled walk-in rain shower, offering both privacy and convenience. The living spaces are equally impressive. A beautifully appointed open-plan kitchen combines sleek, contemporary finishes with practical design. Whether cooking up a family meal or entertaining guests, the kitchen's ample storage and stylish layout are sure to impress. The kitchen flows effortlessly into the dining and social space, while a large, separate lounge upstairs provides the perfect setting for family evenings or movie nights.<br>\n <br>\nOutdoors, this home truly shines. An expansive entertainer's deck off the kitchen features a built-in fireplace and pizza oven, perfect for summer gatherings, alfresco dining, or simply enjoying the sunshine. The flat, fully usable section is ideal for children and pets to play safely. Plus a second, more intimate deck off the upstairs lounge offers the perfect spot for your morning coffee or a peaceful evening wind-down. Additional features include a guest toilet, ventilation system, single drive-through garage with separate workshop and extra off-street parking, ensuring both security and convenience. Located in the sought-after suburb of Normandale, this home offers easy access to excellent schools and parks, with local amenities just moments away. Don't miss your chance to secure this exceptional property today. Contact us today to arrange a viewing and experience the lifestyle that 108 Normandale Road has to offer. Your dream family home awaits!<br>\n<br>\n- Four bedrooms<br>\n- Great master bedroom<br>\n- Open plan kitchen<br>\n- Entertainers deck<br>\n- Garage + off street parking<br>\n- Good location",
+    "type": "property",
+    "images": [
+      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26835/3003143448_1600-0.jpeg?width=1200&name=3003143448_1600-0.jpeg",
+      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26835/3003143471_1600-0.jpeg?width=1200&name=3003143471_1600-0.jpeg",
+      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26835/3003143466_1600-0.jpeg?width=1200&name=3003143466_1600-0.jpeg",
+      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26835/3003143468_1600-0.jpeg?width=1200&name=3003143468_1600-0.jpeg",
+      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26835/3003143465_1600-0.jpeg?width=1200&name=3003143465_1600-0.jpeg",
+      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26835/3003143463_1600-0.jpeg?width=1200&name=3003143463_1600-0.jpeg",
+      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26835/3003143472_1600-0.jpeg?width=1200&name=3003143472_1600-0.jpeg",
+      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26835/3003143473_1600-0.jpeg?width=1200&name=3003143473_1600-0.jpeg",
+      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26835/3003143479_1600-0.jpeg?width=1200&name=3003143479_1600-0.jpeg",
+      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26835/3003143477_1600-0.jpeg?width=1200&name=3003143477_1600-0.jpeg",
+      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26835/3003143480_1600-0.jpeg?width=1200&name=3003143480_1600-0.jpeg",
+      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26835/3003143373_1600-0.jpeg?width=1200&name=3003143373_1600-0.jpeg",
+      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26835/3003143482_1600-0.jpeg?width=1200&name=3003143482_1600-0.jpeg",
+      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26835/3003143481_1600-0.jpeg?width=1200&name=3003143481_1600-0.jpeg",
+      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26835/3003143483_1600-0.jpeg?width=1200&name=3003143483_1600-0.jpeg",
+      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26835/3003143484_1600-0.jpeg?width=1200&name=3003143484_1600-0.jpeg",
+      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26835/3003143485_1600-0.jpeg?width=1200&name=3003143485_1600-0.jpeg",
+      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26835/3003143462_1600-0.jpeg?width=1200&name=3003143462_1600-0.jpeg",
+      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26835/3003143456_1600-0.jpeg?width=1200&name=3003143456_1600-0.jpeg",
+      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26835/3003143453_1600-0.jpeg?width=1200&name=3003143453_1600-0.jpeg",
+      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/RED26835/3003143446_1600-0.jpeg?width=1200&name=3003143446_1600-0.jpeg"
+    ],
+    "video": "https://www.youtube.com/embed/ty6_IaX3Ei8",
+    "agent": {
+      "agentName": "Shane Brockelbank",
+      "agentDescription": "About Shane Brockelbank\n\nLicensed Real Estate Salesperson\n\nTeam Brockelbank\n\nPassionate about real estate, Shane is one of the best in the business and an expert in his field. Consistently winning awards both nationally and internationally, his proven success speaks for itself. He attributes this success to his people and negotiation skills which he combines with effective marketing.\n\n“To be a good real estate salesperson you need the ability to adapt and build a rapport with everybody in the market place including both sellers and buyers. It doesn’t matter what kind of home you are selling, it is all about relationships at the end of the day”.\n\nBeing a good listener with high integrity, it’s Shane's pressure-free marketing approach and his emphasis on relationship management which sees him consistently deliver outstanding results for his clients.",
+      "agentArea": "Lower Hutt",
+      "agentImage": "https://redcoats.professionals.co.nz/hubfs/1400x1000_Agent%20Page_25-1.jpg",
+      "agentbadges": "https://redcoats.professionals.co.nz/hubfs/LH%20Awards-May-18-2025-09-40-32-2733-PM.png",
+      "contact": {
+        "Phone": "021 459 622",
+        "Email": "shane@redcoats.co.nz"
+      },
+      "id": "08cbec2a-5b6b-43cc-bb92-d466031f3e10",
+      "type": "agent"
+    },
+    "features": {
+      "Bed": "4",
+      "Bath": "2",
+      "Garages": "1",
+      "Floor": "250m2",
+      "Land": "615 m2"
+    }
+  },
+  {
     "id": "49d33e55-7cc2-4bc6-a8d9-48c5bd4f0f46",
     "lat": "",
     "lon": "",
@@ -1853,6 +1845,7 @@ export const myallPropertyData = [
       "Land": "502 m2"
     }
   },
+
   {
     "id": "e360d1c7-0004-47a7-a407-aa8347bc30bd",
     "lat": "",
@@ -2096,64 +2089,74 @@ export const myallPropertyData = [
     }
   },
   {
-    "id": "31372946-db82-451a-856b-e82210314018",
-    "lat": "",
-    "lon": "",
-    "address": "29 Kiwi Street, Heretaunga, Upper Hutt",
-    "title": "Flexible Floorplan - Popular Location",
-    "price": "By Negotiation",
-    "description": "If you've been searching for a home with a flexible floor plan to suit your unique needs, 29 Kiwi Street might just be the one.<br>\n<br>\nThis well-presented home is consented as a four-bedroom, but its clever layout may suit a variety of living arrangements. A private wing - featuring its own bedroom, bathroom, and living space with separate access - creates the perfect setup for multi-generational living, guests, or independent teenagers. Prefer more living space? Easily configure it as a three-bedroom with two spacious lounges. Alternatively, those seeking a four-bedroom home with an ensuite in this sought-after location will recognise the rare opportunity on offer.<br>\n<br>\nPositioned in one of Upper Hutt's most desirable neighbourhoods, you'll appreciate being within walking distance of trains, buses, Silverstream Village, and some of the region's top-rated schools. For commuters, State Highway 2 is just minutes away. And for those who love the outdoors, Heretaunga Park and the Hutt River's walking and biking trails are right on your doorstep.<br>\n<br>\nAdd to that a stylishly modernised kitchen and main bathroom, and you have a family-friendly home with serious appeal.<br>\n<br>\nDon't miss your chance - contact Dan Mark today to book your viewing.<br>\n<br>\nText 29kiwi to 3324 for your web book of this property.",
-    "type": "property",
-    "images": [
-      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/MRE01993/3003139801_1600-0.jpeg?width=1200&name=3003139801_1600-0.jpeg",
-      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/MRE01993/3003139124_1600-0.jpeg?width=1200&name=3003139124_1600-0.jpeg",
-      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/MRE01993/3003139128_1600-0.jpeg?width=1200&name=3003139128_1600-0.jpeg",
-      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/MRE01993/3003139129_1600-0.jpeg?width=1200&name=3003139129_1600-0.jpeg",
-      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/MRE01993/3003139130_1600-0.jpeg?width=1200&name=3003139130_1600-0.jpeg",
-      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/MRE01993/3003139132_1600-0.jpeg?width=1200&name=3003139132_1600-0.jpeg",
-      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/MRE01993/3003139133_1600-0.jpeg?width=1200&name=3003139133_1600-0.jpeg",
-      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/MRE01993/3003139134_1600-0.jpeg?width=1200&name=3003139134_1600-0.jpeg",
-      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/MRE01993/3003139135_1600-0.jpeg?width=1200&name=3003139135_1600-0.jpeg",
-      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/MRE01993/3003139136_1600-0.jpeg?width=1200&name=3003139136_1600-0.jpeg",
-      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/MRE01993/3003139126_1600-0.jpeg?width=1200&name=3003139126_1600-0.jpeg",
-      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/MRE01993/3003139127_1600-0.jpeg?width=1200&name=3003139127_1600-0.jpeg",
-      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/MRE01993/3003139137_1600-0.jpeg?width=1200&name=3003139137_1600-0.jpeg",
-      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/MRE01993/3003139138_1600-0.jpeg?width=1200&name=3003139138_1600-0.jpeg",
-      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/MRE01993/3003139139_1600-0.jpeg?width=1200&name=3003139139_1600-0.jpeg",
-      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/MRE01993/3003139140_1600-0.jpeg?width=1200&name=3003139140_1600-0.jpeg",
-      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/MRE01993/3003139141_1600-0.jpeg?width=1200&name=3003139141_1600-0.jpeg",
-      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/MRE01993/3003139142_1600-0.jpeg?width=1200&name=3003139142_1600-0.jpeg",
-      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/MRE01993/3003139145_1600-0.jpeg?width=1200&name=3003139145_1600-0.jpeg",
-      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/MRE01993/3003139146_1600-0.jpeg?width=1200&name=3003139146_1600-0.jpeg",
-      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/MRE01993/3003139147_1600-0.jpeg?width=1200&name=3003139147_1600-0.jpeg",
-      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/MRE01993/3003139148_1600-0.jpeg?width=1200&name=3003139148_1600-0.jpeg",
-      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/MRE01993/3003139125_1600-0.jpeg?width=1200&name=3003139125_1600-0.jpeg",
-      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/MRE01993/3003139121_1600-0.jpeg?width=1200&name=3003139121_1600-0.jpeg",
-      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/MRE01993/3003139150_1600-0.jpeg?width=1200&name=3003139150_1600-0.jpeg",
-      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/MRE01993/3003139151_1600-0.jpeg?width=1200&name=3003139151_1600-0.jpeg",
-      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/MRE01993/3003139123_1600-0.jpeg?width=1200&name=3003139123_1600-0.jpeg",
-      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/MRE01993/3003139152_1600-0.jpeg?width=1200&name=3003139152_1600-0.jpeg",
-      "https://www.professionals.co.nz/hs-fs/hubfs/property_images/MRE01993/3003139154_1600-0.jpeg?width=1200&name=3003139154_1600-0.jpeg"
+    id: '31372946-db82-451a-856b-e82210314018',
+    lat: '',
+    lon: '',
+    address: '29 Kiwi Street, Heretaunga, Upper Hutt',
+    title: 'Flexible Floorplan - Popular Location',
+    price: 'By Negotiation',
+    description: "If you've been searching for a home with a flexible floor plan to suit your unique needs, 29 Kiwi Street might just be the one.<br>\n" +
+      '<br>\n' +
+      'This well-presented home is consented as a four-bedroom, but its clever layout may suit a variety of living arrangements. A private wing - featuring its own bedroom, bathroom, and living space with separate access - creates the perfect setup for multi-generational living, guests, or independent teenagers. Prefer more living space? Easily configure it as a three-bedroom with two spacious lounges. Alternatively, those seeking a four-bedroom home with an ensuite in this sought-after location will recognise the rare opportunity on offer.<br>\n' +
+      '<br>\n' +
+      "Positioned in one of Upper Hutt's most desirable neighbourhoods, you'll appreciate being within walking distance of trains, buses, Silverstream Village, and some of the region's top-rated schools. For commuters, State Highway 2 is just minutes away. And for those who love the outdoors, Heretaunga Park and the Hutt River's walking and biking trails are right on your doorstep.<br>\n" +
+      '<br>\n' +
+      'Add to that a stylishly modernised kitchen and main bathroom, and you have a family-friendly home with serious appeal.<br>\n' +
+      '<br>\n' +
+      "Don't miss your chance - contact Dan Mark today to book your viewing.<br>\n" +
+      '<br>\n' +
+      'Text 29kiwi to 3324 for your web book of this property.',
+    type: 'property',
+    images: [
+      'https://www.professionals.co.nz/hs-fs/hubfs/property_images/MRE01993/3003139801_1600-0.jpeg?width=1200&name=3003139801_1600-0.jpeg',
+      'https://www.professionals.co.nz/hs-fs/hubfs/property_images/MRE01993/3003139124_1600-0.jpeg?width=1200&name=3003139124_1600-0.jpeg',
+      'https://www.professionals.co.nz/hs-fs/hubfs/property_images/MRE01993/3003139128_1600-0.jpeg?width=1200&name=3003139128_1600-0.jpeg',
+      'https://www.professionals.co.nz/hs-fs/hubfs/property_images/MRE01993/3003139129_1600-0.jpeg?width=1200&name=3003139129_1600-0.jpeg',
+      'https://www.professionals.co.nz/hs-fs/hubfs/property_images/MRE01993/3003139130_1600-0.jpeg?width=1200&name=3003139130_1600-0.jpeg',
+      'https://www.professionals.co.nz/hs-fs/hubfs/property_images/MRE01993/3003139132_1600-0.jpeg?width=1200&name=3003139132_1600-0.jpeg',
+      'https://www.professionals.co.nz/hs-fs/hubfs/property_images/MRE01993/3003139133_1600-0.jpeg?width=1200&name=3003139133_1600-0.jpeg',
+      'https://www.professionals.co.nz/hs-fs/hubfs/property_images/MRE01993/3003139134_1600-0.jpeg?width=1200&name=3003139134_1600-0.jpeg',
+      'https://www.professionals.co.nz/hs-fs/hubfs/property_images/MRE01993/3003139135_1600-0.jpeg?width=1200&name=3003139135_1600-0.jpeg',
+      'https://www.professionals.co.nz/hs-fs/hubfs/property_images/MRE01993/3003139136_1600-0.jpeg?width=1200&name=3003139136_1600-0.jpeg',
+      'https://www.professionals.co.nz/hs-fs/hubfs/property_images/MRE01993/3003139126_1600-0.jpeg?width=1200&name=3003139126_1600-0.jpeg',
+      'https://www.professionals.co.nz/hs-fs/hubfs/property_images/MRE01993/3003139127_1600-0.jpeg?width=1200&name=3003139127_1600-0.jpeg',
+      'https://www.professionals.co.nz/hs-fs/hubfs/property_images/MRE01993/3003139137_1600-0.jpeg?width=1200&name=3003139137_1600-0.jpeg',
+      'https://www.professionals.co.nz/hs-fs/hubfs/property_images/MRE01993/3003139138_1600-0.jpeg?width=1200&name=3003139138_1600-0.jpeg',
+      'https://www.professionals.co.nz/hs-fs/hubfs/property_images/MRE01993/3003139139_1600-0.jpeg?width=1200&name=3003139139_1600-0.jpeg',
+      'https://www.professionals.co.nz/hs-fs/hubfs/property_images/MRE01993/3003139140_1600-0.jpeg?width=1200&name=3003139140_1600-0.jpeg',
+      'https://www.professionals.co.nz/hs-fs/hubfs/property_images/MRE01993/3003139141_1600-0.jpeg?width=1200&name=3003139141_1600-0.jpeg',
+      'https://www.professionals.co.nz/hs-fs/hubfs/property_images/MRE01993/3003139142_1600-0.jpeg?width=1200&name=3003139142_1600-0.jpeg',
+      'https://www.professionals.co.nz/hs-fs/hubfs/property_images/MRE01993/3003139145_1600-0.jpeg?width=1200&name=3003139145_1600-0.jpeg',
+      'https://www.professionals.co.nz/hs-fs/hubfs/property_images/MRE01993/3003139146_1600-0.jpeg?width=1200&name=3003139146_1600-0.jpeg',
+      'https://www.professionals.co.nz/hs-fs/hubfs/property_images/MRE01993/3003139147_1600-0.jpeg?width=1200&name=3003139147_1600-0.jpeg',
+      'https://www.professionals.co.nz/hs-fs/hubfs/property_images/MRE01993/3003139148_1600-0.jpeg?width=1200&name=3003139148_1600-0.jpeg',
+      'https://www.professionals.co.nz/hs-fs/hubfs/property_images/MRE01993/3003139125_1600-0.jpeg?width=1200&name=3003139125_1600-0.jpeg',
+      'https://www.professionals.co.nz/hs-fs/hubfs/property_images/MRE01993/3003139121_1600-0.jpeg?width=1200&name=3003139121_1600-0.jpeg',
+      'https://www.professionals.co.nz/hs-fs/hubfs/property_images/MRE01993/3003139150_1600-0.jpeg?width=1200&name=3003139150_1600-0.jpeg',
+      'https://www.professionals.co.nz/hs-fs/hubfs/property_images/MRE01993/3003139151_1600-0.jpeg?width=1200&name=3003139151_1600-0.jpeg',
+      'https://www.professionals.co.nz/hs-fs/hubfs/property_images/MRE01993/3003139123_1600-0.jpeg?width=1200&name=3003139123_1600-0.jpeg',
+      'https://www.professionals.co.nz/hs-fs/hubfs/property_images/MRE01993/3003139152_1600-0.jpeg?width=1200&name=3003139152_1600-0.jpeg',
+      'https://www.professionals.co.nz/hs-fs/hubfs/property_images/MRE01993/3003139154_1600-0.jpeg?width=1200&name=3003139154_1600-0.jpeg'
     ],
-    "video": "",
-    "agent": {
-      "agentName": "Dan Mark",
-      "agentDescription": "About Dan\n\nDan brings a level of skill, local knowledge and enthusiasm to every transaction, with the knowledge that this is most likely his client’s biggest and most important decision. He shows a relentless determination to explore every possible avenue to achieve an outcome, when others may have faltered.\n\nHaving personally been through the challenges of buying, selling, subdividing and renovating Dan can offer advice from a personal and professional level, to ensure his clients are well armed to make the right decision whatever their circumstance.",
-      "agentArea": "Upper Hutt",
-      "agentImage": "https://www.professionals.co.nz/hubfs/professionals_agent_dan_mark.jpeg",
-      "agentbadges": "",
-      "contact": {
-        "Phone": "027 480 8997",
-        "Email": "dan@bamre.co.nz"
-      }
+    video: '',
+    agent: {
+      agentName: 'Dan Mark',
+      agentDescription: 'About Dan\n' +
+        '\n' +
+        'Dan brings a level of skill, local knowledge and enthusiasm to every transaction, with the knowledge that this is most likely his client’s biggest and most important decision. He shows a relentless determination to explore every possible avenue to achieve an outcome, when others may have faltered.\n' +
+        '\n' +
+        'Having personally been through the challenges of buying, selling, subdividing and renovating Dan can offer advice from a personal and professional level, to ensure his clients are well armed to make the right decision whatever their circumstance.',
+      agentArea: 'Upper Hutt',
+      agentImage: 'https://www.professionals.co.nz/hubfs/professionals_agent_dan_mark.jpeg',
+      agentbadges: '',
+      contact: { Phone: '027 480 8997', Email: 'dan@bamre.co.nz' }
     },
-    "features": {
-      "Bed:": "3",
-      "Bath:": "2",
-      "Carports:": "2",
-      "Floor:": "130m2",
-      "Land:": "508 m2"
+    features: {
+      'Bed:': '3',
+      'Bath:': '2',
+      'Carports:': '2',
+      'Floor:': '130m2',
+      'Land:': '508 m2'
     }
-  }
+  },
 ]
-

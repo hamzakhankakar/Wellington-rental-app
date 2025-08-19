@@ -13,6 +13,7 @@ import { myallPropertyData } from "../../data/allPropertiesdata";
 import{myagentsData} from "../../data/agentsdata"
 import{allagentsData} from "../../data/allagentsdata"
 import{myrentalData} from "../../data/rentaldata"
+
 // import { Link } from "react-router-dom";
 
 // Swiper
@@ -23,11 +24,14 @@ import 'swiper/components/navigation/navigation.scss';
 import 'swiper/components/pagination/pagination.scss';
 SwiperCore.use([Navigation, Pagination]);
 
+
+
 const Row = ({ data , index}) => {
 	const[loading] = useState(false)
 	const[error] = useState(false)
 	const { width } = useViewport();
-	console.log("data is",mypropertyData)
+	
+
 	// const rowData = useSelector(data);
 	// const { loading, error, data: results } = rowData;  
 	// const { pathname } = useLocation();
@@ -224,9 +228,8 @@ allowTouchMove: true
 
 
 
-{data.type === "property" && !loading &&
-								mypropertyData &&
-								mypropertyData.map((result, i) => (
+						{data.type === "property" && !loading && mypropertyData &&
+									mypropertyData.map((result, i) => (
 									<SwiperSlide
 										key={result.id}
 										className={insertPositionClassName(i)}
@@ -247,7 +250,7 @@ allowTouchMove: true
 									
 
 									</SwiperSlide>
-								))}
+								))} 
 
 
 						{data.type === "allproperties" && !loading &&
@@ -266,10 +269,7 @@ allowTouchMove: true
 												index = {index}
 											/>
 
-								</div>
-
-										
-											
+								</div>		
 									</SwiperSlide>
 								))}
 

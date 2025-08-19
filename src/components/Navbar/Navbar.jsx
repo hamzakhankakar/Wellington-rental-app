@@ -7,10 +7,11 @@ import { motion } from "framer-motion";
 import { navbarFadeInVariants } from "../../motionUtils";
 import { LOGO_URL, MOBILE_LOGO_URL, PROFILE_PIC_URL } from "../../requests";
 import { FaCaretDown } from "react-icons/fa";
-import { Link, NavLink } from "react-router-dom";
+import { Link, NavLink ,useHistory} from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
 import { selectCurrentUser } from "../../redux/auth/auth.selectors";
 import { signOutStart } from "../../redux/auth/auth.actions";
+
 
 const Navbar = () => {
 	const { width } = useViewport();
@@ -21,6 +22,8 @@ const Navbar = () => {
 	const profileNavRef = useRef();
 	const currentUser = useSelector(selectCurrentUser);
 	const dispatch = useDispatch();
+	let history = useHistory();
+
 
 	useOutsideClick(genresNavRef, () => {
 		if (genresNav) setGenresNav(false);
@@ -28,6 +31,16 @@ const Navbar = () => {
 	useOutsideClick(profileNavRef, () => {
 		if (profileNav) setProfileNav(false);
 	});
+
+	const handleProfileRedirect = ()=>{
+		history.push('/profile')
+	}
+	const handleAddNewPropertyRedirect = ()=>{
+		history.push('/addProperty')
+	}
+	const handlePropertyRedirect = ()=>{
+		history.push('/agent')
+	}
 
 	return (
 		<>
@@ -48,6 +61,7 @@ const Navbar = () => {
 								Home
 							</NavLink>
 						</li>
+											{/* {currentUser ?<li></li>:"" */}
 											{currentUser ?<li></li>:
 						<li className="Navbar__navlinks--link">
 							<NavLink to="/login" activeClassName="activeNavLink">
@@ -129,12 +143,37 @@ const Navbar = () => {
 										ref={profileNavRef}
 									>
 										{currentUser && (
+										<>
+										
+										<li className="Navbar__navlinks--link" onClick={()=>{
+											handleProfileRedirect()
+										}}>
+												Profile
+										</li>
+										
+										
+										<li className="Navbar__navlinks--link"onClick={()=>{
+											handleAddNewPropertyRedirect()
+										}}>
+										Add New Property
+										</li>
+										<li className="Navbar__navlinks--link"onClick={()=>{
+											handlePropertyRedirect()
+										}}>
+										Agent Properties
+										</li>
+										
+											
+											
 											<li
 												className="Navbar__navlinks--link"
 												onClick={() => dispatch(signOutStart())}
 											>
 												Sign Out
 											</li>
+										</>
+											
+										
 										)}
 									</ul>
 								)}

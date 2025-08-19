@@ -1,2 +1,41 @@
+
 @import '../../scss/mixin';
 @import '../../scss/variables';
+
+.agent-detail-container {
+  
+  padding: 20px;
+  max-width: 100vw;
+  margin: auto;
+
+  @media (min-width: 998px)  {
+    padding: 0;
+    margin: 70px 60px;
+  }
+  
+}
+
+.agentbadges{
+  width: 100%;
+}
+
+.agent-detail-main{
+  display: block;
+  @media (min-width: 998px) and (max-width: 1377px) {
+    display: flex;
+  }
+}
+
+.agent-detail-image{
+  width: 100%;
+  img{
+    width: 100%;
+  }
+}
+
+.agent-detail-profile{
+  width: 100%;
+
+
+}
+

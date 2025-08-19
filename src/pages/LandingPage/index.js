@@ -14,15 +14,7 @@ const LandingPage = () => {
   const { id } = useParams();
 
   const property = myallPropertyData.find(obj => obj.id == id);
-  const product = {
-
-    images: [
-      property.images[0],
-      // "https://fadzrinmadu.github.io/hosted-assets/product-detail-page-design-with-image-slider-html-css-and-javascript/shoe_2.jpg",
-      // "https://fadzrinmadu.github.io/hosted-assets/product-detail-page-design-with-image-slider-html-css-and-javascript/shoe_3.jpg",
-      // "https://fadzrinmadu.github.io/hosted-assets/product-detail-page-design-with-image-slider-html-css-and-javascript/shoe_4.jpg",
-    ],
-  };
+  const product = { images: property.images };
 
   // Video with a thumbnail
   // const videoUrl = "https://www.w3schools.com/html/mov_bbb.mp4";
@@ -41,6 +33,8 @@ const LandingPage = () => {
   const handleThumbnailClick = (index) => {
     setActiveIndex(index);
   };
+  console.log("videoUrrl", videoUrl)
+  console.log("isVideo", isVideo)
   return (
     <div className="product-detail-container">
       {/* Main product section */}
@@ -66,13 +60,29 @@ const LandingPage = () => {
           <div className="main-image">
             <p className='trending'>{property.trending}</p>
 
-            {isVideo(activeIndex) ? (
+            {/* {isVideo(activeIndex) ? (
               // <video
               //   src={videoUrl}
               //   controls
               //   autoPlay
               //   style={{ width: '100%', height: '500px' }}
               // />
+              <iframe
+                width="100%"
+                height="500"
+                src={videoUrl}
+                title="YouTube video player"
+                frameBorder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+              />
+            ) : (
+              <img
+                src={combinedImages[activeIndex]}
+                alt="Product"
+              />
+            )} */}
+            {isVideo(activeIndex) && videoUrl !== "" ? (
               <iframe
                 width="100%"
                 height="500"
@@ -107,70 +117,28 @@ const LandingPage = () => {
           </div>
         </div>
 
-        {/* Product info */}
-        {/* <div className="product-info">
-          <h1 className="product-title">{property.title}</h1>
-          <div>
-            <span>Price : </span>
-            <span className="product-price">{property.price} NZD</span>
-          </div>
-          <div>
-            <span>Area : </span>
-            <span className="">{property.area} sqft</span>
-
-          </div>
-          <div>
-            <span>Rooms : </span>
-            <span className="">{property.rooms} </span>
-          </div>
-          <div>
-            <span className=''>Aerial View: </span>
-            <Link
-              to="/map/aerial-view"
-
-            >
-              <span className="Modal__info--row-description">
-                <FaSatellite />
-              </span>
-            </Link>
-          </div>
-          <div>
-            <span className=''>Street View: </span>
-            <Link
-              to="/map/street-view"
-
-            >
-              <span className="Modal__info--row-description"><FaStreetView /></span>
-            </Link>
-          </div>
-
-          <h1 className=''>description: </h1>
-
-          <p className="product-description">{product.description}</p>
-        </div> */}
-
         <motion.div variants={staggerOne} initial="initial" animate="animate" exit="exit" className="Modal__info--wrp">
           <motion.h3 variants={modalFadeInUpVariants} className="Modal__info--title"></motion.h3>
           <motion.p variants={modalFadeInUpVariants} className="Modal__info--description"></motion.p>
           <motion.hr variants={modalFadeInUpVariants} className="Modal__info--line" />
 
 
-          <motion.h4 variants={modalFadeInUpVariants} className="Modal__info--otherTitle">Infomation about  <b>Agent</b></motion.h4>
+          <motion.h4 variants={modalFadeInUpVariants} className="Modal__info--otherTitle">Information about  <b>Agent</b></motion.h4>
           <div className='landingpage__center'>
             <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-              <img src={property.agentImage} width={40} height={40} />
+              <img src={property.agent.agentImage} width={40} height={40} />
 
-              <span>{property.agentName}</span>
+              <span>{property.agent.agentName}</span>
             </div>
             <div>
-              {property.phone === "" ? property.mobile : property.phone}
+              {property.agent.contact.Phone === "" ? property.agent.contact.Mobile : property.agent.contact.Phone}
             </div>
           </div>
           <motion.hr variants={modalFadeInUpVariants} className="Modal__info--line" />
 
 
 
-          <motion.h4 variants={modalFadeInUpVariants} className="Modal__info--otherTitle">Infomation about  <b>{property.title}</b></motion.h4>
+          <motion.h4 variants={modalFadeInUpVariants} className="Modal__info--otherTitle">Information about  <b>{property.title}</b></motion.h4>
 
 
           <motion.h4 variants={modalFadeInUpVariants} className="Modal__info--otherTitle">Map Directions </motion.h4>
@@ -204,23 +172,20 @@ const LandingPage = () => {
           <motion.hr variants={modalFadeInUpVariants} className="Modal__info--line" />
 
           <motion.h4 variants={modalFadeInUpVariants} className="Modal__info--otherTitle">Amenities </motion.h4>
+          <div className='landingpage__grid'>
+            {Object.entries(property.features).map(([key, value]) => (
+              <div key={key}>
+                <span>{key}</span>: {value}
+              </div>
+            ))}
+          </div>
+
+          <motion.hr variants={modalFadeInUpVariants} className="Modal__info--line" />
           <div className='landingpage__center'>
 
           </div>
-
-          {property.ammenities.map((amenity, index) => (
-            <div key={index}>
-              <span>{Object.keys(amenity)[0]}</span>: {amenity[Object.keys(amenity)[0]]}
-
-              {/* {ammenity} */}
-            </div>
-          ))}
-          <motion.hr variants={modalFadeInUpVariants} className="Modal__info--line" />
-
-
-
-          <motion.h4 variants={modalFadeInUpVariants} className="Modal__info--otherTitle">Price </motion.h4>
-          <span>{property.price}</span>
+          <motion.h4 variants={modalFadeInUpVariants} className="Modal__info--otherTitle">Price <span>{property.price}</span></motion.h4>
+          {/* <span>{property.price}</span> */}
           <motion.hr variants={modalFadeInUpVariants} className="Modal__info--line" />
 
 
@@ -233,37 +198,9 @@ const LandingPage = () => {
             />
           </motion.div>
 
-
-          {/* <motion.div variants={modalFadeInUpVariants} className="Modal__info--row">
-            <span className='Modal__info--row-label'>Street View: </span>
-            <Link
-              to="/map/street-view"
-              onClick={(event) => {
-                event.stopPropagation(); // prevent event bubbling
-                // handleModalClose();     // close the modal
-              }}
-            >
-              <span className="Modal__info--row-description"><FaStreetView /></span>
-            </Link>
-          </motion.div> */}
-          {/* <motion.div variants={modalFadeInUpVariants} className="Modal__info--row">
-            <span className='Modal__info--row-label'>Aerial View: </span>
-            <Link
-              to="/map/aerial-view"
-              onClick={(event) => {
-                event.stopPropagation(); // prevent event bubbling
-                // handleModalClose();     // close the modal
-              }}
-            >
-              <span className="Modal__info--row-description">
-                <FaSatellite />
-              </span>
-            </Link>
-          </motion.div> */}
         </motion.div>
       </div>
 
-      {/* Additional info or reviews can go here */}
     </div>
   );
 };
