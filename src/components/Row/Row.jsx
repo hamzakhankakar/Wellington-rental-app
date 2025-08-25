@@ -68,8 +68,8 @@ breakpoints:{
 725: { slidesPerView: 3, slidesPerGroup: 3 },
 625: { slidesPerView: 2.5, slidesPerGroup: 2.5 },
 525: { slidesPerView: 2, slidesPerGroup: 2 },
-425: { slidesPerView: 1.5, slidesPerGroup: 1.5 },
-325: { slidesPerView: 1, slidesPerGroup: 1 },
+425: { slidesPerView: 1.7, slidesPerGroup: 1.7},
+325: { slidesPerView: 1.3, slidesPerGroup: 1.3 },
 0: { slidesPerView: 1, slidesPerGroup: 1 }
 },
 loopAdditionalSlides: width >= 1378 ? 5 : width >= 998 ? 3 : width >= 625 ? 2 : 2,
