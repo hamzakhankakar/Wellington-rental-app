@@ -43,7 +43,7 @@ const Properties = () => {
       <div className="properties-swiper-container">
         <Swiper
           spaceBetween={20} // space between slides
-          slidesPerView={1.2} // number of slides visible
+          slidesPerView={1.4} // number of slides visible
           breakpoints={{
             625: {
               slidesPerView: 4,
@@ -52,7 +52,7 @@ const Properties = () => {
               slidesPerView: 6,
             },
             1378: {
-              slidesPerView: 8,
+              slidesPerView: 7,
             },
           }}
         >

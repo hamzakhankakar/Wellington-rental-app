@@ -109,7 +109,7 @@ export const myrentalData = [
     id: "r5",
     title: "130 Pinehaven Road, Pinehaven",
     description: "",
-    images: ["https://www.professionals.co.nz/hs-fs/hubfs/property_images/MRER00257/3003137113_1600-0.jpeg?width=562&height=375&name=3003137113_1600-0.jpeg", "https://www.professionals.co.nz/hs-fs/hubfs/property_images/MRER00257/3003136234_1600-0.jpeg?width=280&height=168&name=3003136234_1600-0.jpeg", "https://www.professionals.co.nz/hs-fs/hubfs/property_images/MRER00257/3003136236_1600-0.jpeg?width=280&height=168&name=3003136236_1600-0.jpeg"],
+    images: ["https://www.professionals.co.nz/hs-fs/hubfs/property_images/MRER00267/3002804620_1600-0.jpeg?width=280&height=168&name=3002804620_1600-0.jpeg", "https://www.professionals.co.nz/hs-fs/hubfs/property_images/MRER00267/3002804618_1600-0.jpeg?width=562&height=375&name=3002804618_1600-0.jpeg", "https://www.professionals.co.nz/hs-fs/hubfs/property_images/MRER00267/3002804619_1600-0.jpeg?width=280&height=168&name=3002804619_1600-0.jpeg", "https://www.professionals.co.nz/hs-fs/hubfs/property_images/MRER00267/3002804619_1600-0.jpeg?width=280&height=168&name=3002804619_1600-0.jpeg"],
     video: "",
     ammenities: [
       { Rooms: 2 },
@@ -132,5 +132,6 @@ export const myrentalData = [
     mobile: "021 367 659",
     phone: "",
   },
-
 ]
+
+

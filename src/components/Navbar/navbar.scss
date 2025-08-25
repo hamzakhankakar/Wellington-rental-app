@@ -23,9 +23,14 @@
     &__logo {
         max-width: 40px;
         width: 100%;
-
+        font-weight: 900;
+        color: red;
+        
+        
         @include mq(600px) {
             max-width: 130px;
+            font-size: 30px;
+
         }
     }
 

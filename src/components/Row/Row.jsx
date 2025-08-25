@@ -1,20 +1,12 @@
 import "./row.scss";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import RowPoster from "../RowPoster/RowPoster";
 import SkeletonElement from "../SkeletonElement/SkeletonElement";
 import SkeletonPoster from "../SkeletonPoster/SkeletonPoster";
 import { useRef } from "react";
-// import { useLocation } from "react-router-dom";
 import useViewport from "../../hooks/useViewport";
 import { MdChevronLeft, MdChevronRight } from 'react-icons/md';
-// import { FiChevronRight } from "react-icons/fi";
-import { mypropertyData } from "../../data/propertiesdata";
-import { myallPropertyData } from "../../data/allPropertiesdata";
-import{myagentsData} from "../../data/agentsdata"
-import{allagentsData} from "../../data/allagentsdata"
-import{myrentalData} from "../../data/rentaldata"
-
-// import { Link } from "react-router-dom";
+import SuburbSelect from "../Filter/FilterProperties"
 
 // Swiper
 import SwiperCore, { Navigation, Pagination } from 'swiper';
@@ -26,57 +18,40 @@ SwiperCore.use([Navigation, Pagination]);
 
 
 
-const Row = ({ data , index}) => {
-	const[loading] = useState(false)
+const Row = ({ rowData , index, cardData, showTrending}) => {
 	const[error] = useState(false)
 	const { width } = useViewport();
-	
-
-	// const rowData = useSelector(data);
-	// const { loading, error, data: results } = rowData;  
-	// const { pathname } = useLocation();
+	const [loading, setLoading] = useState(true)
+	const [properties, setProperties] = useState([])
+	const [priceFilter, setPriceFilter] = useState("")
 
 	//Custom Swiper config
 	const navigationPrevRef = useRef(null);
 	const navigationNextRef = useRef(null);
-// 	const customSwiperParams = {
-// 		observer: true,
-// 		observeParents: true,
-// navigation: {
-// 	prevEl: navigationPrevRef.current,
-// 	nextEl: navigationNextRef.current,
-// },
-// breakpoints:{
-// 	1378:  {
-// 		slidesPerView: Math.floor(window.innerWidth / 350),
-// 		slidesPerGroup: 1,
-// 	},
-// 	998: {
-// 		slidesPerView: Math.floor(window.innerWidth / 350),
-// 		slidesPerGroup: 1,
-// 	},
-// 	625:{
-// 		slidesPerView: Math.floor(window.innerWidth / 350),
-// 		slidesPerGroup: 1,
-// 	}, 330: {
-// 		slidesPerView: Math.floor(window.innerWidth / 350),
-// 		slidesPerGroup: 1,
-// 	},
-// 	0: {
-// 		slidesPerView: Math.floor(window.innerWidth / 350),
-// 		slidesPerGroup: 1,
-// 	}
-// },
-// loopAdditionalSlides: width >= 1378 ? 5 : width >= 998 ? 4 : width >= 625 ? 2 : 2,
-// pagination: true,
-// loop: false,
-// grabCursor: false,
-// draggable: false,
-// preventClicksPropagation: true,
-// preventClicks: true,
-// slideToClickedSlide: false,
-// allowTouchMove: true
-// };
+
+	useEffect(()=>{
+		setProperties(cardData)
+		setLoading(false)
+	},[cardData])
+
+	useEffect(()=>{
+		setLoading(true)
+		if(priceFilter === ""){
+			setProperties(cardData)
+		}else{
+			const filteredProperties = cardData?.filter(item => 
+				item.address.toLowerCase().includes(priceFilter)
+			);
+			console.log("filteredProperties: ",filteredProperties)
+			setProperties(filteredProperties)
+		}
+		setLoading(false)
+	},[priceFilter])
+
+	const handleFilterProperty = (filter)=>{
+		setPriceFilter(filter)
+	}
+
 const customSwiperParams = {
 	observer: true,
 	observeParents: true,
@@ -85,10 +60,16 @@ prevEl: navigationPrevRef.current,
 nextEl: navigationNextRef.current,
 },
 breakpoints:{
-1378: { slidesPerView: 6, slidesPerGroup: 6 },
-998: { slidesPerView: 4, slidesPerGroup: 4 },
-625: { slidesPerView: 3, slidesPerGroup: 3 },
-330: { slidesPerView: 1.3, slidesPerGroup: 1.3 },
+1225: { slidesPerView: 5.5, slidesPerGroup: 5.5 },
+1125: { slidesPerView: 5, slidesPerGroup: 5 },
+1025: { slidesPerView: 4.5, slidesPerGroup: 4.5 },
+925: { slidesPerView: 4, slidesPerGroup: 4 },
+825: { slidesPerView: 3.5, slidesPerGroup: 3.5 },
+725: { slidesPerView: 3, slidesPerGroup: 3 },
+625: { slidesPerView: 2.5, slidesPerGroup: 2.5 },
+525: { slidesPerView: 2, slidesPerGroup: 2 },
+425: { slidesPerView: 1.5, slidesPerGroup: 1.5 },
+325: { slidesPerView: 1, slidesPerGroup: 1 },
 0: { slidesPerView: 1, slidesPerGroup: 1 }
 },
 loopAdditionalSlides: width >= 1378 ? 5 : width >= 998 ? 3 : width >= 625 ? 2 : 2,
@@ -102,11 +83,10 @@ slideToClickedSlide: false,
 allowTouchMove: true
 };
 
-
-	const rightMouseOver = (e) => {
+const rightMouseOver = (e) => {
 		if (e.currentTarget.classList.contains('right')) {e.currentTarget.parentElement.classList.add('is-right')}
 		else if (e.currentTarget.classList.contains('left')) {e.currentTarget.parentElement.classList.add('is-left')}
-	}
+}
 
 	const rightMouseOut = (e) => {
 		e.currentTarget.parentElement.classList.remove('is-right', 'is-left')
@@ -114,7 +94,6 @@ allowTouchMove: true
 
 	const insertPositionClassName = (index) => {
 		const i = index + 1
-
 		if (i === 1) return 'left'
 		else if (i === 20) return 'right'
 
@@ -130,6 +109,7 @@ allowTouchMove: true
 		}
 	}
 
+
 	return (
 		<div className="Row">
 			{error && <div className='Row__not-loaded'>Oops, an error occurred.</div>}
@@ -140,24 +120,19 @@ allowTouchMove: true
 						<SkeletonPoster />
 					</div>
 				) : (
-					<h3 className="Row__title">
-							{/* <span>{title}</span> */}
-							<span>{ data.title } </span>
-							{/* {data.type === "allproperties" ? */}
-							{/* {data.type === "property" ?
-						<Link to="/properties">
-
-							<span className='Row__showmore'>Show all <FiChevronRight/></span>
-						</Link>
-							: ""
-							// data.type === "agent" ?
-							// <Link to="/agents">
-
-							// <span className='Row__showmore' >Show all <FiChevronRight/></span>
-							// </Link>
-							// : ""
-							} */}
-					</h3>
+					<>
+						<h3 className="Row__title">
+								<span>{ rowData.title } </span>
+						</h3>
+						<SuburbSelect  
+								onFilterProperty ={handleFilterProperty}
+								type={rowData?.title}
+							/>
+							<SuburbSelect  
+								onFilterProperty ={handleFilterProperty}
+								type={rowData?.title}
+							/>
+					</>
 				)
 			}
 		
@@ -178,11 +153,11 @@ allowTouchMove: true
 							swiper.params.navigation.nextEl = navigationNextRef.current;
 						}}
 					>
-						{data.type === "property" && !loading &&
-								mypropertyData &&
-								mypropertyData.map((result, i) => (
+						{!loading &&
+								properties &&
+								properties.map((result, i) => (
 									<SwiperSlide
-										key={result.id}
+										key={i}
 										className={insertPositionClassName(i)}
 										onMouseOver={rightMouseOver}
 										onMouseOut={rightMouseOut}
@@ -191,139 +166,18 @@ allowTouchMove: true
 									<div className="trending-rating-wrapper" >
 											<RowPoster
 												item={result}
-												key={result.id}
+												key={i}
 												index = {index}
 											/>
-											<div className="trending-rating">
-												{result.trending}
-											</div>
-										</div>
-									
-
-									</SwiperSlide>
-								))}
-
-
-						{data.type === "agent" && !loading &&
-								myagentsData &&
-								myagentsData.map((result, i) => (
-									<SwiperSlide
-										key={result.id}
-										className={insertPositionClassName(i)}
-										onMouseOver={rightMouseOver}
-										onMouseOut={rightMouseOut}
-									>
-										<div className="trending-rating-wrapper" >
-											<RowPoster
-												item={result}
-												key={result.id}
-												index = {index}
-											/>
-											<div className="trending-rating">
-												{result.trending}
-											</div>
-										</div>
-									</SwiperSlide>
-								))}
-
-
-
-						{data.type === "property" && !loading && mypropertyData &&
-									mypropertyData.map((result, i) => (
-									<SwiperSlide
-										key={result.id}
-										className={insertPositionClassName(i)}
-										onMouseOver={rightMouseOver}
-										onMouseOut={rightMouseOut}
-									>
-									
-									<div className="trending-rating-wrapper" >
-											<RowPoster
-												item={result}
-												key={result.id}
-												index = {index}
-											/>
-											<div className="trending-rating">
-												{result.trending}
-											</div>
-										</div>
-									
-
-									</SwiperSlide>
-								))} 
-
-
-						{data.type === "allproperties" && !loading &&
-								myallPropertyData &&
-								myallPropertyData.map((result, i) => (
-									<SwiperSlide
-										key={result.id}
-										className={insertPositionClassName(i)}
-										onMouseOver={rightMouseOver}
-										onMouseOut={rightMouseOut}
-									>
-								<div className="trending-rating-wrapper" >
-								<RowPoster
-												item={result}
-												key={result.id}
-												index = {index}
-											/>
-
-								</div>		
-									</SwiperSlide>
-								))}
-
-
-						{data.type === "allagent" && !loading &&
-								allagentsData &&
-								allagentsData.map((result, i) => (
-									<SwiperSlide
-										key={result.id}
-										className={insertPositionClassName(i)}
-										onMouseOver={rightMouseOver}
-										onMouseOut={rightMouseOut}
-									>
-									<div className="trending-rating-wrapper" >
-									<RowPoster
-												item={result}
-												key={result.id}
-												index = {index}
-											/>
-										
-									</div>
-
-										
-											
-									</SwiperSlide>
-								))}
-
-
-						{data.type === "rentals" && !loading &&
-								myrentalData &&
-								myrentalData.map((result, i) => (
-									<SwiperSlide
-										key={result.id}
-										className={insertPositionClassName(i)}
-										onMouseOver={rightMouseOver}
-										onMouseOut={rightMouseOut}
-									>
-									<div className="trending-rating-wrapper" >
-									<RowPoster
-												item={result}
-												key={result.id}
-												index = {index}
-											/>
-										
-									</div>
-
-										
-											
-									</SwiperSlide>
-								))}
-
-
 						
-
+											{showTrending && (
+												<div className="trending-rating">
+												{result.trending}
+											</div>
+											)}
+										</div>
+									</SwiperSlide>
+								))}
 
 					</Swiper>		
 				

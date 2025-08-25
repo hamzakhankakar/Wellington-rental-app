@@ -46,6 +46,7 @@ textarea:focus {
   color: white;
   border: 1px solid white;
 }
+
 .button-set {
   display: block;
   width: 100%;
@@ -166,6 +167,7 @@ input[type="number"]:focus {
   // color: #181818;
   color: white;
 }
+
 .custom-checkbox {
   margin: 10px 0 20px;
 }
@@ -462,10 +464,7 @@ input[type="number"]:focus {
 
 .ammenities-grid {
   display: grid;
-  // padding: 10px;
   grid-template-columns:  repeat(1, 1fr); /* fallback for small screens */ // default
-  // gap: 10px;
-  // margin: 70px 60px;
   gap: 20px;
 
   @media (min-width: 330px) and (max-width: 624px) {
@@ -485,6 +484,7 @@ input[type="number"]:focus {
   }
   
 }
+
 .contact-grid {
   display: grid;
   // padding: 10px;

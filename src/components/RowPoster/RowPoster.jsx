@@ -74,6 +74,7 @@ const RowPoster = (result) => {
              
              <div className="Row__poster-title ">
                {result.item?.title}
+             
              </div>
            </div> 
            {result.item.type === "property" ?

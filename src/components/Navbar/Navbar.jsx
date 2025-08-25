@@ -5,7 +5,8 @@ import useScroll from "../../hooks/useScroll";
 import useOutsideClick from "../../hooks/useOutsideClick";
 import { motion } from "framer-motion";
 import { navbarFadeInVariants } from "../../motionUtils";
-import { LOGO_URL, MOBILE_LOGO_URL, PROFILE_PIC_URL } from "../../requests";
+// import { LOGO_URL, MOBILE_LOGO_URL, PROFILE_PIC_URL } from "../../requests";
+import {PROFILE_PIC_URL } from "../../requests";
 import { FaCaretDown } from "react-icons/fa";
 import { Link, NavLink ,useHistory} from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
@@ -51,8 +52,14 @@ const Navbar = () => {
 				animate="visible"
 				exit="hidden"
 			>
-				<Link to="/">
-					<img className="Navbar__logo" src={width >= 600 ? LOGO_URL : MOBILE_LOGO_URL} alt="" />
+				<Link to="/" style={{ textDecoration: 'none' }} >
+					{/* <img className="Navbar__logo" src={width >= 600 ? LOGO_URL : MOBILE_LOGO_URL} alt="" /> */}
+					<div>
+						<span className="Navbar__logo">							
+							Knock Knock
+						</span>
+						
+					</div>
 				</Link>
 				{width >= 1024 ? (
 					<ul className="Navbar__primarynav Navbar__navlinks">

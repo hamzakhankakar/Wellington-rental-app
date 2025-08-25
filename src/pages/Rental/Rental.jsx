@@ -1,5 +1,5 @@
 import { useParams } from 'react-router-dom';
-import { useState } from "react";
+import { useState, useLayoutEffect  } from "react";
 import { myrentalData } from "../../data/rentaldata"
 import { motion } from "framer-motion"
 import { staggerOne, modalFadeInUpVariants } from "../../motionUtils";
@@ -14,6 +14,13 @@ const RentalPage = () => {
   const product = {
     images: property.images,
   };
+  // Scroll to top when component mounts
+  // useEffect(() => {
+  //   window.scrollTo({ top: 0, behavior: 'smooth' });
+  // }, []);
+  useLayoutEffect(() => {
+    window.scrollTo({ top: 0, behavior: 'instant' });
+  }, []);
   
   // Insert video thumbnail as the first thumbnail
   const [activeIndex, setActiveIndex] = useState(0);
@@ -29,7 +36,6 @@ const RentalPage = () => {
         {/* Image Gallery */}
         <div className="image-gallery">
           <div className="main-image">
-            <p className='trending'>{property.trending}</p>
             <img src={product.images[activeIndex]} alt={product.name} />
           </div>
           <div className="thumbnails">
