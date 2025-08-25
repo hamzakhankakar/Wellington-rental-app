@@ -19,32 +19,32 @@
     
   
 
-//   select {
-//     border: 1px solid gray;
-//     transition: 0.3s;
-//     width: 100%;
-//     min-height: 80px;
-//     max-width: 100%;
-//     padding: 15px;
-//     font-family: inherit;
-//     color: inherit;
-//     background-color: black;
-//   }
-//   select:focus {
-//     color: white;
-//     border: 1px solid white;
-//   }  
+  select {
+    border: 1px solid gray;
+    transition: 0.3s;
+    width: 100%;
+    min-height: 80px;
+    max-width: 100%;
+    padding: 15px;
+    font-family: inherit;
+    color: inherit;
+    background-color: black;
+  }
+  select:focus {
+    color: white;
+    border: 1px solid white;
+  }  
   
-// option{
-//   color: white;
-//     width: 100%;
-//   box-sizing: border-box;
-//   font-size: 13px;
-// }
-// option:focus {
-//   outline: 0 none;
-//   // color: #181818;
-//   color: white;
-// }
+option{
+  color: white;
+    width: 100%;
+  box-sizing: border-box;
+  font-size: 13px;
+}
+option:focus {
+  outline: 0 none;
+  // color: #181818;
+  color: white;
+}
 
 }

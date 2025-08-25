@@ -24,7 +24,7 @@ const Row = ({ rowData , index, cardData, showTrending}) => {
 	const [loading, setLoading] = useState(true)
 	const [properties, setProperties] = useState([])
 	const [priceFilter, setPriceFilter] = useState("")
-
+console.log("width",width)
 	//Custom Swiper config
 	const navigationPrevRef = useRef(null);
 	const navigationNextRef = useRef(null);
@@ -60,7 +60,8 @@ prevEl: navigationPrevRef.current,
 nextEl: navigationNextRef.current,
 },
 breakpoints:{
-1225: { slidesPerView: 5.5, slidesPerGroup: 5.5 },
+// 1325: { slidesPerView: 6, slidesPerGroup: 6},
+1225: { slidesPerView: 5.2, slidesPerGroup: 5.3 },
 1125: { slidesPerView: 5, slidesPerGroup: 5 },
 1025: { slidesPerView: 4.5, slidesPerGroup: 4.5 },
 925: { slidesPerView: 4, slidesPerGroup: 4 },
@@ -72,7 +73,7 @@ breakpoints:{
 325: { slidesPerView: 1.3, slidesPerGroup: 1.3 },
 0: { slidesPerView: 1, slidesPerGroup: 1 }
 },
-loopAdditionalSlides: width >= 1378 ? 5 : width >= 998 ? 3 : width >= 625 ? 2 : 2,
+loopAdditionalSlides: width >= 1225 ? 5.2 :   width >= 1125 ? 5 :  width >= 1025 ? 4.5 :  width >= 1025 ? 4.5 :  width >= 925 ? 4 :  width >= 825 ? 3.5 :  width >= 725 ? 3 :  width >= 625 ? 2.5 :  width >= 525 ? 2 :  width >= 425 ? 1.7 :  width >= 325 ? 1.3 : 1.3,
 pagination: true,
 loop: false,
 grabCursor: false,
@@ -80,7 +81,8 @@ draggable: false,
 preventClicksPropagation: true,
 preventClicks: true,
 slideToClickedSlide: false,
-allowTouchMove: true
+allowTouchMove: true,
+// spaceBetween:40,
 };
 
 const rightMouseOver = (e) => {
